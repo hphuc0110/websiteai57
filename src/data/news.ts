@@ -1,6 +1,9 @@
 export interface NewsSection {
   heading?: string
   paragraphs: string[]
+  /** Optional image shown below the section paragraphs */
+  image?: string
+  imageAlt?: string
 }
 
 export interface NewsItem {
@@ -11,7 +14,20 @@ export interface NewsItem {
   category: string
   coverImage: string
   sections: NewsSection[]
+  /** Present for posts stored in Supabase */
+  id?: string
+  source?: 'static' | 'db'
 }
+
+export const NEWS_CATEGORIES = [
+  'Thị trường',
+  'Robotics',
+  'Địa chính trị',
+  'Công nghệ',
+  'Pháp lý',
+  'Doanh nghiệp',
+  'Quy định',
+] as const
 
 export const newsItems: NewsItem[] = [
   {
@@ -619,6 +635,278 @@ export const newsItems: NewsItem[] = [
         heading: 'Sự cố bảo mật liên quan đến mô hình Mythos',
         paragraphs: [
           'Bên cạnh câu chuyện tài chính đầy ấn tượng, tháng 9 cũng chứng kiến một sự cố bảo mật đáng chú ý liên quan đến Mythos — mẫu mô hình được giữ lại trong khuôn khổ một chương trình nội bộ mang tên Project Glasswing do sở hữu khả năng tự động phát hiện lỗ hổng bảo mật phần mềm ở mức độ "zero-day". Theo thông tin được ghi nhận, mô hình này đã bị xâm nhập thông qua một cổng thông tin của bên thứ ba trong chuỗi cung ứng, chứ không phải xuất phát từ lỗ hổng ngay trong bản thân mô hình AI. Điều này cho thấy khâu kiểm soát rủi ro trong trường hợp này gặp vấn đề ở lớp quản lý nhà cung cấp và quy trình mua sắm — một lời nhắc nhở rằng ngay cả với các mô hình AI tiên tiến nhất, rủi ro bảo mật thực tế thường không nằm ở chính công nghệ lõi mà ở những mắt xích yếu hơn trong toàn bộ chuỗi cung ứng và vận hành.',
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'pwc-dau-tu-ha-tang-ai-316-nghin-ty-usd',
+    title: 'PwC: Đầu tư hạ tầng AI toàn cầu có thể đạt kỷ lục 31,6 nghìn tỷ USD đến năm 2050, Mỹ chiếm gần một nửa',
+    excerpt: 'Theo dự báo cơ sở trong báo cáo Global Data Centre Outlook do PwC công bố ngày 2/9, đầu tư hạ tầng AI toàn cầu đến 2050 có thể đạt 31,6 nghìn tỷ USD, trong đó Mỹ chiếm khoảng 48%.',
+    date: '2026-09-16',
+    category: 'Thị trường',
+    coverImage: '/images/news/21.png',
+    sections: [
+      {
+        paragraphs: [
+          'Đầu tư vào hạ tầng trí tuệ nhân tạo (AI) trên toàn thế giới có thể đạt mức kỷ lục 31,6 nghìn tỷ USD từ nay đến năm 2050, theo dự báo cơ sở trong báo cáo Global Data Centre Outlook do PwC công bố ngày 2/9. Trong tổng số này, Mỹ dự kiến chiếm khoảng 48%, tương đương 15,1 nghìn tỷ USD.',
+        ],
+      },
+      {
+        heading: 'Chi tiêu hằng năm gấp hơn hai lần',
+        paragraphs: [
+          'Theo báo cáo, chi tiêu vốn cho trung tâm dữ liệu mỗi năm sẽ tăng từ khoảng 800 tỷ USD năm 2026 lên 1,8 nghìn tỷ USD vào năm 2050, tức gấp hơn hai lần. PwC cho biết đây là báo cáo đầu tiên đưa ra dự báo chi tiêu vốn dài hạn đến năm 2050, bao phủ 46 quốc gia và vùng lãnh thổ, với mô hình do Oxford Economics thực hiện theo đặt hàng của PwC.',
+        ],
+      },
+      {
+        heading: 'Khác biệt so với các đợt xây dựng hạ tầng trước',
+        paragraphs: [
+          'Các chu kỳ đầu tư hạ tầng truyền thống thường chậm lại sau giai đoạn xây dựng ban đầu. PwC cho rằng hạ tầng AI sẽ đi theo hướng ngược lại, vì chip và thiết bị công nghệ thông tin phải được nâng cấp sau mỗi vài năm. Theo đó, tỷ trọng thiết bị trong tổng vốn đầu tư dự kiến tăng từ khoảng 70% hiện nay lên 93% vào năm 2050. Nói cách khác, phần lớn dòng vốn dài hạn sẽ đổ vào việc liên tục làm mới thiết bị chứ không phải xây thêm công trình.',
+        ],
+      },
+      {
+        heading: 'Bản đồ đầu tư theo khu vực',
+        paragraphs: [
+          'Ngoài Mỹ, khu vực châu Á - Thái Bình Dương được dự báo thu hút khoảng 8,2 nghìn tỷ USD, dẫn đầu là Trung Quốc và Ấn Độ. Tại châu Âu và Trung Đông, các chiến lược AI mang tính chủ quyền quốc gia đang thúc đẩy đầu tư nhanh hơn.',
+          'PwC nhận định điện năng là yếu tố quyết định nơi dòng vốn sẽ chảy tới. Nguồn điện ổn định, giá hợp lý và phát thải thấp ở quy mô lớn là điều kiện nhiều thị trường khó đáp ứng nhất. Bốn yếu tố còn lại gồm kết nối, an ninh, sự rõ ràng về chính sách và sự đồng thuận của cộng đồng, cùng khả năng tiếp cận GPU.',
+        ],
+      },
+      {
+        heading: 'Hai kịch bản rủi ro',
+        paragraphs: [
+          'Báo cáo thử nghiệm hai kịch bản. Ở kịch bản thứ nhất, các biện pháp kiểm soát xuất khẩu được siết chặt làm gián đoạn chuỗi cung ứng chip. Khi đó, đầu tư hằng năm có thể giảm còn khoảng một nửa mức dự báo gốc vào năm 2030 trước khi phục hồi dần. Tổng đầu tư đến năm 2050 khi ấy ở mức khoảng 25,5 nghìn tỷ USD, thấp hơn khoảng 6 nghìn tỷ USD so với kịch bản cơ sở.',
+          'Ở kịch bản thứ hai, xu hướng ưu tiên hạ tầng nội địa đáng tin cậy làm thay đổi cách phân bổ vốn hơn là quy mô. Tổng chi tiêu toàn cầu chỉ giảm nhẹ, nhưng dòng tiền dịch chuyển sang những nước có nhu cầu trong nước lớn và năng lực trung tâm dữ liệu còn mỏng.',
+        ],
+      },
+      {
+        heading: 'Trong bối cảnh các dự báo khác',
+        paragraphs: [
+          'Con số của PwC đo hạ tầng AI dài hạn nên không thể so trực tiếp với các ước tính ngắn hạn. Goldman Sachs Research ước tính đầu tư liên quan đến AI trên toàn cầu riêng năm 2026 vào khoảng 1.000 tỷ USD, còn Gartner dự báo tổng chi tiêu AI năm nay là 2,52 nghìn tỷ USD, vì mỗi tổ chức tính theo một phạm vi khác nhau. Dù vậy, các tổ chức đều cho thấy dòng vốn vào lĩnh vực này đang ở mức rất cao. Trong khi đó, các nhà phân tích vẫn chưa thống nhất về việc mức chi tiêu khổng lồ này có sinh lời tương xứng hay không.',
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'forrester-chi-tieu-cong-nghe-toan-cau-2026',
+    title: 'Khi cả thế giới dốc túi 5.600 tỉ USD vào cuộc đua công nghệ',
+    excerpt:
+      'Chi tiêu công nghệ toàn cầu dự kiến tăng 7,8% trong năm 2026 và đạt 5,6 nghìn tỷ USD, theo Forrester — với doanh nghiệp và chính phủ dẫn dắt tăng trưởng.',
+    date: '2026-09-17',
+    category: 'Thị trường',
+    coverImage: '/images/news/22.png',
+    sections: [
+      {
+        paragraphs: [
+          'Chi tiêu công nghệ toàn cầu dự kiến tăng 7,8% trong năm 2026 và đạt 5,6 nghìn tỷ USD, theo dự báo của hãng nghiên cứu Forrester. Dự báo này nằm trong báo cáo về xu hướng chi tiêu công nghệ giai đoạn 2025-2030, cho thấy trí tuệ nhân tạo (AI) tiếp tục là một trong những động lực chính của thị trường.',
+        ],
+      },
+      {
+        heading: 'Doanh nghiệp và chính phủ dẫn dắt tăng trưởng',
+        paragraphs: [
+          'Theo Forrester, hơn 70% mức tăng chi tiêu công nghệ trong giai đoạn 2025-2030 sẽ đến từ khoản đầu tư của doanh nghiệp và chính phủ vào thiết bị máy tính và phần mềm. Điều này phản ánh xu hướng các tổ chức chuyển từ giai đoạn thử nghiệm sang đầu tư quy mô lớn vào hạ tầng và ứng dụng công nghệ.',
+        ],
+      },
+      {
+        heading: 'Mỗi khu vực một ưu tiên',
+        paragraphs: [
+          'Báo cáo nhấn mạnh rằng các khu vực đang theo đuổi những ưu tiên chi tiêu khác nhau. Mỹ dẫn đầu về đầu tư nghiên cứu AI với mức vượt 109 tỷ USD. Tuy nhiên, thuế quan tiếp tục tác động đến nền kinh tế Mỹ, cũng như các nước châu Âu phụ thuộc vào xuất khẩu sang thị trường này.',
+          'Trung Quốc đã nâng mục tiêu chi tiêu cho AI lên 98 tỷ USD trong năm 2025. Ấn Độ đẩy mạnh việc ứng dụng điện toán đám mây AI và mở rộng các trung tâm năng lực toàn cầu, giúp chi tiêu công nghệ thông tin của nước này tăng hai con số trong năm 2026. Đức được kỳ vọng tăng trưởng kinh tế nhanh hơn trong năm nay, một phần nhờ lực lượng lao động công nghệ thông tin và truyền thông ngày càng lớn.',
+        ],
+      },
+      {
+        heading: 'Những ngành đầu tư mạnh vào AI',
+        paragraphs: [
+          'Forrester cho rằng quốc phòng, tài chính, y tế, công nghiệp và bán lẻ sẽ là các ngành dẫn dắt đầu tư AI. Đây đều là những lĩnh vực có độ phức tạp, chi phí và mức độ cạnh tranh cao. Ngay cả khi triển vọng kinh tế yếu đi, chi tiêu công nghệ của ngân hàng và bảo hiểm vẫn được dự báo ở mức mạnh trong năm 2026, nhờ các khoản đầu tư vào an ninh mạng, điện toán đám mây và AI.',
+        ],
+      },
+      {
+        heading: 'Đặt trong bức tranh chung',
+        paragraphs: [
+          'Dự báo của Forrester đo tổng chi tiêu công nghệ, nên không thể so trực tiếp với các con số chỉ tính riêng AI. Gartner dự báo chi tiêu AI toàn cầu năm 2026 vào khoảng 2,52 nghìn tỷ USD, còn Goldman Sachs Research ước tính đầu tư liên quan đến AI năm nay khoảng 1.000 tỷ USD, vì mỗi tổ chức dùng một phạm vi thống kê riêng. Dù vậy, các dự báo đều cho thấy AI đang chiếm tỷ trọng ngày càng lớn trong ngân sách công nghệ của thế giới.',
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'physical-ai-hut-474-ty-usd-nua-dau-2026',
+    title: 'Vốn đổ vào "physical AI" nửa đầu 2026 đạt 47,4 tỷ USD, vượt cả ba năm 2022-2024 cộng lại',
+    excerpt: 'Theo Crunchbase, vốn đầu tư mạo hiểm toàn cầu vào các công ty physical AI trong sáu tháng đầu 2026 đạt 47,4 tỷ USD qua 521 thương vụ — nhiều hơn tổng 41,9 tỷ USD của cả ba năm 2022-2024.',
+    date: '2026-09-18',
+    category: 'Robotics',
+    coverImage: '/images/news/23.png',
+    sections: [
+      {
+        paragraphs: [
+          'Làn sóng đầu tư AI đang mở rộng từ phần mềm sang thế giới vật lý. Theo dữ liệu của Crunchbase, vốn đầu tư mạo hiểm toàn cầu vào các công ty "physical AI" trong sáu tháng đầu năm 2026 đạt 47,4 tỷ USD qua 521 thương vụ, nhiều hơn tổng số 41,9 tỷ USD mà lĩnh vực này thu hút trong ba năm 2022-2024 cộng lại.',
+        ],
+      },
+      {
+        heading: 'Tăng tốc mạnh so với các giai đoạn trước',
+        paragraphs: [
+          'Con số nửa đầu 2026 gấp gần bốn lần nửa cuối 2025, khi các startup physical AI huy động 12 tỷ USD qua 470 thương vụ. So với cùng kỳ năm ngoái (26,4 tỷ USD qua 436 thương vụ), mức tăng là gần 80%.',
+          'Theo tiêu chí của Crunchbase, physical AI bao gồm robot, xe tự hành, hàng không vũ trụ, drone, tự động hóa công nghiệp và cảm biến. Tờ The Wall Street Journal cũng ghi nhận nhiều quỹ vốn từng nổi tiếng với các khoản đầu tư sớm vào phần mềm, dịch vụ internet và mạng xã hội đang chuyển hướng sang các công nghệ vật lý gắn với làn sóng AI.',
+        ],
+      },
+      {
+        heading: 'Vài thương vụ lớn chi phối bức tranh',
+        paragraphs: [
+          'Một số vòng gọi vốn hàng tỷ USD đã tạo nên cú bứt phá này. Nổi bật nhất là khoản 16 tỷ USD vòng Series D của Waymo, huy động hồi tháng 2 với mức định giá 126 tỷ USD, do Alphabet, Dragoneer Investment Group, DST Global và Sequoia Capital đồng dẫn dắt. Riêng thương vụ này chiếm gần một phần ba tổng số vốn của cả lĩnh vực trong nửa đầu năm.',
+          'Mảng công nghệ quốc phòng cũng rất sôi động: Anduril Industries huy động thêm 5 tỷ USD hồi tháng 5, nâng định giá lên 61 tỷ USD, gấp đôi mức 30,5 tỷ USD chưa đầy một năm trước. Shield AI hoàn tất vòng Series G trị giá 2 tỷ USD hồi tháng 3, do Advent International và JP Morgan Chase đồng dẫn dắt, đưa định giá lên 12,7 tỷ USD. Saronic, startup chuyên tàu tự hành, huy động 1,75 tỷ USD vòng Series D do Kleiner Perkins dẫn dắt, với định giá 9,25 tỷ USD, hơn gấp đôi mức ở vòng trước.',
+        ],
+      },
+      {
+        heading: 'Thị trường thoái vốn cũng sôi động',
+        paragraphs: [
+          'Bên cạnh dòng vốn vào, năm 2026 ghi nhận nhiều thương vụ thoái vốn đáng chú ý, dù tập trung ở hàng không vũ trụ, quốc phòng và drone nhiều hơn là robot. SpaceX huy động 75 tỷ USD trong đợt IPO hồi tháng 6 với định giá 1,77 nghìn tỷ USD. Hai công ty khác lên sàn là HawkEye 360 (huy động 416 triệu USD) và Aevex (320 triệu USD). Ở mảng mua bán và sáp nhập, Mobileye mua lại startup robot hình người Mentee Robotics với giá khoảng 900 triệu USD, thương vụ mà công ty gắn trực tiếp với chiến lược tiến vào physical AI.',
+        ],
+      },
+      {
+        heading: 'Vì sao nhà đầu tư quan tâm lúc này?',
+        paragraphs: [
+          'Hai nhà đầu tư được Crunchbase News phỏng vấn đưa ra những lý giải tương đồng. Ông Ryan Ziegler của Edison Partners cho rằng cơ hội rộng hơn nhiều so với robot và robot hình người hay quốc phòng, vì physical AI là điểm giao nhau của phần mềm, phần cứng, cảm biến, IoT và dịch vụ. Điều thay đổi là AI nay có thể xử lý dữ liệu từ các hệ thống này ở quy mô và tốc độ lớn, trong khi phần cứng ngày càng rẻ. Ông xem đây là bước chuyển giống như điện toán đám mây từng tạo ra cho ngành phần mềm dịch vụ. Edison quan tâm đến các ngành truyền thống có giá trị cao như sản xuất, chuỗi cung ứng, năng lượng, nông nghiệp và giao thông.',
+          'Ông Joe Fath của Eclipse Capital nhận định rào cản công nghệ đang giảm nhanh, nhân tài đổ về và nhu cầu thị trường tăng, nên dòng vốn đang dịch chuyển từ thử nghiệm sang các công ty đạt được cột mốc sản xuất, có khách hàng và mở rộng hiệu quả. Theo ông, giá trị sẽ tích lũy dọc theo toàn bộ chuỗi physical AI, nhưng các công ty tích hợp dọc nhiều tầng sẽ có lợi thế bền vững nhất. Khách hàng, ông nhấn mạnh, coi trọng hiệu quả vận hành, độ tin cậy và doanh thu hơn là sự tinh vi về mặt kỹ thuật.',
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'lan-song-dau-tu-ai-trung-tam-du-lieu-mo-rong-sang-viet-nam',
+    title: 'Làn sóng đầu tư vào AI và trung tâm dữ liệu đang mở rộng sang Việt Nam',
+    excerpt:
+      'Nửa đầu 2026, nguồn cung tương lai trung tâm dữ liệu APAC tăng thêm 7,1 GW; Đông Nam Á chiếm khoảng một nửa công suất đang xây, và dòng vốn bắt đầu tìm đến các thị trường mới nổi như Việt Nam.',
+    date: '2026-09-19',
+    category: 'Doanh nghiệp',
+    coverImage: '/images/news/24.png',
+    sections: [
+      {
+        paragraphs: [
+          'Chỉ trong nửa đầu năm 2026, nguồn cung tương lai của các trung tâm dữ liệu châu Á – Thái Bình Dương (APAC) tăng thêm 7,1 GW, và khoảng 1,4 GW công suất mới đã đi vào vận hành. Đông Nam Á chiếm xấp xỉ một nửa tổng công suất đang xây dựng của cả khu vực. Khi các nhà vận hành hyperscale và nền tảng AI đẩy mạnh đầu tư, dòng vốn không chỉ dồn vào những thị trường quen thuộc mà đã bắt đầu tìm đến các thị trường mới nổi, trong đó có Việt Nam.',
+        ],
+      },
+      {
+        heading: 'Một nửa năm tăng tốc của cả khu vực',
+        paragraphs: [
+          'Theo báo cáo cập nhật thị trường trung tâm dữ liệu APAC nửa đầu năm 2026 của Cushman & Wakefield, tổng nguồn cung tương lai của khu vực hiện gồm 4,8 GW đang được xây dựng và 21,7 GW trong giai đoạn quy hoạch. Các chuyên gia đánh giá đây là một trong những giai đoạn tăng trưởng nửa năm mạnh nhất từ trước đến nay.',
+          'Nhu cầu thuê vẫn theo kịp nguồn cung. Tỷ lệ trống của các trung tâm dữ liệu cho thuê chỗ đặt máy chủ giảm từ 10,9% (nửa cuối 2025) xuống 10,3%, cho thấy các thị trường trọng điểm hấp thụ công suất mới khá tốt. Trong khu vực, Malaysia đang dẫn đầu với 1.039 MW đang xây dựng, tiếp theo là Thái Lan với 859 MW. Riêng công suất đang xây dựng ở Johor gần như tăng gấp đôi, lên 602 MW, còn Bangkok tăng 148%.',
+        ],
+      },
+      {
+        heading: 'Việt Nam đang ở đâu?',
+        paragraphs: [
+          'Việt Nam vẫn ở giai đoạn đầu, nhưng đã có những tín hiệu đáng chú ý. Tại TP.HCM, nguồn cung tương lai đạt 68 MW, được hỗ trợ bởi hàng loạt thông báo đầu tư lớn. Trong đó có thỏa thuận khung trị giá 1 tỷ USD giữa G42, FPT Corporation và Viet Thai Group, cùng một đề xuất dự án trung tâm dữ liệu AI quy mô hyperscale trị giá 2 tỷ USD. Cần hiểu đúng đây là các thỏa thuận khung và đề xuất, chưa phải toàn bộ vốn đã được giải ngân.',
+          'Không chỉ có vốn, khả năng kết nối cũng đang được cải thiện. Cushman & Wakefield nhắc đến tuyến cáp quang biển MViSTA, nối Việt Nam với Singapore, Johor và Thái Lan, như một ví dụ cho thấy Việt Nam đang dần củng cố vị thế trong hệ sinh thái hạ tầng số khu vực, cùng với cải cách chính sách và dòng vốn nước ngoài gia tăng.',
+        ],
+      },
+      {
+        heading: 'Điện năng: giới hạn của cuộc đua',
+        paragraphs: [
+          'Theo ông Andrew Green, Trưởng Bộ phận Trung tâm Dữ liệu APAC của Cushman & Wakefield, đầu tư vào AI và điện toán đám mây đã bước vào giai đoạn tăng tốc, nhưng bị giới hạn bởi khả năng tiếp cận nguồn điện. Trước đây, trung tâm dữ liệu thường tập trung ở nơi có kết nối tốt. Nay, làn sóng mở rộng đang dịch chuyển sang những thị trường có thể cấp điện ở quy mô lớn, hình thành các hành lang tăng trưởng mới trong khu vực.',
+        ],
+      },
+      {
+        heading: 'Cách xây trung tâm dữ liệu đang thay đổi',
+        paragraphs: [
+          'Báo cáo cũng ghi nhận chiến lược phát triển đang chuyển hướng. Khi yêu cầu hạ tầng phức tạp hơn, chủ đầu tư ưu tiên tốc độ triển khai, hiệu quả vận hành, tính bền vững và khả năng mở rộng dài hạn. Ông Pritesh Swamy, Trưởng Bộ phận Nghiên cứu và Tư vấn của nhóm này, cho biết các nhà phát triển đang vượt ra khỏi những mô hình thiết kế truyền thống.',
+          'Ở hầu hết thị trường, thời gian đưa dự án ra vận hành trở thành yếu tố quyết định. Xây dựng theo mô-đun và công nghệ làm mát tiên tiến giúp nhà vận hành tận dụng tốt hơn hạ tầng sẵn có và rút ngắn tiến độ. Khi mật độ tính toán tăng, việc quản lý điện và nước cũng được chú trọng hơn.',
+        ],
+      },
+      {
+        heading: 'Điều còn lại phải trả lời',
+        paragraphs: [
+          'Hạ tầng đang được chuẩn bị, vốn đang tìm đến. Nhưng máy chủ và nguồn điện chưa đủ để tạo ra giá trị. Cần có những người đủ năng lực vận hành, khai thác và làm chủ công nghệ trên nền hạ tầng ấy.',
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'viet-nam-tan-binh-cuoc-dua-trung-tam-du-lieu-ai',
+    title: 'Việt Nam: tân binh của cuộc đua trung tâm dữ liệu AI',
+    excerpt:
+      'Công suất trung tâm dữ liệu Việt Nam chưa bằng 10% Thái Lan hay Malaysia, nhưng nửa đầu 2026 dòng vốn quốc tế vào hạ tầng số tăng đáng kể và nhiều dự án lớn bắt đầu chuyển sang triển khai.',
+    date: '2026-09-20',
+    category: 'Doanh nghiệp',
+    coverImage: '/images/news/25.png',
+    sections: [
+      {
+        paragraphs: [
+          'Về quy mô, Việt Nam vẫn đứng sau khá xa. Công suất trung tâm dữ liệu của nước ta chưa bằng 10% so với Thái Lan hay Malaysia. Nhưng trong nửa đầu năm 2026, dòng vốn quốc tế vào hạ tầng số đã tăng đáng kể, và nhiều dự án lớn bắt đầu chuyển từ kế hoạch sang triển khai.',
+        ],
+      },
+      {
+        heading: 'Những dự án đã có giấy phép',
+        paragraphs: [
+          'Cuối tháng 4, TP.HCM cấp chứng nhận đầu tư cho 4 dự án công nghệ cao với tổng vốn hơn 1,23 tỷ USD. Hai dự án trung tâm dữ liệu chiếm hơn 80% số vốn này, xấp xỉ 1 tỷ USD: Tổ hợp trung tâm dữ liệu siêu lớn Starmason với vốn 480,26 triệu USD, công suất thiết kế 60 MW IT Load, phục vụ hạ tầng AI và điện toán đám mây; và Evolution DC VN HCMC — liên danh ba nhà đầu tư Singapore (Evolution, Hathor, Frontier) rót 508,78 triệu USD, công suất 52 MW IT Load, đạt chuẩn Uptime Tier III+ và hướng tới Tier IV.',
+          'Ông Darren Webb, Tổng giám đốc Evolution Data Centres, cho biết đơn vị đã chuẩn bị dự án suốt 3 năm trước khi bước vào giai đoạn xây dựng tại Khu công nghệ cao TP.HCM. Ông nhận định Việt Nam có thể bắt kịp, thậm chí dẫn đầu khu vực trong cuộc đua AI.',
+        ],
+      },
+      {
+        heading: 'Con số từ báo cáo Cushman & Wakefield',
+        paragraphs: [
+          'Theo báo cáo cập nhật nửa đầu 2026 của Cushman & Wakefield, quy mô nguồn cung tương lai tại TP.HCM đạt 68 MW, gồm 14 MW đang xây dựng và 54 MW đang quy hoạch. Bên cạnh các dự án đã cấp phép, báo cáo còn nhắc đến thỏa thuận khung 1 tỷ USD giữa G42 (UAE), FPT và Viet Thai Group, cùng một đề xuất trung tâm dữ liệu AI hyperscale trị giá 2 tỷ USD. Hai khoản này mới ở mức thỏa thuận khung và đề xuất, chưa phải vốn đã giải ngân.',
+          'Thị trường hiện vẫn ở giai đoạn đầu và được xếp vào nhóm thị trường thứ cấp: công suất đang vận hành 33 MW tại 14 cơ sở do 9 nhà cung cấp khai thác, tập trung chủ yếu ở TP.HCM; tỷ lệ trống của công suất cho thuê chỗ đặt máy chủ là 34,8%, so với mức trung bình 10,3% của châu Á – Thái Bình Dương. Cushman & Wakefield cho rằng các cải cách pháp lý từ năm 2024, trong đó có việc gỡ hạn chế sở hữu nước ngoài, đang giúp nhà đầu tư thêm tin tưởng vào Việt Nam như một điểm đến cho hạ tầng hyperscale, đám mây và AI.',
+        ],
+      },
+      {
+        heading: 'Chính sách và kết nối đi kèm',
+        paragraphs: [
+          'Dòng vốn có thêm lực đỡ từ chính sách. Nghị quyết 57 của Bộ Chính trị đặt mục tiêu đến 2030, Việt Nam nằm trong nhóm 3 nước dẫn đầu Đông Nam Á về nghiên cứu và phát triển AI, và kinh tế số đạt tối thiểu 30% GDP. Giữa tháng 4, Tổ chức Tài chính quốc tế (IFC) cũng nêu kế hoạch đầu tư tới 3 tỷ USD vào Việt Nam, trong đó có hạ tầng số.',
+          'Về kết nối, tuyến cáp ngầm MVISTA (Malaysia – Việt Nam – Singapore – Thái Lan) đã bước vào giai đoạn triển khai và thương mại hóa. Tuyến này tạo thêm hành lang nối Việt Nam với Singapore, Johor và các trung tâm dữ liệu trọng điểm của Thái Lan, qua đó tăng sức hút với các dự án hyperscale và hạ tầng AI.',
+        ],
+      },
+      {
+        heading: 'Khoảng cách với khu vực',
+        paragraphs: [
+          'Đông Nam Á chiếm khoảng 50% công suất trung tâm dữ liệu đang xây dựng tại châu Á – Thái Bình Dương. Malaysia dẫn đầu với 1.039 MW, Thái Lan theo sau với 859 MW. Công suất đang xây dựng ở Johor gần như tăng gấp đôi lên 602 MW, còn Bangkok tăng 148%, thuộc nhóm nhanh nhất khu vực. Cushman & Wakefield nhận xét Malaysia thu hút nhiều dự án AI chất lượng cao, trong khi Indonesia và Thái Lan đón phần nhu cầu mở rộng từ những thị trường lớn đang bị hạn chế về quỹ đất và chính sách.',
+        ],
+      },
+      {
+        heading: 'Điện năng quyết định bước đi tiếp theo',
+        paragraphs: [
+          'Ông Andrew Green, Trưởng bộ phận Trung tâm dữ liệu khu vực châu Á – Thái Bình Dương của Cushman & Wakefield, cho rằng thách thức lớn nhất nằm ở hạ tầng điện đủ sức phục vụ thế hệ khối lượng xử lý AI kế tiếp. Trước đây, trung tâm dữ liệu thường tập trung ở nơi kết nối tốt. Nay, làn sóng mở rộng đang dịch chuyển về những thị trường cấp được điện quy mô lớn. Theo ông, giai đoạn tăng trưởng tới sẽ thuộc về những nơi cân bằng được quy mô, nguồn điện và mức độ sẵn sàng hạ tầng dài hạn, và ngày càng nhiều thị trường mới nổi sẽ trở thành điểm đến hấp dẫn.',
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'dau-tu-trung-tam-du-lieu-ai-viet-nam-chi-phi-72-trieu-usd-mw',
+    title: 'Đầu tư trung tâm dữ liệu AI tại Việt Nam: lợi thế chi phí 7,2 triệu USD/MW và những bài toán chưa có lời giải',
+    excerpt: 'Xây trung tâm dữ liệu tại Hà Nội hoặc TP.HCM khoảng 7,2 triệu USD/MW — thấp hơn nhiều so với Nhật Bản và Singapore — nhưng điện, đất, kết nối và nhân lực vẫn là các nút thắt lớn.',
+    date: '2026-09-21',
+    category: 'Doanh nghiệp',
+    coverImage: '/images/news/26.png',
+    sections: [
+      {
+        paragraphs: [
+          'AI đang kéo theo nhu cầu rất lớn về trung tâm dữ liệu, và Việt Nam là một trong những điểm đến được nhắc tới. Tuy vậy, chi phí thấp mới chỉ là điểm khởi đầu. Các chuyên gia trong và ngoài nước chỉ ra nhiều nút thắt về điện, đất, kết nối và cả nhân lực.',
+        ],
+      },
+      {
+        heading: 'Lợi thế đầu tiên: chi phí xây dựng cạnh tranh',
+        paragraphs: [
+          'Theo báo cáo mới của Cushman & Wakefield, xây một trung tâm dữ liệu tại Hà Nội hoặc TP.HCM tốn khoảng 7,2 triệu USD cho mỗi MW công suất, thuộc nhóm thấp của châu Á – Thái Bình Dương. Cùng chỉ số này, Nhật Bản là 19,2 triệu USD/MW và Singapore là 17,9 triệu USD/MW. Chênh lệch lớn như vậy là điểm cộng khi Việt Nam thu hút nhà đầu tư quốc tế.',
+          'Thị trường vẫn còn nhiều dư địa. Theo CBRE, công suất vận hành hiện khoảng 104 MW, có thể tăng 5–6 lần lên gần 600 MW vào năm 2030. Thị trường điện toán đám mây tăng khoảng 30% mỗi năm, cao hơn nhiều so với trung bình toàn cầu. Tuy nhiên, thị phần đang nằm trong tay một nhóm nhỏ doanh nghiệp lớn như Viettel IDC, VNPT, CMC và FPT Telecom. Đây vừa là dấu hiệu còn chỗ để phát triển, vừa cho thấy người mới khó gia nhập vì cần nhiều vốn và hạ tầng phức tạp.',
+        ],
+      },
+      {
+        heading: 'AI đang viết lại tiêu chuẩn thiết kế',
+        paragraphs: [
+          'Theo ông Lê Bá Tân, CEO Viettel IDC, mỗi tủ máy chủ trước đây thường chạy ở mức 20–30 kW. Với AI, con số này có thể lên 100 kW, thậm chí trên 200 kW. Mật độ như vậy đòi hỏi cấp điện, làm mát và vận hành liên tục ở tiêu chuẩn cao hơn hẳn.',
+          'Dù chiếm tỷ trọng nhỏ, các trung tâm dữ liệu phục vụ AI ngốn điện rất lớn, tạo áp lực lên hệ thống năng lượng và các mục tiêu phát triển bền vững. Vì thế, các trung tâm mới không chỉ cần mở rộng mà phải được thiết kế lại để tiết kiệm năng lượng và sẵn sàng cho tải tính toán mật độ cao. Điện toán đám mây cũng đang thay đổi: ngoài việc giúp doanh nghiệp linh hoạt tài nguyên, đám mây nay còn gắn với bảo mật, nơi đặt dữ liệu, tuân thủ pháp lý và kiểm soát chi phí dài hạn khi AI được triển khai rộng.',
+        ],
+      },
+      {
+        heading: 'Những nút thắt phải gỡ',
+        paragraphs: [
+          'Điện: Ông Thomas Rooney (Savills Hà Nội) cho rằng nguồn cung điện là thách thức hàng đầu, vì trung tâm dữ liệu AI có thể tiêu thụ điện gấp 2–5 lần mô hình truyền thống.',
+          'Pháp lý, đất đai, hạ tầng: Ông David Jackson (Avison Young Việt Nam) nhấn mạnh cần rà soát kỹ các yêu cầu pháp lý về đầu tư, xây dựng và vận hành, cùng bài toán quỹ đất phù hợp, chi phí cao và hạ tầng kỹ thuật đồng bộ.',
+          'Điện, đất và kết nối: Theo ông Andrew Batson (JLL), Việt Nam phải giải quyết đồng thời ba vấn đề này. Trọng tâm là nguồn điện ổn định (đặc biệt là năng lượng tái tạo), hạ tầng cáp quang và giảm độ trễ mạng.',
+          'Nhân lực: Ông Jackson cũng chỉ ra Việt Nam còn thiếu nhân lực chất lượng cao trong vận hành trung tâm dữ liệu, an ninh mạng và quản trị hệ thống. Theo ông, đây là yếu tố quyết định khả năng vận hành ổn định và sức hút với các nhà đầu tư lớn.',
+        ],
+      },
+      {
+        heading: 'Lợi thế chi phí chỉ là bước khởi đầu',
+        paragraphs: [
+          'Trong cuộc cạnh tranh khu vực ngày càng gay gắt, các chuyên gia cùng đi đến một nhận định. Nếu điện năng, quy hoạch và kết nối không được hoàn thiện đồng bộ, lợi thế về chi phí có thể nhanh chóng mất đi. Việt Nam có trở thành điểm đến chiến lược của trung tâm dữ liệu phục vụ AI hay không sẽ phụ thuộc vào việc hoàn thiện hạ tầng và chính sách, và cả việc có đủ người đủ năng lực để vận hành chúng.',
         ],
       },
     ],

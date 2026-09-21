@@ -158,5 +158,53 @@
     "date": "2026-09-10",
     "category": "Thị trường",
     "coverImage": "/images/news/20.png"
+  },
+  {
+    "slug": "pwc-dau-tu-ha-tang-ai-316-nghin-ty-usd",
+    "title": "PwC: Đầu tư hạ tầng AI toàn cầu có thể đạt kỷ lục 31,6 nghìn tỷ USD đến năm 2050, Mỹ chiếm gần một nửa",
+    "excerpt": "Theo dự báo cơ sở trong báo cáo Global Data Centre Outlook do PwC công bố ngày 2/9, đầu tư hạ tầng AI toàn cầu đến 2050 có thể đạt 31,6 nghìn tỷ USD, trong đó Mỹ chiếm khoảng 48%.",
+    "date": "2026-09-16",
+    "category": "Thị trường",
+    "coverImage": "/images/news/21.png"
+  },
+  {
+    "slug": "forrester-chi-tieu-cong-nghe-toan-cau-2026",
+    "title": "Khi cả thế giới dốc túi 5.600 tỉ USD vào cuộc đua công nghệ",
+    "excerpt": "Chi tiêu công nghệ toàn cầu dự kiến tăng 7,8% trong năm 2026 và đạt 5,6 nghìn tỷ USD, theo Forrester — với doanh nghiệp và chính phủ dẫn dắt tăng trưởng.",
+    "date": "2026-09-17",
+    "category": "Thị trường",
+    "coverImage": "/images/news/22.png"
+  },
+  {
+    "slug": "physical-ai-hut-474-ty-usd-nua-dau-2026",
+    "title": "Vốn đổ vào \"physical AI\" nửa đầu 2026 đạt 47,4 tỷ USD, vượt cả ba năm 2022-2024 cộng lại",
+    "excerpt": "Theo Crunchbase, vốn đầu tư mạo hiểm toàn cầu vào các công ty physical AI trong sáu tháng đầu 2026 đạt 47,4 tỷ USD qua 521 thương vụ — nhiều hơn tổng 41,9 tỷ USD của cả ba năm 2022-2024.",
+    "date": "2026-09-18",
+    "category": "Robotics",
+    "coverImage": "/images/news/23.png"
+  },
+  {
+    "slug": "lan-song-dau-tu-ai-trung-tam-du-lieu-mo-rong-sang-viet-nam",
+    "title": "Làn sóng đầu tư vào AI và trung tâm dữ liệu đang mở rộng sang Việt Nam",
+    "excerpt": "Nửa đầu 2026, nguồn cung tương lai trung tâm dữ liệu APAC tăng thêm 7,1 GW; Đông Nam Á chiếm khoảng một nửa công suất đang xây, và dòng vốn bắt đầu tìm đến các thị trường mới nổi như Việt Nam.",
+    "date": "2026-09-19",
+    "category": "Doanh nghiệp",
+    "coverImage": "/images/news/24.png"
+  },
+  {
+    "slug": "viet-nam-tan-binh-cuoc-dua-trung-tam-du-lieu-ai",
+    "title": "Việt Nam: tân binh của cuộc đua trung tâm dữ liệu AI",
+    "excerpt": "Công suất trung tâm dữ liệu Việt Nam chưa bằng 10% Thái Lan hay Malaysia, nhưng nửa đầu 2026 dòng vốn quốc tế vào hạ tầng số tăng đáng kể và nhiều dự án lớn bắt đầu chuyển sang triển khai.",
+    "date": "2026-09-20",
+    "category": "Doanh nghiệp",
+    "coverImage": "/images/news/25.png"
+  },
+  {
+    "slug": "dau-tu-trung-tam-du-lieu-ai-viet-nam-chi-phi-72-trieu-usd-mw",
+    "title": "Đầu tư trung tâm dữ liệu AI tại Việt Nam: lợi thế chi phí 7,2 triệu USD/MW và những bài toán chưa có lời giải",
+    "excerpt": "Xây trung tâm dữ liệu tại Hà Nội hoặc TP.HCM khoảng 7,2 triệu USD/MW — thấp hơn nhiều so với Nhật Bản và Singapore — nhưng điện, đất, kết nối và nhân lực vẫn là các nút thắt lớn.",
+    "date": "2026-09-21",
+    "category": "Doanh nghiệp",
+    "coverImage": "/images/news/26.png"
   }
 ]

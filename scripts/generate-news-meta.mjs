@@ -22,8 +22,8 @@ while ((match = blockRe.exec(src)) !== null) {
   })
 }
 
-if (articles.length !== 20) {
-  console.error(`Expected 20 articles, got ${articles.length}`)
+if (articles.length === 0) {
+  console.error('No articles parsed from src/data/news.ts')
   process.exit(1)
 }
 

@@ -1,4 +1,4 @@
-import { useEffect, useMemo } from 'react'
+import { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
@@ -6,26 +6,48 @@ import ShareFacebookButton from '../components/ShareFacebookButton'
 import StickyRegisterBar from '../components/StickyRegisterBar'
 import RegistrationModal from '../components/registration/RegistrationModal'
 import { RegistrationModalProvider } from '../context/RegistrationModalContext'
-import { formatNewsDate, getNewsBySlug, newsItems } from '../data/news'
+import { formatNewsDate, type NewsItem } from '../data/news'
+import { fetchNewsBySlug, mergeNewsList } from '../lib/newsApi'
 import { setPageMeta } from '../lib/setPageMeta'
 import { getArticleImageUrl, getArticleShareUrl } from '../lib/site'
 
 function NewsDetailInner() {
   const { slug = '' } = useParams()
-  const article = useMemo(() => getNewsBySlug(slug), [slug])
+  const [article, setArticle] = useState<NewsItem | null | undefined>(undefined)
+  const [related, setRelated] = useState<NewsItem[]>([])
 
-  const related = useMemo(() => {
-    if (!article) return []
-    return newsItems
-      .filter((item) => item.slug !== article.slug)
-      .filter((item) => item.category === article.category)
-      .slice(0, 3)
-  }, [article])
+  useEffect(() => {
+    let cancelled = false
+    setArticle(undefined)
+    ;(async () => {
+      const found = await fetchNewsBySlug(slug)
+      if (cancelled) return
+      setArticle(found)
+
+      if (found) {
+        const all = await mergeNewsList()
+        if (cancelled) return
+        setRelated(
+          all
+            .filter((item) => item.slug !== found.slug)
+            .filter((item) => item.category === found.category)
+            .slice(0, 3),
+        )
+      } else {
+        setRelated([])
+      }
+    })()
+    return () => {
+      cancelled = true
+    }
+  }, [slug])
 
   const shareUrl = article ? getArticleShareUrl(article.slug) : ''
 
   useEffect(() => {
     window.scrollTo(0, 0)
+    if (article === undefined) return
+
     if (!article) {
       document.title = 'Không tìm thấy bài viết — AI57'
       return
@@ -43,6 +65,14 @@ function NewsDetailInner() {
       document.title = 'AI57'
     }
   }, [article])
+
+  if (article === undefined) {
+    return (
+      <div className="mx-auto max-w-3xl px-4 py-20 text-center text-sm text-gray-500">
+        Đang tải bài viết…
+      </div>
+    )
+  }
 
   if (!article) {
     return (
@@ -107,6 +137,21 @@ function NewsDetailInner() {
                   </p>
                 ))}
               </div>
+              {section.image && (
+                <figure className="mt-5 overflow-hidden rounded-2xl border border-primary/10">
+                  <img
+                    src={section.image}
+                    alt={section.imageAlt || section.heading || article.title}
+                    className="w-full object-cover"
+                    loading="lazy"
+                  />
+                  {section.imageAlt && (
+                    <figcaption className="bg-primary-light/30 px-4 py-2 text-xs text-gray-600">
+                      {section.imageAlt}
+                    </figcaption>
+                  )}
+                </figure>
+              )}
             </div>
           ))}
         </article>
