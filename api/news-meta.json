@@ -206,5 +206,29 @@
     "date": "2026-09-21",
     "category": "Doanh nghiệp",
     "coverImage": "/images/news/26.png"
+  },
+  {
+    "slug": "cuoc-dua-nhan-luc-ai-toan-cau-sieu-nhan-cong-nghe",
+    "title": "Cuộc đua nhân lực AI toàn cầu: Khi các \"siêu nhân\" công nghệ được săn đón bằng hàng triệu USD",
+    "excerpt": "Từ OpenAI, Google đến xAI, các phòng thí nghiệm AI hàng đầu đang cạnh tranh không chỉ về mô hình mà còn để sở hữu những người có khả năng tạo đột phá — với mức đãi ngộ hàng triệu USD mỗi năm.",
+    "date": "2026-09-22",
+    "category": "Thị trường",
+    "coverImage": "/images/news/27.png"
+  },
+  {
+    "slug": "luc-luong-lao-dong-toan-cau-san-sang-ky-nguyen-ai",
+    "title": "Lực lượng lao động toàn cầu đã sẵn sàng cho kỷ nguyên AI?",
+    "excerpt": "Báo cáo OECD chỉ ra thiếu kỹ năng đang là rào cản lớn khi doanh nghiệp ứng dụng AI — khoảng 40% doanh nghiệp sản xuất và tài chính chưa dùng AI nêu đây là một trong những nguyên nhân chính.",
+    "date": "2026-09-23",
+    "category": "Công nghệ",
+    "coverImage": "/images/news/28.png"
+  },
+  {
+    "slug": "viet-nam-15000-vi-tri-ai-chi-8000-ung-vien",
+    "title": "Việt Nam có 15.000 vị trí AI cần tuyển, nhưng chỉ 8.000 ứng viên đáp ứng yêu cầu",
+    "excerpt": "Theo VINASA, thị trường nhân lực AI Việt Nam lệch pha rõ rệt: khoảng 15.000 vị trí liên quan đến AI cần tuyển nhưng chỉ khoảng 8.000 ứng viên đáp ứng yêu cầu.",
+    "date": "2026-09-24",
+    "category": "Doanh nghiệp",
+    "coverImage": "/images/news/29.png"
   }
 ]

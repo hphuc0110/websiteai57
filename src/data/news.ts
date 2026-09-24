@@ -911,6 +911,159 @@ export const newsItems: NewsItem[] = [
       },
     ],
   },
+  {
+    slug: 'cuoc-dua-nhan-luc-ai-toan-cau-sieu-nhan-cong-nghe',
+    title: 'Cuộc đua nhân lực AI toàn cầu: Khi các "siêu nhân" công nghệ được săn đón bằng hàng triệu USD',
+    excerpt: 'Từ OpenAI, Google đến xAI, các phòng thí nghiệm AI hàng đầu đang cạnh tranh không chỉ về mô hình mà còn để sở hữu những người có khả năng tạo đột phá — với mức đãi ngộ hàng triệu USD mỗi năm.',
+    date: '2026-09-22',
+    category: 'Thị trường',
+    coverImage: '/images/news/27.png',
+    sections: [
+      {
+        paragraphs: [
+          'Từ OpenAI, Google đến xAI, các phòng thí nghiệm AI hàng đầu thế giới đang bước vào một cuộc cạnh tranh mới: không chỉ đua về mô hình và năng lực tính toán, mà còn đua để sở hữu những con người có khả năng tạo ra đột phá về AI.',
+          'Sau khi ChatGPT tạo ra làn sóng AI tạo sinh từ cuối năm 2022, cuộc cạnh tranh nhân tài trong ngành công nghệ đã bước sang một cấp độ mới. Theo Reuters, hoạt động tuyển dụng các nhà nghiên cứu AI hàng đầu đang diễn ra với mức độ cạnh tranh được ví như thị trường chuyển nhượng của thể thao chuyên nghiệp.',
+        ],
+      },
+      {
+        heading: 'Những nhân tài AI đang được định giá bằng hàng triệu USD',
+        paragraphs: [
+          'Trong cuộc đua phát triển các mô hình AI tiên tiến, các công ty công nghệ đặc biệt săn đón nhóm individual contributors (ICs) – những nhà nghiên cứu và kỹ sư trực tiếp tạo ra các đột phá kỹ thuật. Theo các nguồn được Reuters phỏng vấn, một số nhà nghiên cứu AI hàng đầu tại OpenAI có thể nhận tổng mức đãi ngộ trên 10 triệu USD mỗi năm. Một số nhân sự được cho là từng được đề nghị khoản thưởng giữ chân khoảng 2 triệu USD tiền mặt, cùng với quyền lợi cổ phần trị giá từ 20 triệu USD trở lên.',
+          'Google DeepMind cũng được cho là đã đưa ra các gói đãi ngộ lên tới 20 triệu USD mỗi năm cho một số nhà nghiên cứu hàng đầu, đồng thời áp dụng các chính sách cổ phần đặc biệt nhằm thu hút và giữ chân nhân tài AI. Những con số này cho thấy một thực tế đáng chú ý: trong ngành AI, một nhóm rất nhỏ chuyên gia có năng lực đặc biệt đang được xem là nguồn lực chiến lược.',
+        ],
+      },
+      {
+        heading: 'Vì sao nhân lực AI lại khan hiếm?',
+        paragraphs: [
+          'Điểm khác biệt của làn sóng AI hiện nay nằm ở quy mô rất nhỏ của nhóm nhân tài có khả năng dẫn dắt các nghiên cứu tiên tiến. Reuters dẫn lời các nguồn trong ngành cho rằng số lượng những người thuộc nhóm chuyên gia AI tinh hoa này có thể chỉ từ vài chục đến khoảng một nghìn người trên toàn cầu, tùy theo cách xác định. Họ thường sở hữu năng lực kết hợp giữa toán học, khoa học máy tính, machine learning, nghiên cứu mô hình ngôn ngữ và khả năng giải quyết các bài toán phức tạp.',
+          'Sam Altman từng dùng cách gọi "10,000x engineers/researchers" để mô tả mức độ ảnh hưởng vượt trội mà một số nhà nghiên cứu AI hàng đầu có thể tạo ra so với mặt bằng chung. Đây là cách diễn đạt mang tính cá nhân của Altman, không phải một thước đo khoa học chính thức.',
+        ],
+      },
+      {
+        heading: 'Không chỉ kỹ sư phần mềm: AI đang hút nhân tài từ nhiều lĩnh vực',
+        paragraphs: [
+          'Sự thiếu hụt nhân lực cũng đang khiến các công ty AI mở rộng phạm vi tìm kiếm. Theo Reuters, một số doanh nghiệp bắt đầu sử dụng các phương pháp phân tích dữ liệu tương tự hoạt động tuyển trạch trong thể thao để phát hiện những nhân tài AI chưa được chú ý. Đáng chú ý, những người có nền tảng vật lý lý thuyết, toán học hoặc điện toán lượng tử cũng đang được các công ty AI quan tâm.',
+          'Điều này phản ánh một xu hướng rộng hơn: AI không còn là lĩnh vực chỉ dành cho những người xuất thân thuần túy từ ngành công nghệ thông tin. Các nền tảng về toán học, khoa học, dữ liệu và tư duy thuật toán ngày càng có thể trở thành lợi thế để bước vào lĩnh vực AI.',
+        ],
+      },
+      {
+        heading: 'Cuộc chiến nhân tài đang diễn ra ngay trong các phòng lab hàng đầu',
+        paragraphs: [
+          'OpenAI, Google DeepMind và xAI là những cái tên nổi bật trong cuộc cạnh tranh này. Reuters mô tả cách các lãnh đạo công nghệ trực tiếp tham gia vào quá trình tiếp cận những ứng viên đặc biệt quan trọng. Một số nhà nghiên cứu được nhiều công ty cùng lúc tiếp cận bằng những lời mời làm việc, các cuộc gặp riêng và những gói đãi ngộ rất lớn.',
+          'Sự dịch chuyển nhân sự giữa các phòng thí nghiệm AI cũng ngày càng đáng chú ý. Những nhà nghiên cứu rời các công ty lớn có thể thành lập startup mới, kéo theo những đồng nghiệp cũ và hình thành các nhóm nghiên cứu cạnh tranh trực tiếp với nơi họ từng làm việc.',
+        ],
+      },
+      {
+        heading: 'Một cuộc đua không chỉ về tiền',
+        paragraphs: [
+          'Tuy nhiên, tiền không phải yếu tố duy nhất quyết định việc một chuyên gia AI lựa chọn nơi làm việc. Reuters dẫn trường hợp Noam Brown – nhà nghiên cứu từng tham gia các đột phá của OpenAI trong lĩnh vực suy luận toán học và khoa học – cho biết ông lựa chọn OpenAI bởi công ty có nguồn lực về con người và năng lực tính toán để theo đuổi những vấn đề nghiên cứu mà ông quan tâm, dù đó không phải lựa chọn có mức đãi ngộ tài chính cao nhất đối với ông.',
+          'Điều này cho thấy cuộc cạnh tranh nhân lực AI thực chất đang diễn ra trên nhiều phương diện: con người → dữ liệu → năng lực tính toán → môi trường nghiên cứu → cơ hội tạo ra đột phá.',
+        ],
+      },
+      {
+        heading: 'AI đang tạo ra một "cuộc hút chất xám" mới',
+        paragraphs: [
+          'Một trong những điểm đáng chú ý nhất của làn sóng AI là sự dịch chuyển nhân lực từ nhiều ngành khác nhau vào lĩnh vực này. Các nhà toán học, vật lý học, chuyên gia machine learning, kỹ sư phần mềm và các nhà nghiên cứu từ nhiều lĩnh vực đang ngày càng tham gia vào AI.',
+          'Sébastien Bubeck, người từng phụ trách nghiên cứu GenAI tại Microsoft trước khi gia nhập OpenAI, nhận định rằng tốc độ phát triển của AI đang thu hút những tài năng từ nhiều lĩnh vực khác nhau. Vì vậy, bài toán của ngành AI không đơn giản là "cần thêm kỹ sư phần mềm". Bài toán lớn hơn là: làm thế nào để đào tạo một thế hệ nhân lực có đủ nền tảng toán học, dữ liệu, thuật toán và tư duy AI để tham gia vào cuộc đua công nghệ này?',
+        ],
+      },
+      {
+        heading: 'Từ cuộc đua của doanh nghiệp đến bài toán giáo dục',
+        paragraphs: [
+          'Cuộc cạnh tranh nhân lực AI đang diễn ra ở cấp độ các phòng nghiên cứu hàng đầu, nhưng hệ quả của nó lan xuống cả hệ thống giáo dục. Khi các doanh nghiệp phải cạnh tranh để tìm kiếm một nhóm chuyên gia AI rất nhỏ, việc xây dựng nguồn nhân lực không thể chỉ bắt đầu ở thời điểm một người bước vào thị trường lao động. Nó đặt ra một câu hỏi khác: có thể bắt đầu xây dựng nền tảng AI từ sớm hơn hay không?',
+          'Đây cũng là lý do AI ngày càng xuất hiện trong các chương trình giáo dục phổ thông, các cuộc thi quốc tế và các lộ trình đào tạo dành cho học sinh. Cuộc đua AI vì thế không chỉ là cuộc đua giữa các mô hình. Đó còn là cuộc đua về con người – và cuộc đua ấy đang bắt đầu từ rất sớm.',
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'luc-luong-lao-dong-toan-cau-san-sang-ky-nguyen-ai',
+    title: 'Lực lượng lao động toàn cầu đã sẵn sàng cho kỷ nguyên AI?',
+    excerpt: 'Báo cáo OECD chỉ ra thiếu kỹ năng đang là rào cản lớn khi doanh nghiệp ứng dụng AI — khoảng 40% doanh nghiệp sản xuất và tài chính chưa dùng AI nêu đây là một trong những nguyên nhân chính.',
+    date: '2026-09-23',
+    category: 'Công nghệ',
+    coverImage: '/images/news/28.png',
+    sections: [
+      {
+        paragraphs: [
+          'AI đang nhanh chóng trở thành một phần của môi trường làm việc, nhưng tốc độ phát triển của công nghệ đang đặt ra một câu hỏi lớn đối với thị trường lao động: lực lượng lao động toàn cầu đã có đủ kỹ năng để sử dụng và làm việc cùng AI?',
+          'AI đang được doanh nghiệp đưa vào ngày càng nhiều công đoạn, từ phân tích dữ liệu, chăm sóc khách hàng đến hỗ trợ sáng tạo và ra quyết định. Tuy nhiên, việc sở hữu công nghệ không đồng nghĩa với khả năng khai thác công nghệ đó hiệu quả. Báo cáo AI and Skills: What We Know So Far của Tổ chức Hợp tác và Phát triển Kinh tế (OECD) chỉ ra rằng thiếu kỹ năng đang trở thành một trong những rào cản đáng kể đối với quá trình ứng dụng AI của doanh nghiệp.',
+          'Theo OECD, khoảng 40% doanh nghiệp trong lĩnh vực sản xuất và tài chính chưa sử dụng AI cho biết thiếu kỹ năng là một trong những nguyên nhân chính khiến họ chưa triển khai công nghệ này. Với các doanh nghiệp vừa và nhỏ chưa sử dụng GenAI, hơn một nửa cũng cho rằng khoảng cách kỹ năng đang cản trở việc ứng dụng.',
+        ],
+      },
+      {
+        heading: 'AI càng phổ biến, yêu cầu về kỹ năng của người lao động càng thay đổi',
+        paragraphs: [
+          'Những con số này cho thấy bài toán của AI không chỉ nằm ở công nghệ. Doanh nghiệp có thể tiếp cận các mô hình và công cụ AI mới, nhưng để đưa chúng vào hoạt động thực tế vẫn cần những người có khả năng sử dụng, đánh giá kết quả và kết hợp AI với quy trình công việc.',
+          'Theo OECD, chưa đến 1% người lao động cần những kỹ năng AI chuyên sâu như phát triển hoặc lập trình các hệ thống AI. Trong khi đó, phần lớn lực lượng lao động sẽ cần những năng lực rộng hơn, bao gồm kỹ năng số, khả năng sử dụng, phân tích và diễn giải dữ liệu. Các kỹ năng như giải quyết vấn đề, sáng tạo và đổi mới cũng tiếp tục đóng vai trò quan trọng trong môi trường làm việc có AI.',
+          'Điều này cho thấy nhu cầu nhân lực trong kỷ nguyên AI không chỉ tập trung vào một nhóm nhỏ kỹ sư và nhà nghiên cứu. Nếu một bộ phận chuyên gia có nhiệm vụ xây dựng AI, thì phần lớn người lao động sẽ cần năng lực để làm việc cùng AI. OECD cũng ghi nhận hơn một nửa doanh nghiệp trong lĩnh vực sản xuất và tài chính cho biết AI đang làm tăng nhu cầu đối với lao động có trình độ học vấn cao.',
+        ],
+      },
+      {
+        heading: 'Khoảng cách kỹ năng trở thành điểm nghẽn',
+        paragraphs: [
+          'Trong bối cảnh đó, đào tạo và đào tạo lại đang được xem là một trong những cách để thu hẹp khoảng cách giữa tốc độ phát triển của công nghệ và năng lực của lực lượng lao động. Theo OECD, hơn một nửa số người lao động đang sử dụng AI cho biết họ đã nhận được đào tạo do doanh nghiệp tài trợ. Những người được đào tạo cũng có xu hướng báo cáo nhiều kết quả tích cực hơn từ việc sử dụng AI, trong đó có cải thiện hiệu suất công việc và điều kiện làm việc.',
+          'Đáng chú ý, AI cũng có thể trở thành một phần của lời giải cho chính bài toán thiếu nhân lực. OECD ghi nhận một bộ phận doanh nghiệp vừa và nhỏ cho rằng GenAI giúp họ bù đắp khoảng cách về kỹ năng, trong khi một số doanh nghiệp cũng sử dụng công nghệ này để giảm tác động của tình trạng thiếu lao động.',
+          'Điều này tạo ra một vòng lặp mới trên thị trường lao động: thiếu kỹ năng khiến doanh nghiệp khó ứng dụng AI; ứng dụng AI tạo ra nhu cầu về kỹ năng mới; đào tạo giúp người lao động sử dụng AI hiệu quả hơn; và AI lại có thể hỗ trợ doanh nghiệp giải quyết một phần tình trạng thiếu nhân lực. Tuy nhiên, OECD cũng lưu ý rằng việc xác định chính xác những kỹ năng sẽ trở nên quan trọng trong tương lai không phải là bài toán đơn giản — công nghệ thay đổi nhanh trong khi dữ liệu thị trường lao động thường có độ trễ.',
+        ],
+      },
+      {
+        heading: 'Từ biết sử dụng AI đến hiểu AI',
+        paragraphs: [
+          'Trong bối cảnh đó, khái niệm về năng lực AI cũng đang mở rộng. Đối với một nhóm chuyên gia, năng lực AI có thể đồng nghĩa với khả năng phát triển mô hình, xây dựng thuật toán hoặc thiết kế hệ thống. Nhưng với phần lớn người lao động, yêu cầu thực tế có thể bắt đầu từ những năng lực cơ bản hơn: hiểu cách AI hoạt động, biết sử dụng công cụ phù hợp, làm việc với dữ liệu, kiểm tra kết quả và đưa AI vào giải quyết những vấn đề cụ thể.',
+          'Khoảng cách giữa "biết dùng một công cụ AI" và "có năng lực làm việc cùng AI" vì thế ngày càng trở nên rõ ràng. Đây cũng là vấn đề đặt ra cho hệ thống giáo dục và đào tạo. Nếu kỹ năng AI chỉ được trang bị khi người học đã bước vào thị trường lao động, khoảng thời gian để thích nghi với những thay đổi của công nghệ sẽ bị rút ngắn. Ngược lại, việc hình thành nền tảng AI, dữ liệu và tư duy giải quyết vấn đề từ sớm có thể tạo tiền đề để người học tiếp tục nâng cao năng lực khi bước vào môi trường nghề nghiệp.',
+          'AI đang thay đổi công việc, nhưng đồng thời cũng đang thay đổi chính những kỹ năng cần thiết để con người làm việc trong tương lai. Cuộc đua AI vì thế không chỉ là cuộc đua về mô hình, dữ liệu hay năng lực tính toán. Đó còn là cuộc đua về khả năng chuẩn bị con người cho một thị trường lao động nơi AI ngày càng hiện diện sâu hơn. Câu hỏi đặt ra không còn đơn giản là "AI có thể làm được gì?", mà là "lực lượng lao động toàn cầu đã sẵn sàng để làm việc cùng AI hay chưa?"',
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'viet-nam-15000-vi-tri-ai-chi-8000-ung-vien',
+    title: 'Việt Nam có 15.000 vị trí AI cần tuyển, nhưng chỉ 8.000 ứng viên đáp ứng yêu cầu',
+    excerpt: 'Theo VINASA, thị trường nhân lực AI Việt Nam lệch pha rõ rệt: khoảng 15.000 vị trí liên quan đến AI cần tuyển nhưng chỉ khoảng 8.000 ứng viên đáp ứng yêu cầu.',
+    date: '2026-09-24',
+    category: 'Doanh nghiệp',
+    coverImage: '/images/news/29.png',
+    sections: [
+      {
+        paragraphs: [
+          'Sự phát triển nhanh của trí tuệ nhân tạo đang làm thay đổi nhu cầu nhân lực trong ngành công nghệ Việt Nam. Khi các công việc lập trình cơ bản ngày càng được tự động hóa, nhu cầu lại dịch chuyển sang kỹ sư AI, chuyên gia dữ liệu và nhân sự có khả năng tích hợp AI vào các bài toán thực tế.',
+          'Theo ông An Ngọc Thao, Phó Tổng thư ký Hiệp hội Phần mềm và Dịch vụ Công nghệ thông tin Việt Nam (VINASA), thị trường nhân lực AI tại Việt Nam đang xuất hiện sự lệch pha rõ rệt giữa nhu cầu tuyển dụng và nguồn cung. Hiện có khoảng 15.000 vị trí liên quan đến AI cần tuyển, nhưng chỉ khoảng 8.000 ứng viên đáp ứng yêu cầu. Con số này cho thấy bài toán của ngành công nghệ không đơn thuần nằm ở số lượng nhân sự, mà ngày càng tập trung vào chất lượng và năng lực chuyên môn của lực lượng lao động.',
+        ],
+      },
+      {
+        heading: 'AI đang thay đổi cơ cấu việc làm trong ngành công nghệ',
+        paragraphs: [
+          'Sự xuất hiện của các công cụ AI có khả năng hỗ trợ viết mã, kiểm thử và thực hiện nhiều tác vụ lập trình đang khiến một số công việc mang tính thực thi cơ bản chịu áp lực. Tuy nhiên, theo chia sẻ từ VINASA, điều này không đồng nghĩa nhu cầu nhân lực công nghệ giảm xuống.',
+          'Ngược lại, khi chi phí và thời gian phát triển phần mềm giảm nhờ AI, nhu cầu triển khai các hệ thống công nghệ mới có xu hướng tăng. Một lập trình viên biết khai thác AI có thể nâng cao đáng kể năng suất, trong khi doanh nghiệp có thêm khả năng nhận và triển khai những dự án trước đây khó thực hiện vì giới hạn về thời gian và nguồn lực.',
+          'Sự thay đổi vì vậy nằm nhiều hơn ở loại nhân lực mà thị trường cần. Các vị trí như lập trình cơ bản và kiểm thử thủ công có xu hướng giảm sức hút, trong khi nhu cầu đối với kỹ sư AI, chuyên gia dữ liệu, kỹ sư tích hợp hệ thống, kiến trúc sư dữ liệu và chuyên gia bảo mật AI ngày càng được chú ý.',
+        ],
+      },
+      {
+        heading: '15.000 vị trí AI nhưng chỉ 8.000 ứng viên đáp ứng',
+        paragraphs: [
+          'Khoảng cách cung – cầu nhân lực trở nên rõ ràng khi đặt cạnh số lượng vị trí tuyển dụng hiện nay. Theo thông tin được ông An Ngọc Thao chia sẻ, Việt Nam hiện có khoảng 15.000 vị trí liên quan đến AI đang cần tuyển, trong khi chỉ khoảng 8.000 ứng viên đáp ứng yêu cầu. Như vậy, xét theo hai con số này, thị trường đang có khoảng cách khoảng 7.000 vị trí giữa nhu cầu và số ứng viên đáp ứng yêu cầu.',
+          'Đáng chú ý, cuộc cạnh tranh nhân lực AI không còn giới hạn trong các công ty công nghệ. Hơn 40% doanh nghiệp trong các lĩnh vực như ngân hàng, sản xuất và bán lẻ đã đưa AI vào chiến lược phát triển. Khi các doanh nghiệp ngoài ngành công nghệ cũng bắt đầu xây dựng đội ngũ AI nội bộ, phạm vi cạnh tranh để thu hút nhân sự có năng lực tiếp tục mở rộng.',
+        ],
+      },
+      {
+        heading: 'Doanh nghiệp không chỉ cần người biết code',
+        paragraphs: [
+          'Một thay đổi đáng chú ý khác nằm ở cách doanh nghiệp đánh giá ứng viên. Khi AI có thể hỗ trợ tạo mã nguồn, việc chỉ kiểm tra khả năng ghi nhớ cú pháp hay thực hiện những tác vụ lập trình đơn giản không còn đủ để phản ánh năng lực của một kỹ sư.',
+          'Theo ông An Ngọc Thao, doanh nghiệp ngày càng chú trọng ba nhóm năng lực: khả năng giải quyết vấn đề, hiểu biết về nghiệp vụ và khả năng sử dụng công cụ AI để nâng cao hiệu quả công việc. Ở cấp độ cao hơn, kỹ sư cần có khả năng thiết kế kiến trúc hệ thống, tích hợp nhiều nền tảng, hiểu dữ liệu và đưa AI vào giải quyết những vấn đề cụ thể của doanh nghiệp.',
+          'Ví dụ, thay vì chỉ nhận yêu cầu xây dựng một phần mềm và tính phí theo số lượng nhân sự và thời gian thực hiện, doanh nghiệp công nghệ có thể tham gia sâu hơn vào việc thiết kế hệ thống AI cho nhà máy, kết nối camera, cảm biến IoT, tự động phát hiện lỗi sản phẩm hoặc tối ưu lịch bảo trì máy móc. Khi đó, giá trị không còn nằm ở số giờ lập trình mà ở khả năng làm chủ giải pháp và tạo ra giá trị công nghệ cho khách hàng.',
+        ],
+      },
+      {
+        heading: 'AI không chỉ tạo ra nhu cầu nhân lực mới, mà còn nâng chuẩn kỹ sư',
+        paragraphs: [
+          'Theo bài phỏng vấn, ngành CNTT Việt Nam hiện có khoảng 74.000 doanh nghiệp với hơn 1,2 triệu lao động; lực lượng này được dự báo tiếp tục tăng trong những năm tới. Đồng thời, AI đang thúc đẩy sự dịch chuyển từ mô hình cung cấp nhân lực thực thi sang mô hình cung cấp năng lực công nghệ và đồng sáng tạo giải pháp.',
+          'Trong bối cảnh đó, việc đào tạo nhân lực AI không thể chỉ dừng ở việc hướng dẫn sử dụng một vài công cụ. Nền tảng vẫn bao gồm toán ứng dụng, dữ liệu, thuật toán, tư duy hệ thống và kiến thức về kiến trúc công nghệ. Trên nền tảng đó, người học cần tiếp tục phát triển khả năng giải quyết vấn đề, giao tiếp, làm việc nhóm và thích nghi với sự thay đổi liên tục của công nghệ.',
+          'Đặc biệt với học sinh, sinh viên – nhóm nhân lực sẽ bước vào thị trường lao động trong những năm tới – việc tiếp cận AI sớm không chỉ nhằm giúp các em biết sử dụng công cụ, mà còn tạo nền tảng để hiểu AI hoạt động như thế nào, dữ liệu được xử lý ra sao và công nghệ có thể được ứng dụng để giải quyết những bài toán thực tế nào. Khoảng cách giữa 15.000 vị trí cần tuyển và khoảng 8.000 ứng viên đáp ứng yêu cầu vì thế đặt ra một bài toán lớn hơn cho hệ thống đào tạo: không chỉ đào tạo thêm nhân lực công nghệ, mà phải chuẩn bị một thế hệ nhân lực có năng lực làm việc ở tầng cao hơn cùng AI.',
+        ],
+      },
+    ],
+  },
 ]
 
 export function getNewsBySlug(slug: string): NewsItem | undefined {
