@@ -1,29 +1,18 @@
-/** Canonical production site. */
+/** Canonical production site — used for OG / Facebook share previews. */
 export const SITE_URL = 'https://ai57tuyensinh.honglinheducation.vn'
 
 export function getAbsoluteUrl(path: string): string {
   if (path.startsWith('http')) return path
-  const origin =
-    typeof window !== 'undefined' && window.location?.origin
-      ? window.location.origin
-      : SITE_URL
-  return `${origin}${path.startsWith('/') ? path : `/${path}`}`
+  return `${SITE_URL}${path.startsWith('/') ? path : `/${path}`}`
 }
 
-/** Prefer the domain the user is actually on (avoids stale hard-coded hosts). */
+/** Always share the production URL so Facebook/Zalo can scrape OG tags. */
 export function getArticleShareUrl(slug: string): string {
-  const origin =
-    typeof window !== 'undefined' && window.location?.origin
-      ? window.location.origin
-      : SITE_URL
-  return `${origin}/tin-tuc/${slug}`
+  return `${SITE_URL}/tin-tuc/${slug}`
 }
 
+/** Absolute cover URL for og:image (never localhost). */
 export function getArticleImageUrl(coverImage: string): string {
   if (coverImage.startsWith('http')) return coverImage
-  const origin =
-    typeof window !== 'undefined' && window.location?.origin
-      ? window.location.origin
-      : SITE_URL
-  return `${origin}${coverImage.startsWith('/') ? coverImage : `/${coverImage}`}`
+  return `${SITE_URL}${coverImage.startsWith('/') ? coverImage : `/${coverImage}`}`
 }

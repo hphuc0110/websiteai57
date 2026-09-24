@@ -49,6 +49,18 @@ export function setPageMeta({
   upsertMeta('property', 'og:title', title)
   upsertMeta('property', 'og:description', description)
   upsertMeta('property', 'og:image', image)
+  upsertMeta('property', 'og:image:secure_url', image)
+  upsertMeta('property', 'og:image:width', '1200')
+  upsertMeta('property', 'og:image:height', '630')
+  upsertMeta(
+    'property',
+    'og:image:type',
+    image.toLowerCase().includes('.jpg') || image.toLowerCase().includes('.jpeg')
+      ? 'image/jpeg'
+      : image.toLowerCase().includes('.webp')
+        ? 'image/webp'
+        : 'image/png',
+  )
 
   upsertMeta('name', 'twitter:card', 'summary_large_image')
   upsertMeta('name', 'twitter:title', title)

@@ -5,11 +5,9 @@ type ShareFacebookButtonProps = {
 
 export default function ShareFacebookButton({ url, title }: ShareFacebookButtonProps) {
   const shareOnFacebook = () => {
-    // Always share the live page URL so the domain matches what the user is browsing.
-    const target =
-      (typeof window !== 'undefined' && window.location?.href) ||
-      url
-    const shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(target)}`
+    // Use the canonical production URL (not window.location) so crawlers
+    // always hit the live domain with correct og:image tags.
+    const shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`
     window.open(shareUrl, 'facebook-share-dialog', 'width=600,height=480,noopener,noreferrer')
     window.fbq?.('trackCustom', 'Share', {
       content_name: title,

@@ -43,6 +43,9 @@ function injectOg(html, { title, description, url, image, type = 'article' }) {
     <meta property="og:title" content="${safeTitle}" />
     <meta property="og:description" content="${safeDesc}" />
     <meta property="og:image" content="${image}" />
+    <meta property="og:image:secure_url" content="${image}" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
     <meta property="og:image:alt" content="${safeTitle}" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="${safeTitle}" />
@@ -75,19 +78,7 @@ const listHtml = injectOg(baseHtml, {
 })
 fs.writeFileSync(path.join(newsRoot, 'index.html'), listHtml)
 
-for (const article of articles) {
-  const url = `${SITE_URL}/tin-tuc/${article.slug}`
-  const image = `${SITE_URL}${article.coverImage}`
-  const html = injectOg(baseHtml, {
-    title: `${article.title} — AI57`,
-    description: article.excerpt,
-    url,
-    image,
-    type: 'article',
-  })
-  const dir = path.join(newsRoot, article.slug)
-  fs.mkdirSync(dir, { recursive: true })
-  fs.writeFileSync(path.join(dir, 'index.html'), html)
-}
-
-console.log(`Generated OG HTML for ${articles.length} articles + /tin-tuc list`)
+// Per-article OG HTML is served dynamically by /api/news-og for social crawlers
+// (see vercel.json bot rewrite). Avoid static files here so bots always hit the API
+// and pick up both static + Supabase posts with correct og:image.
+console.log(`Generated OG HTML for /tin-tuc list (${articles.length} articles in news-meta for API)`)

@@ -14,20 +14,7 @@ export interface NewsItem {
   category: string
   coverImage: string
   sections: NewsSection[]
-  /** Present for posts stored in Supabase */
-  id?: string
-  source?: 'static' | 'db'
 }
-
-export const NEWS_CATEGORIES = [
-  'Thị trường',
-  'Robotics',
-  'Địa chính trị',
-  'Công nghệ',
-  'Pháp lý',
-  'Doanh nghiệp',
-  'Quy định',
-] as const
 
 export const newsItems: NewsItem[] = [
   {
