@@ -116,7 +116,7 @@ export const roadmapLevels: LevelData[] = [
         number: 1,
         title: "AI FOUNDATIONS & GENERATIVE LITERACY",
         description:
-          "Xây nền tảng hiểu AI/GenAI, prompt engineering, GenAI thị giác, RAG & Study OS, Generative UI/tác tử, đạo đức & an toàn — kết hợp 10 buổi lý thuyết và 3 workshop thực hành (Prompt Lab, Creative Studio, AI Builder).",
+          "Xây nền tảng hiểu AI/GenAI, prompt engineering, GenAI thị giác, RAG & Study OS, Generative UI/tác tử, đạo đức & an toàn — kết hợp 10 buổi nền tảng và 3 workshop thực hành (Prompt Lab, Creative Studio, AI Builder).",
         theoryMeta: "4.000.000 Đ",
         theorySessions: [
           {
@@ -802,7 +802,7 @@ export const roadmapLevels: LevelData[] = [
             focus:
               "Biến ngẫu nhiên, Bernoulli, Normal; Expectation, Variance, Noise modeling.",
             deliverable:
-              "Mô phỏng xác suất tung đồng xu & đối chiếu lý thuyết.",
+              "Mô phỏng xác suất tung đồng xu & đối chiếu nền tảng.",
           },
           {
             code: "LT08",

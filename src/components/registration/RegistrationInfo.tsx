@@ -20,7 +20,7 @@ const benefits = [
     ),
     title: 'Lộ trình bài bản, linh hoạt theo định hướng',
     description:
-      'Học sinh bắt đầu với kiến thức lý thuyết nền tảng, sau đó chủ động lựa chọn các workshop và hướng thực hành phù hợp với sở thích, năng lực và định hướng nghề nghiệp. Từ Coding, Data, AI Agent, Web/App đến AI Video, Marketing hay các ứng dụng AI trong giáo dục, mỗi workshop là một cơ hội để học sinh khám phá một lĩnh vực mới, trực tiếp thực hành và tạo ra sản phẩm cụ thể.',
+      'Học sinh bắt đầu với kiến thức nền tảng, sau đó chủ động lựa chọn các workshop và hướng thực hành phù hợp với sở thích, năng lực và định hướng nghề nghiệp. Từ Coding, Data, AI Agent, Web/App đến AI Video, Marketing hay các ứng dụng AI trong giáo dục, mỗi workshop là một cơ hội để học sinh khám phá một lĩnh vực mới, trực tiếp thực hành và tạo ra sản phẩm cụ thể.',
   },
   {
     icon: (

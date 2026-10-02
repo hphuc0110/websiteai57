@@ -11,7 +11,7 @@ export default function RoadmapSection() {
       <div className="relative mx-auto max-w-6xl px-4 md:px-6">
         <SectionTitle
           title="LỘ TRÌNH ĐÀO TẠO"
-          subtitle="6 Module · Mỗi module: 10 buổi lý thuyết + khối Workshop thực hành"
+          subtitle="6 Module · Mỗi module: 10 buổi nền tảng + khối Workshop thực hành"
           className="mb-10 sm:mb-14"
         />
 

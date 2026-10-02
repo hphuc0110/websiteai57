@@ -1051,6 +1051,240 @@ export const newsItems: NewsItem[] = [
       },
     ],
   },
+  {
+    slug: 'viet-nam-gianh-7-huy-chuong-ioai-2026',
+    title: 'Việt Nam giành 7 huy chương tại Olympic Trí tuệ nhân tạo quốc tế 2026',
+    excerpt:
+      'Đội tuyển quốc gia Việt Nam giành 7 huy chương tại IOAI 2026 ở Astana, gồm 2 vàng, 1 bạc và 4 đồng, trong lần đầu tham dự theo quy trình tuyển chọn mới của Bộ Giáo dục và Đào tạo.',
+    date: '2026-10-01',
+    category: 'Giáo dục',
+    coverImage: '/images/news/30.png',
+    sections: [
+      {
+        paragraphs: [
+          'Đội tuyển quốc gia Việt Nam đã giành 7 huy chương tại Olympic Trí tuệ nhân tạo quốc tế (IOAI) 2026, trong lần đầu tiên tham dự sân chơi này dưới hình thức tuyển chọn mới của Bộ Giáo dục và Đào tạo.',
+          'Kỳ thi Olympic Trí tuệ nhân tạo quốc tế lần thứ ba được tổ chức từ ngày 2 đến 8/8/2026 tại Astana, Kazakhstan, quy tụ 108 đội tuyển quốc gia và vùng lãnh thổ, với 471 học sinh tranh tài ở nội dung lập trình AI cá nhân.',
+        ],
+      },
+      {
+        heading: 'Bảy huy chương trong lần đầu tiên',
+        paragraphs: [
+          'Trong 8 thành viên của đội tuyển Việt Nam, có 7 em đoạt huy chương, gồm 2 huy chương vàng, 1 huy chương bạc và 4 huy chương đồng.',
+          'Hai huy chương vàng thuộc về Nguyễn Viết Trung Nhân (lớp 11) và Nguyễn Hữu Tuấn (lớp 12), đều là học sinh Trường THPT Chuyên Khoa học Tự nhiên, Trường Đại học Khoa học Tự nhiên, Đại học Quốc gia Hà Nội. Huy chương bạc thuộc về Nguyễn Anh Hùng (lớp 11), cùng trường với hai học sinh đoạt huy chương vàng.',
+          'Bốn huy chương đồng được trao cho Phan Đình Triết (THPT Chuyên Lê Quý Đôn, Đà Nẵng), Lê Minh Quân (THPT Chuyên Quang Trung, Đồng Nai), Hà Gia Minh (THPT Chuyên Khoa học Tự nhiên) và Nguyễn Lê Duy Khang (THPT Chuyên Lê Hồng Phong, TP Hồ Chí Minh).',
+        ],
+      },
+      {
+        heading: 'Thành tích nổi bật của Nguyễn Hữu Tuấn',
+        paragraphs: [
+          'Nguyễn Hữu Tuấn là gương mặt gây chú ý nhất trong đội tuyển khi liên tiếp giành huy chương vàng ở hai kỳ Olympic quốc tế chỉ trong vòng một tuần. Sau huy chương vàng IOAI 2026 tại Kazakhstan, em tiếp tục giành huy chương vàng tại Olympic Tin học quốc tế (IOI) 2026 tổ chức tại Uzbekistan.',
+          'Tính đến nay, Nguyễn Hữu Tuấn đã có tổng cộng 4 huy chương vàng và 2 huy chương bạc quốc tế, gồm huy chương vàng IOAI các năm 2025, 2026, huy chương vàng APIO 2026, huy chương vàng IOI 2026, cùng huy chương bạc IOI 2024 và APIO 2024.',
+        ],
+      },
+      {
+        heading: 'Quy trình tuyển chọn hai vòng lần đầu áp dụng',
+        paragraphs: [
+          'Năm 2026 là năm đầu tiên Bộ Giáo dục và Đào tạo tổ chức tuyển chọn đội tuyển quốc gia dự IOAI theo hai vòng thi. Vòng sơ tuyển trực tuyến thu hút 1.188 học sinh đến từ 34 tỉnh, thành phố. Sau vòng sơ tuyển, các thí sinh xuất sắc bước vào vòng 2, thi trực tiếp phần lập trình AI trên máy tính, để chọn ra 8 học sinh đại diện Việt Nam tham dự kỳ thi quốc tế.',
+          'Theo đánh giá chung, đề thi IOAI 2026 có độ khó cao, yêu cầu thí sinh thực hiện trọn vẹn quy trình giải quyết một bài toán trí tuệ nhân tạo, từ phân tích dữ liệu, lựa chọn phương pháp, lập trình, huấn luyện, tối ưu mô hình cho đến kiểm thử và hoàn thiện sản phẩm.',
+          'Kết quả 7/8 thí sinh đoạt giải ngay trong lần đầu tham dự chính thức dưới sự tuyển chọn của Bộ Giáo dục và Đào tạo cho thấy năng lực cạnh tranh của học sinh Việt Nam trong lĩnh vực trí tuệ nhân tạo, đồng thời phản ánh hiệu quả bước đầu của quy trình tuyển chọn hai vòng mới được áp dụng trong năm nay.',
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'phat-dong-cuoc-thi-sang-tao-tre-quoc-gia-ai-2026',
+    title: 'Phát động Cuộc thi Sáng tạo trẻ Quốc gia về AI năm 2026',
+    excerpt:
+      'Trung ương Đoàn phát động Cuộc thi Sáng tạo trẻ Quốc gia về AI năm 2026, mở sân chơi cho học sinh, sinh viên từ 12 đến 22 tuổi trên cả nước.',
+    date: '2026-09-30',
+    category: 'Giáo dục',
+    coverImage: '/images/news/31.png',
+    sections: [
+      {
+        paragraphs: [
+          'Trung ương Đoàn vừa phát động Cuộc thi Sáng tạo trẻ Quốc gia trong lĩnh vực Trí tuệ nhân tạo năm 2026, mở ra sân chơi cấp quốc gia cho học sinh, sinh viên từ 12 đến 22 tuổi trên cả nước.',
+          'Cuộc thi hướng đến việc phát hiện, bồi dưỡng tài năng trẻ trong lĩnh vực AI và công nghệ số, đồng thời khuyến khích thí sinh vận dụng kiến thức để giải quyết các vấn đề thực tiễn bằng công nghệ AI. Đối tượng tham gia là học sinh THCS, THPT, sinh viên cao đẳng, đại học, học viện hoặc công dân Việt Nam trong độ tuổi từ 12 đến 22.',
+        ],
+      },
+      {
+        heading: 'Ba bảng thi theo cấp học',
+        paragraphs: [
+          'Cuộc thi chia thành ba bảng: Bảng A dành cho học sinh THCS hoặc độ tuổi tương đương, Bảng B dành cho học sinh THPT, Bảng C dành cho sinh viên cao đẳng, đại học, học viện. Mỗi đội thi tối đa 3 thành viên, một thí sinh chỉ được đăng ký ở một đội, một bảng.',
+          'Yêu cầu hồ sơ tăng dần theo bảng thi: Bảng A nộp tài liệu dự án tối đa 8 trang, Bảng B tối đa 12 trang, Bảng C tối đa 20 trang, đều kèm video thuyết trình, video demo theo mẫu quy định, cùng minh chứng và kê khai trung thực các công cụ AI đã sử dụng.',
+        ],
+      },
+      {
+        heading: 'Lộ trình thi đấu',
+        paragraphs: [
+          'Hạn đăng ký và hoàn thiện hồ sơ cho đội thi tự do đã được Ban Tổ chức gia hạn đến 23h59 ngày 30/9/2026. Sau vòng loại, các đội bước vào vòng khu vực, chia theo hai đợt.',
+          'Vòng khu vực miền Nam diễn ra ngày 10–11/10/2026 tại TP Hồ Chí Minh. Bảng A và B thi ngày 10/10, Bảng C thi hackathon trực tiếp trong 2 ngày. Vòng khu vực miền Bắc và miền Trung diễn ra ngày 17–18/10/2026 tại Hà Nội và Đà Nẵng. Bảng A và B thi ngày 17/10, Bảng C thi hackathon trực tiếp trong 2 ngày.',
+          'Vòng chung kết sẽ diễn ra tại Hà Nội với thử thách cải tiến sản phẩm trong 12 giờ và phần phản biện trực tiếp.',
+        ],
+      },
+      {
+        heading: 'Giải thưởng và quyền lợi',
+        paragraphs: [
+          'Ở vòng khu vực, mỗi bảng thi có 5 giải Nhất, 10 giải Nhì, 15 giải Ba và 20 giải Khuyến khích. Vòng chung kết mỗi bảng có 1 giải Nhất, 2 giải Nhì, 5 giải Ba và 7 giải Khuyến khích. Thí sinh đạt giải Nhất, Nhì, Ba được tặng Bằng khen của Ban Chấp hành Trung ương Đoàn.',
+          'Ngoài ghi nhận thành tích, thí sinh còn được tham gia các chương trình tập huấn chuyên đề trước vòng khu vực và kết nối với chuyên gia, mentor trong mạng lưới thanh niên sáng tạo.',
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'ai-arena-viet-nam-2026',
+    title: 'AI Arena: Viet Nam 2026 — đấu trường ứng dụng AI thực chiến cho sinh viên toàn quốc',
+    excerpt:
+      'Đại học Quốc gia Hà Nội phối hợp cùng Google phát động AI Arena: Viet Nam 2026, nơi sinh viên dùng Gemini và Google AI Studio để xây dựng sản phẩm trong thời gian giới hạn.',
+    date: '2026-09-29',
+    category: 'Giáo dục',
+    coverImage: '/images/news/32.png',
+    sections: [
+      {
+        paragraphs: [
+          'Đại học Quốc gia Hà Nội phối hợp cùng Google vừa chính thức phát động cuộc thi AI Arena: Viet Nam 2026, dành cho sinh viên đang học tại các cơ sở giáo dục đại học trên toàn quốc.',
+          'Cuộc thi hướng đến mục tiêu thúc đẩy khả năng ứng dụng AI tạo sinh, kỹ năng thiết kế câu lệnh (prompting) và tư duy sản phẩm. Sinh viên sẽ trực tiếp sử dụng Google Gemini và Google AI Studio để phân tích bài toán, xây dựng ý tưởng và phát triển nhanh các bản thử nghiệm ý tưởng (proof of concept).',
+        ],
+      },
+      {
+        heading: 'Thử thách thực chiến, không thiên về lý thuyết',
+        paragraphs: [
+          'Khác với các cuộc thi thiên về kiến thức lý thuyết, AI Arena: Viet Nam 2026 đặt thí sinh vào những tình huống yêu cầu giải quyết vấn đề trong thời gian giới hạn. Các đội phải nhanh chóng phân tích yêu cầu, xác định hướng tiếp cận, khai thác Google Gemini và Google AI Studio để phát triển sản phẩm, đồng thời trình bày giải pháp một cách rõ ràng và thuyết phục.',
+          'Bài thi được chấm theo thang điểm 10 với ba nhóm tiêu chí: tính khả thi (50%), tầm nhìn (30%) và tính sáng tạo (20%).',
+        ],
+      },
+      {
+        heading: 'Lịch trình',
+        paragraphs: [
+          'Cuộc thi mở đăng ký từ ngày 15/9/2026 đến hết ngày 10/10/2026. Sau quá trình chấm và rà soát, 8 đội xuất sắc nhất sẽ giành quyền bước vào vòng chung kết, dự kiến diễn ra tại Đại học Quốc gia Hà Nội.',
+        ],
+      },
+      {
+        heading: 'Quyền lợi cho thí sinh',
+        paragraphs: [
+          'Mọi đội đăng ký tham gia đều được cấp tài nguyên công nghệ từ Google. Riêng 8 đội xuất sắc nhất vào vòng chung kết sẽ nhận thêm đặc quyền cố vấn chuyên môn, cùng hệ thống danh hiệu và phần thưởng kết nối với hệ sinh thái của Google và Đại học Quốc gia Hà Nội dành cho các đội chiến thắng. Chi tiết từng hạng mục giải thưởng sẽ được Ban Tổ chức công bố trong thời gian tới.',
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'ha-noi-day-ai-cho-100-hoc-sinh',
+    title: 'Hà Nội dạy AI cho 100% học sinh: giáo viên được chuẩn bị trước, học sinh học sau',
+    excerpt:
+      'Từ năm học 2026–2027, học sinh Hà Nội từ lớp 1 đến lớp 12 học 12 tiết AI mỗi năm. Giáo viên được bồi dưỡng trước khi học sinh vào các chuyên đề.',
+    date: '2026-10-02',
+    category: 'Giáo dục',
+    coverImage: '/images/news/33.png',
+    sections: [
+      {
+        paragraphs: [
+          'Từ năm học 2026–2027, học sinh Hà Nội từ lớp 1 đến lớp 12 đều học 12 tiết về trí tuệ nhân tạo (AI) mỗi năm. Điểm đáng chú ý của kế hoạch là thứ tự triển khai: đội ngũ giáo viên được bồi dưỡng trước khi học sinh vào các chuyên đề.',
+          'Theo Kế hoạch số 4758/KH-SGDĐT của Sở Giáo dục và Đào tạo Hà Nội, toàn bộ học sinh phổ thông và học viên giáo dục thường xuyên trên địa bàn được tiếp cận nội dung cốt lõi về AI với thời lượng 12 tiết/lớp/năm học. Nội dung này được lồng vào kế hoạch dạy học hai buổi/ngày, không hình thành môn học mới và không có đầu điểm riêng, nhằm tránh tạo thêm áp lực cho học sinh và giáo viên.',
+        ],
+      },
+      {
+        heading: 'Giáo viên đi trước',
+        paragraphs: [
+          'Kế hoạch được chia thành ba giai đoạn. Trong tháng 9/2026, các đơn vị ban hành kế hoạch, tập huấn giáo viên cốt cán và chuẩn bị kế hoạch dạy học. Mỗi trường có ít nhất một giáo viên cốt cán; toàn thành phố dự kiến có ít nhất 300 người. Từ tháng 9/2026 đến tháng 1/2027, các trường tổ chức dạy chuyên đề, ban hành quy tắc sử dụng AI, rà soát công cụ giảng dạy và sơ kết học kỳ I.',
+          'Ngày 18/9, Sở tổ chức hội nghị triển khai kế hoạch với 700 điểm cầu và hơn 20.000 cán bộ, giáo viên tham dự. Việc bồi dưỡng chia theo ba mức: phổ cập 8 tiết cho giáo viên nói chung, tối thiểu 24 tiết cho giáo viên dạy chuyên đề và 40 tiết cho giáo viên cốt cán. Mục tiêu là bồi dưỡng 100% cán bộ quản lý và giáo viên dạy chuyên đề trước ngày 31/10. Theo hướng dẫn, giáo viên tin học giữ vai trò nòng cốt, giáo viên các môn khác đã được bồi dưỡng có thể tham gia.',
+        ],
+      },
+      {
+        heading: 'Đạo đức đi cùng kỹ thuật',
+        paragraphs: [
+          'Chương trình gồm bốn mạch: tư duy lấy con người làm trung tâm, đạo đức AI, kỹ thuật và ứng dụng AI, thiết kế hệ thống AI. Hai mạch đầu chiếm 50% thời lượng cốt lõi và được dạy trước hoặc song song với phần kỹ thuật. Học sinh được học về quyền riêng tư, an toàn dữ liệu cá nhân, nhận biết thông tin giả mạo và cách ứng xử văn minh khi dùng công nghệ.',
+          'Kế hoạch cũng đặt ra các yêu cầu về an toàn. Mọi công cụ AI trước khi đưa vào trường học phải qua 8 tiêu chí rà soát bắt buộc. Dữ liệu cá nhân, hình ảnh, giọng nói và kết quả học tập của học sinh không được đưa lên nền tảng chưa được rà soát hoặc dùng làm dữ liệu huấn luyện AI. Từ cấp THCS, học sinh dùng AI hỗ trợ sản phẩm học tập phải kê khai trung thực mục đích và phạm vi hỗ trợ.',
+        ],
+      },
+      {
+        heading: 'Ba tầng đồng tâm',
+        paragraphs: [
+          'Hà Nội tổ chức giáo dục AI theo mô hình ba tầng, phù hợp điều kiện từng địa bàn. Tầng nền là 12 tiết cốt lõi cho mọi học sinh. Tầng mở rộng dự kiến áp dụng tại ít nhất 50 cơ sở đủ hạ tầng và giáo viên, thông qua câu lạc bộ AI, Robotics, STEM và dự án học tập. Tầng chuyên sâu, định hướng nghề nghiệp, triển khai tại bốn trường THPT chuyên và ít nhất 10 trường THPT trọng điểm, với sự tham gia của trường đại học và doanh nghiệp công nghệ.',
+          'Việc học AI tại Hà Nội không thu phí và không tổ chức kiểm tra định kỳ hay lấy điểm số.',
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'tap-huan-ai-vao-giang-day',
+    title: 'Tập huấn AI vào giảng dạy: hiểu và kiểm chứng AI quan trọng hơn thạo công cụ',
+    excerpt:
+      'Khi 12 tiết giáo dục AI vào trường từ năm học 2026–2027, trọng tâm không phải thao tác công cụ mà là hiểu cách AI vận hành, biết kiểm chứng và nhận diện rủi ro.',
+    date: '2026-10-02',
+    category: 'Giáo dục',
+    coverImage: '/images/news/34.png',
+    sections: [
+      {
+        paragraphs: [
+          'Khi 12 tiết giáo dục AI bắt đầu đi vào trường học từ năm học 2026–2027, một câu hỏi được đặt ra là học sinh cần học gì: thao tác trên công cụ hay hiểu cách AI vận hành? Theo các chuyên gia và kế hoạch triển khai tại Hà Nội, câu trả lời nghiêng về vế sau.',
+        ],
+      },
+      {
+        heading: '12 tiết, bốn mạch nội dung',
+        paragraphs: [
+          'Ngày 18/8/2026, Bộ GD&ĐT ban hành Quyết định 2422/QĐ-BGDĐT kèm Khung nội dung giáo dục trí tuệ nhân tạo cho học sinh phổ thông. Nội dung cốt lõi có thời lượng 12 tiết/lớp/năm học, bên cạnh phần mở rộng do cơ sở giáo dục chủ động bố trí. Khung được xây dựng trên bốn mạch: tư duy lấy con người làm trung tâm, đạo đức AI, kỹ thuật và ứng dụng AI, thiết kế hệ thống AI.',
+        ],
+      },
+      {
+        heading: 'Không nhầm giáo dục AI với dùng công cụ AI',
+        paragraphs: [
+          'Tại buổi tập huấn cho giáo viên Trường Tiểu học Phúc Đồng (Hà Nội), GD&TĐ đưa tin ngày 26/9, TS. Hoàng Thị Mai, Trưởng khoa Toán – Công nghệ thông tin, Trường ĐH Thủ đô Hà Nội, nhấn mạnh rằng giáo dục AI không đồng nghĩa với việc sử dụng công cụ AI. Theo bà, mục tiêu là giúp người học hiểu cơ chế vận hành, biết kiểm chứng kết quả và nhận diện rủi ro như ảo giác hay thiên lệch dữ liệu.',
+        ],
+      },
+      {
+        heading: 'Hà Nội: đạo đức đi trước, công cụ phải qua kiểm định',
+        paragraphs: [
+          'Tinh thần này thể hiện trong kế hoạch của Hà Nội. Theo Kế hoạch số 4758/KH-SGDĐT của Sở GD&ĐT, hai mạch đầu (tư duy lấy con người làm trung tâm và đạo đức AI) chiếm 50% thời lượng cốt lõi, được dạy trước hoặc song song với phần kỹ thuật. Mọi công cụ AI trước khi vào trường học phải qua 8 tiêu chí rà soát bắt buộc; nhà trường chịu trách nhiệm chọn công cụ phù hợp độ tuổi, hướng dẫn và giám sát việc dùng. Từ cấp THCS, học sinh dùng AI hỗ trợ sản phẩm học tập phải kê khai trung thực mục đích và phạm vi sử dụng.',
+          'Giáo viên cũng được chuẩn bị theo ba mức: phổ cập 8 tiết, tối thiểu 24 tiết cho giáo viên dạy chuyên đề và 40 tiết cho giáo viên cốt cán. Mục tiêu là bồi dưỡng 100% cán bộ quản lý và giáo viên dạy chuyên đề trước ngày 31/10.',
+        ],
+      },
+      {
+        heading: 'Điều phụ huynh và học sinh nên hỏi',
+        paragraphs: [
+          'Khi công cụ thay đổi nhanh, câu hỏi hữu ích với mỗi gia đình không chỉ là con dùng được công cụ nào. Điều đáng hỏi là con có kiểm tra được câu trả lời của AI không, và có hiểu vì sao nó có thể sai không. Đó là năng lực học sinh mang theo qua mọi công cụ, kể cả những công cụ chưa ra đời.',
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'toan-bo-hoc-sinh-pho-thong-se-hoc-ai',
+    title: 'Toàn bộ học sinh phổ thông sẽ học AI từ tháng 9 tới',
+    excerpt:
+      'Từ năm học 2026–2027, học sinh phổ thông cả nước học 12 tiết AI mỗi năm. Nhà trường chọn công cụ và chịu trách nhiệm an toàn; nội dung cốt lõi không thu phí.',
+    date: '2026-10-02',
+    category: 'Giáo dục',
+    coverImage: '/images/news/35.png',
+    sections: [
+      {
+        paragraphs: [
+          'Từ năm học 2026–2027, học sinh phổ thông trên cả nước học 12 tiết nội dung cốt lõi về trí tuệ nhân tạo mỗi năm. Khi AI trở thành nội dung học chính thức, nhiều phụ huynh băn khoăn: có phải mua thêm thiết bị, tài khoản không, và nhà trường đảm bảo an toàn cho con ở mức nào? Theo các quy định và kế hoạch đã ban hành, câu trả lời nằm ở trách nhiệm của nhà trường, còn phụ huynh cần nắm vài câu hỏi đáng đặt ra.',
+        ],
+      },
+      {
+        heading: 'Học phí không phải là câu hỏi đầu tiên',
+        paragraphs: [
+          'Quyết định 2422/QĐ-BGDĐT, ban hành ngày 18/8/2026, quy định giáo dục AI được triển khai đại trà từ năm học 2026–2027 với phần cốt lõi 12 tiết/lớp/năm và phần mở rộng do trường chủ động bố trí. Bộ GD&ĐT yêu cầu việc phối hợp xã hội hóa phải tự nguyện, công khai, minh bạch, không gây áp lực tài chính cho học sinh và cha mẹ. Tại Hà Nội, kế hoạch của Sở nêu rõ đây không phải môn học mới, không thu phí và không kiểm tra lấy điểm.',
+        ],
+      },
+      {
+        heading: 'Nhà trường chọn và chịu trách nhiệm về công cụ',
+        paragraphs: [
+          'Theo quy định, nhà trường có trách nhiệm lựa chọn, rà soát công cụ AI phù hợp độ tuổi, mục tiêu giáo dục và điều khoản sử dụng; khi có sự cố phải báo cáo ngay. Hà Nội đi xa hơn một bước: mọi công cụ AI trước khi vào lớp học phải qua 8 tiêu chí kiểm định, các trường phải ban hành quy tắc sử dụng AI, và dữ liệu cá nhân, hình ảnh, giọng nói, kết quả học tập của học sinh không được đưa lên nền tảng chưa được rà soát.',
+        ],
+      },
+      {
+        heading: 'Học sinh học gì, và dùng AI ra sao',
+        paragraphs: [
+          'Học sinh không chỉ học cách dùng công cụ. Chương trình có bốn mạch, trong đó tư duy lấy con người làm trung tâm và đạo đức AI chiếm một nửa thời lượng cốt lõi tại Hà Nội. Từ cấp THCS, học sinh dùng AI hỗ trợ sản phẩm học tập phải kê khai trung thực mục đích và phạm vi hỗ trợ.',
+        ],
+      },
+      {
+        heading: 'Ba câu hỏi phụ huynh có thể đặt với nhà trường',
+        paragraphs: [
+          'Trường con chọn hình thức nào: chuyên đề riêng, lồng ghép vào môn học hay kết hợp cả hai? Công cụ AI nào đã được trường rà soát và dữ liệu của con được bảo vệ ra sao? Quy tắc dùng AI ở trường là gì, và gia đình nên phối hợp thế nào khi con dùng AI ở nhà? Những câu hỏi này giúp phụ huynh đồng hành cùng nhà trường thay vì chỉ chờ kết quả.',
+        ],
+      },
+    ],
+  },
 ]
 
 export function getNewsBySlug(slug: string): NewsItem | undefined {

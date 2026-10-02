@@ -108,7 +108,7 @@ export default function ModuleCard({ module, levelLetter }: ModuleCardProps) {
             <p className="mb-3 text-xs text-gray-500">Nhấn card để xem chi tiết LT01–LT10</p>
 
             <PathCard
-              title="Lý thuyết nền tảng"
+              title="Nền tảng"
               subtitle="LT01 – LT10"
               footer={module.theoryMeta}
               footerClass="bg-primary"

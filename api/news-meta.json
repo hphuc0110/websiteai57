@@ -230,5 +230,53 @@
     "date": "2026-09-24",
     "category": "Doanh nghiệp",
     "coverImage": "/images/news/29.png"
+  },
+  {
+    "slug": "viet-nam-gianh-7-huy-chuong-ioai-2026",
+    "title": "Việt Nam giành 7 huy chương tại Olympic Trí tuệ nhân tạo quốc tế 2026",
+    "excerpt": "Đội tuyển quốc gia Việt Nam giành 7 huy chương tại IOAI 2026 ở Astana, gồm 2 vàng, 1 bạc và 4 đồng, trong lần đầu tham dự theo quy trình tuyển chọn mới của Bộ Giáo dục và Đào tạo.",
+    "date": "2026-10-01",
+    "category": "Giáo dục",
+    "coverImage": "/images/news/30.png"
+  },
+  {
+    "slug": "phat-dong-cuoc-thi-sang-tao-tre-quoc-gia-ai-2026",
+    "title": "Phát động Cuộc thi Sáng tạo trẻ Quốc gia về AI năm 2026",
+    "excerpt": "Trung ương Đoàn phát động Cuộc thi Sáng tạo trẻ Quốc gia về AI năm 2026, mở sân chơi cho học sinh, sinh viên từ 12 đến 22 tuổi trên cả nước.",
+    "date": "2026-09-30",
+    "category": "Giáo dục",
+    "coverImage": "/images/news/31.png"
+  },
+  {
+    "slug": "ai-arena-viet-nam-2026",
+    "title": "AI Arena: Viet Nam 2026 — đấu trường ứng dụng AI thực chiến cho sinh viên toàn quốc",
+    "excerpt": "Đại học Quốc gia Hà Nội phối hợp cùng Google phát động AI Arena: Viet Nam 2026, nơi sinh viên dùng Gemini và Google AI Studio để xây dựng sản phẩm trong thời gian giới hạn.",
+    "date": "2026-09-29",
+    "category": "Giáo dục",
+    "coverImage": "/images/news/32.png"
+  },
+  {
+    "slug": "ha-noi-day-ai-cho-100-hoc-sinh",
+    "title": "Hà Nội dạy AI cho 100% học sinh: giáo viên được chuẩn bị trước, học sinh học sau",
+    "excerpt": "Từ năm học 2026–2027, học sinh Hà Nội từ lớp 1 đến lớp 12 học 12 tiết AI mỗi năm. Giáo viên được bồi dưỡng trước khi học sinh vào các chuyên đề.",
+    "date": "2026-10-02",
+    "category": "Giáo dục",
+    "coverImage": "/images/news/33.png"
+  },
+  {
+    "slug": "tap-huan-ai-vao-giang-day",
+    "title": "Tập huấn AI vào giảng dạy: hiểu và kiểm chứng AI quan trọng hơn thạo công cụ",
+    "excerpt": "Khi 12 tiết giáo dục AI vào trường từ năm học 2026–2027, trọng tâm không phải thao tác công cụ mà là hiểu cách AI vận hành, biết kiểm chứng và nhận diện rủi ro.",
+    "date": "2026-10-02",
+    "category": "Giáo dục",
+    "coverImage": "/images/news/34.png"
+  },
+  {
+    "slug": "toan-bo-hoc-sinh-pho-thong-se-hoc-ai",
+    "title": "Toàn bộ học sinh phổ thông sẽ học AI từ tháng 9 tới",
+    "excerpt": "Từ năm học 2026–2027, học sinh phổ thông cả nước học 12 tiết AI mỗi năm. Nhà trường chọn công cụ và chịu trách nhiệm an toàn; nội dung cốt lõi không thu phí.",
+    "date": "2026-10-02",
+    "category": "Giáo dục",
+    "coverImage": "/images/news/35.png"
   }
 ]
