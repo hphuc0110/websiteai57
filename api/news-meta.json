@@ -278,5 +278,61 @@
     "date": "2026-10-02",
     "category": "Giáo dục",
     "coverImage": "/images/news/35.png"
+  },
+  {
+    "slug": "trung-quoc-dua-ai-vao-lop-hoc",
+    "title": "Trung Quốc đưa AI vào lớp học: Từ lựa chọn thành nội dung bắt buộc",
+    "excerpt": "Tại Bắc Kinh và một số địa phương, học sinh tiểu học đã học AI như một phần chương trình chính khóa — tín hiệu về cách các nền giáo dục lớn chuẩn bị nhân lực cho thời đại AI.",
+    "date": "2026-10-06",
+    "category": "Giáo dục",
+    "coverImage": "/images/news/36.png"
+  },
+  {
+    "slug": "lao-dong-viet-nam-dan-dau-asean-thanh-thao-ai",
+    "title": "Dẫn đầu ASEAN về mức thành thạo AI, nhưng 82% lao động Việt Nam vẫn lo bị tụt lại",
+    "excerpt": "Báo cáo Work Trend Index 2026 của Microsoft: Việt Nam dẫn đầu ASEAN về tỷ lệ nhân sự tiên phong AI (39%), nhưng 82% người dùng lo bị tụt lại nếu không nhanh chóng ứng dụng AI.",
+    "date": "2026-10-06",
+    "category": "Thị trường",
+    "coverImage": "/images/news/37.png"
+  },
+  {
+    "slug": "cuoc-chay-dua-ai-trong-gia-dinh",
+    "title": "\"Cuộc chạy đua\" AI trong gia đình: Ai cũng lo, nhưng không ai dám đứng ngoài",
+    "excerpt": "Nghiên cứu cho thấy phụ huynh vẫn mua AI cho con dù biết rủi ro nhận thức — vì sợ con bị tụt lại khi bạn bè xung quanh đều dùng AI.",
+    "date": "2026-10-05",
+    "category": "Giáo dục",
+    "coverImage": "/images/news/38.png"
+  },
+  {
+    "slug": "nha-trang-to-chuc-cuoc-thi-ai-presidential-challenge",
+    "title": "Nhà Trắng tổ chức cuộc thi AI: Từ ứng dụng làm bài tập đến công cụ cho người khiếm thị",
+    "excerpt": "Hơn 20.000 học sinh Mỹ tham gia Presidential AI Challenge — cuộc thi yêu cầu dùng AI giải quyết vấn đề cộng đồng, đồng thời đặt câu hỏi về nền tảng đạo đức và tư duy phản biện.",
+    "date": "2026-10-05",
+    "category": "Giáo dục",
+    "coverImage": "/images/news/39.png"
+  },
+  {
+    "slug": "ai-vao-truong-hoc-xu-huong-toan-cau",
+    "title": "AI vào trường học: Xu hướng giáo dục đang lan rộng trên toàn cầu",
+    "excerpt": "Từ châu Á, châu Âu đến Trung Đông và Bắc Mỹ, ngày càng nhiều quốc gia đưa AI vào giáo dục phổ thông — tập trung vào AI literacy, tư duy phản biện, dữ liệu và đạo đức.",
+    "date": "2026-10-04",
+    "category": "Giáo dục",
+    "coverImage": "/images/news/40.png"
+  },
+  {
+    "slug": "ai-phat-trien-nhu-vu-bao-thi-truong-viec-lam",
+    "title": "AI phát triển như vũ bão: Thị trường việc làm chao đảo",
+    "excerpt": "WEF dự báo đến 2030 thị trường lao động có thể tạo 170 triệu việc mới và thay thế 92 triệu việc; tại Mỹ, hơn 120.000 lượt cắt giảm liên quan AI đã được công bố trong 9 tháng đầu 2026.",
+    "date": "2026-10-04",
+    "category": "Thị trường",
+    "coverImage": "/images/news/41.png"
+  },
+  {
+    "slug": "hoc-ai-khong-dung-o-viec-dung-cong-cu",
+    "title": "Học AI: Không dừng ở việc dùng công cụ",
+    "excerpt": "Thành thạo chatbot và viết prompt mới chỉ là bước đầu. Học sinh cần kiến thức nền tảng để hiểu AI hoạt động thế nào, đánh giá kết quả và tạo ứng dụng với công nghệ này.",
+    "date": "2026-10-03",
+    "category": "Giáo dục",
+    "coverImage": "/images/news/42.png"
   }
 ]

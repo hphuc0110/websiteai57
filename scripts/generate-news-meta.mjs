@@ -27,6 +27,26 @@ if (articles.length === 0) {
   process.exit(1)
 }
 
+const oversized = []
+for (const article of articles) {
+  if (article.coverImage.startsWith('http')) continue
+  const imgPath = path.join(root, 'public', article.coverImage.replace(/^\//, ''))
+  if (!fs.existsSync(imgPath)) {
+    console.error(`Missing cover image for ${article.slug}: ${article.coverImage}`)
+    process.exit(1)
+  }
+  const size = fs.statSync(imgPath).size
+  if (size > 1_500_000) {
+    oversized.push(`${article.slug} (${Math.round(size / 1024)}KB)`)
+  }
+}
+if (oversized.length) {
+  console.warn(
+    'Warning: cover images over 1.5MB may fail Facebook/Zalo previews:\n - ' +
+      oversized.join('\n - '),
+  )
+}
+
 const outDir = path.join(root, 'api')
 fs.mkdirSync(outDir, { recursive: true })
 fs.writeFileSync(

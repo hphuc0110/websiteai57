@@ -1285,6 +1285,346 @@ export const newsItems: NewsItem[] = [
       },
     ],
   },
+  {
+    slug: 'trung-quoc-dua-ai-vao-lop-hoc',
+    title: 'Trung Quốc đưa AI vào lớp học: Từ lựa chọn thành nội dung bắt buộc',
+    excerpt:
+      'Tại Bắc Kinh và một số địa phương, học sinh tiểu học đã học AI như một phần chương trình chính khóa — tín hiệu về cách các nền giáo dục lớn chuẩn bị nhân lực cho thời đại AI.',
+    date: '2026-10-06',
+    category: 'Giáo dục',
+    coverImage: '/images/news/36.png',
+    sections: [
+      {
+        paragraphs: [
+          'Tại Bắc Kinh và một số địa phương, học sinh tiểu học đã học AI như một phần chương trình chính khóa. Chính sách này cho thấy cách các nền giáo dục lớn đang chuẩn bị nguồn nhân lực cho thời đại AI.',
+        ],
+      },
+      {
+        heading: 'Từ khuyến khích đến yêu cầu',
+        paragraphs: [
+          'Theo NPR, ở Trung Quốc, AI không còn là nội dung tùy chọn đối với một bộ phận học sinh mà đã trở thành một phần của chương trình do nhà nước quy định. Một giáo viên tin học ở trường tiểu học trực thuộc Đại học Bưu chính Viễn thông Bắc Kinh cho biết Bộ Giáo dục yêu cầu tích hợp các khóa học AI vào chương trình tin học.',
+          'Mục tiêu được nêu khá rõ. NPR cho biết giới chức Trung Quốc coi AI là yếu tố thiết yếu đối với an ninh quốc gia và năng lực cạnh tranh kinh tế, và đặt mục tiêu đưa nước này trở thành quốc gia dẫn đầu thế giới về AI trong vòng bốn năm tới. Giáo dục phổ thông vì vậy được xem là nơi hình thành lực lượng nhân lực am hiểu AI từ sớm.',
+        ],
+      },
+      {
+        heading: 'Lộ trình theo từng cấp học',
+        paragraphs: [
+          'Theo Tân Hoa Xã, Bắc Kinh áp dụng cách tiếp cận phân tầng, mỗi học sinh học tối thiểu tám tiết AI trong một năm học. Bậc tiểu học nghiêng về học qua trải nghiệm để hình thành tư duy AI. Bậc trung học cơ sở tập trung vào việc ứng dụng AI trong học tập và đời sống. Bậc trung học phổ thông ưu tiên các dự án thực hành nhằm nuôi dưỡng tính sáng tạo.',
+          'Cũng theo Tân Hoa Xã, một thành phố khác của Trung Quốc yêu cầu học sinh lớp 4 và lớp 8 học một tiết AI bắt buộc mỗi tuần, các khối còn lại được khuyến khích xây dựng khóa học riêng hoặc lồng ghép AI vào môn học hiện có.',
+          'Cần phân biệt phạm vi chính sách. Những mô tả trên áp dụng cho từng địa phương như Bắc Kinh, trong khi ở cấp quốc gia, Bộ Giáo dục ban hành các hướng dẫn về giáo dục AI cho tiểu học và trung học. Tân Hoa Xã cho biết các hướng dẫn này cấm nộp trực tiếp nội dung do AI tạo ra làm bài tập hay bài thi, đồng thời yêu cầu có biện pháp ngăn việc lạm dụng AI trong các bài sáng tạo.',
+        ],
+      },
+      {
+        heading: 'Góc nhìn từ phụ huynh',
+        paragraphs: [
+          'NPR ghi nhận phụ huynh cũng nhìn chính sách này từ lăng kính tương lai của con. Một phụ huynh được phỏng vấn nhìn chung ủng hộ việc đưa AI vào chương trình bắt buộc, nhưng cho rằng với học sinh lớp 5, lớp 6 thì không nên tiếp xúc quá nhiều. Điều đó cho thấy nhu cầu học AI và mối lo về mức độ phù hợp theo lứa tuổi tồn tại song song.',
+        ],
+      },
+      {
+        heading: 'Một xu hướng chung của thế giới',
+        paragraphs: [
+          'Trung Quốc không phải trường hợp duy nhất. Tháng 6/2026, OECD và Ủy ban châu Âu công bố khung AI literacy dành cho giáo dục tiểu học và trung học, định nghĩa đây là tổ hợp kiến thức, kỹ năng và thái độ để hiểu cách hệ thống AI vận hành, đánh giá kết quả đầu ra một cách có phê phán và sử dụng AI có trách nhiệm.',
+          'Tại Việt Nam, Bộ Giáo dục và Đào tạo đã ban hành Quyết định 2422/QĐ-BGDĐT ngày 18/8/2026 về Khung nội dung giáo dục AI. Từ năm học 2026–2027, học sinh phổ thông học nội dung cốt lõi 12 tiết mỗi lớp mỗi năm. Khung này cũng cho phép các cơ sở giáo dục chủ động bố trí phần nội dung mở rộng, tùy theo nhu cầu và điều kiện thực tế.',
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'lao-dong-viet-nam-dan-dau-asean-thanh-thao-ai',
+    title: 'Dẫn đầu ASEAN về mức thành thạo AI, nhưng 82% lao động Việt Nam vẫn lo bị tụt lại',
+    excerpt:
+      'Báo cáo Work Trend Index 2026 của Microsoft: Việt Nam dẫn đầu ASEAN về tỷ lệ nhân sự tiên phong AI (39%), nhưng 82% người dùng lo bị tụt lại nếu không nhanh chóng ứng dụng AI.',
+    date: '2026-10-06',
+    category: 'Thị trường',
+    coverImage: '/images/news/37.png',
+    sections: [
+      {
+        paragraphs: [
+          'Báo cáo Work Trend Index 2026 của Microsoft cho thấy người lao động tri thức Việt Nam đang ứng dụng AI nhanh hơn mức trung bình toàn cầu. Cùng lúc đó, áp lực phải thích nghi cũng tăng cao.',
+          'Ngày 24/6/2026, Microsoft Việt Nam công bố Báo cáo Chỉ số Xu hướng Công việc 2026 (Work Trend Index 2026). Báo cáo dựa trên phân tích hàng nghìn tỷ tín hiệu năng suất ẩn danh từ Microsoft 365, kết hợp khảo sát 2.000 lao động tri thức tại Việt Nam. Nhận định chung của báo cáo là người lao động đang đi nhanh hơn chính tổ chức của họ trong hành trình ứng dụng AI.',
+        ],
+      },
+      {
+        heading: '39% là "nhân sự tiên phong" về AI',
+        paragraphs: [
+          'Theo Microsoft, Việt Nam dẫn đầu ASEAN về tỷ lệ "Nhân sự Tiên phong về AI" (Frontier Professionals), tức nhóm sử dụng AI thành thạo nhất theo cách phân loại của nghiên cứu. Tỷ lệ này tại Việt Nam là 39%, so với mức trung bình toàn cầu 16%.',
+          'Nhóm này không dừng ở các tác vụ cơ bản mà đưa AI vào phân tích thông tin, giải quyết vấn đề phức tạp, đánh giá phương án và phát triển ý tưởng sáng tạo. Báo cáo ghi nhận 76% người dùng AI tại Việt Nam đang tạo ra những kết quả công việc mà một năm trước họ chưa làm được, cao hơn mức 58% toàn cầu. Với nhóm tiên phong, tỷ lệ này là 83%, so với 80% toàn cầu.',
+        ],
+      },
+      {
+        heading: 'AI là điểm bắt đầu để suy nghĩ, không phải câu trả lời cuối cùng',
+        paragraphs: [
+          'Một số liệu đáng chú ý nằm ở cách người dùng nhìn nhận kết quả của AI. Theo báo cáo, 89% người dùng AI tại Việt Nam xem kết quả AI tạo ra là nền tảng để suy nghĩ sâu hơn, thay vì đáp án cuối cùng, nhỉnh hơn mức 86% toàn cầu.',
+          'Nhóm tiên phong cũng chủ động giữ vai trò của con người trong công việc: 57% thỉnh thoảng làm một số việc không dùng AI để rèn kỹ năng chuyên môn, so với 41% ở nhóm còn lại; 62% cân nhắc trước khi bắt đầu để xác định phần việc nên do con người làm và phần nào giao cho AI, so với 50% ở nhóm còn lại.',
+        ],
+      },
+      {
+        heading: 'Lãnh đạo có định hướng, nhưng áp lực vẫn lớn',
+        paragraphs: [
+          'Về phía tổ chức, 48% người dùng AI tại Việt Nam cho biết lãnh đạo của họ có định hướng rõ ràng và nhất quán về AI, gần gấp đôi mức 26% toàn cầu. Có 32% cho biết họ được ghi nhận hoặc khen thưởng khi thử cách làm mới với AI, kể cả khi chưa có kết quả ngay, so với 13% toàn cầu.',
+          'Tuy vậy, 82% người dùng AI tại Việt Nam lo bị tụt lại nếu không nhanh chóng ứng dụng AI, cao hơn mức 65% toàn cầu. Microsoft gọi tình trạng này là "Nghịch lý Chuyển đổi": người lao động cảm thấy phải thích nghi nhanh, trong khi hệ thống đánh giá, cơ chế khuyến khích và quy trình của tổ chức chưa thay đổi tương ứng.',
+        ],
+      },
+      {
+        heading: 'Yếu tố tổ chức quan trọng hơn cá nhân',
+        paragraphs: [
+          'Theo báo cáo, văn hóa doanh nghiệp, sự hỗ trợ của cấp quản lý và chính sách phát triển nhân tài đóng góp vào hiệu quả ứng dụng AI nhiều hơn gấp hai lần so với tư duy hay mức độ sử dụng AI của từng cá nhân. Trên toàn cầu, chỉ 19% tổ chức được xếp vào nhóm "Tổ chức Tiên phong về AI", phần còn lại vẫn ở giai đoạn chuyển đổi.',
+          'Phát biểu tại buổi công bố, ông Dhanawat Suthumpun, Giám đốc Điều hành Microsoft Thái Lan và các Thị trường Mới nổi (trong đó có Việt Nam), cho rằng công nghệ không tự tạo ra chuyển đổi. Theo ông, khi người lao động ngày càng thành thạo, các nhà lãnh đạo cần đổi mới cách vận hành và quản trị để theo kịp.',
+        ],
+      },
+      {
+        heading: 'Đọc con số một cách thận trọng',
+        paragraphs: [
+          'Đây là báo cáo do chính Microsoft thực hiện và công bố. Khái niệm "Nhân sự Tiên phong" là cách phân loại riêng của nghiên cứu này. Mẫu khảo sát gồm 2.000 lao động tri thức, nên các tỷ lệ không đại diện cho toàn bộ lực lượng lao động Việt Nam, dù tiêu đề bản gốc dùng cách diễn đạt rộng hơn.',
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'cuoc-chay-dua-ai-trong-gia-dinh',
+    title: '"Cuộc chạy đua" AI trong gia đình: Ai cũng lo, nhưng không ai dám đứng ngoài',
+    excerpt:
+      'Nghiên cứu cho thấy phụ huynh vẫn mua AI cho con dù biết rủi ro nhận thức — vì sợ con bị tụt lại khi bạn bè xung quanh đều dùng AI.',
+    date: '2026-10-05',
+    category: 'Giáo dục',
+    coverImage: '/images/news/38.png',
+    sections: [
+      {
+        paragraphs: [
+          'Cho phụ huynh biết AI có thể làm giảm khả năng tư duy của con, họ vẫn mua AI cho con. Lý do không nằm ở việc họ không tin cảnh báo.',
+          'Thử hình dung một bữa cơm gia đình. Bố mẹ vừa đọc một bài cảnh báo rằng học sinh dùng AI nhiều có thể kém đi khả năng tự suy luận. Họ gật gù, thấy có lý. Nhưng sáng hôm sau, nghe nói cả lớp của con đã dùng AI làm bài, họ vẫn mở ví đăng ký cho con một gói AI cao cấp.',
+          'Một nghiên cứu mới đã đo đúng khoảnh khắc mâu thuẫn ấy, và kết quả cho thấy vấn đề không nằm ở việc phụ huynh thiếu thông tin.',
+        ],
+      },
+      {
+        heading: 'Một thí nghiệm đo nỗi sợ bằng tiền',
+        paragraphs: [
+          'Nhóm tác giả gồm Leonardo Bursztyn, Alex Imas (Chicago Booth), Rafael Jiménez-Durán, Aaron Leonard và Christopher Roth khảo sát khoảng 2.000 phụ huynh có con từ 13 đến 18 tuổi ở Mỹ, Canada và Anh. Thay vì hỏi suông "bạn có lo không", họ hỏi một câu khó nói dối hơn: bạn sẵn sàng trả bao nhiêu cho gói AI cao cấp ba tháng để con dùng khi làm bài tập, sửa ngữ pháp và tra cứu?',
+          'Một nhóm phụ huynh chỉ được nghe điều tích cực rằng AI giúp cải thiện kết quả viết lách trong lúc đang dùng. Nhóm còn lại nghe thêm một thông tin trái chiều: trong một thí nghiệm thực địa với học sinh trung học, những em được dùng GPT để học đã giảm gần 20% điểm tư duy định lượng khi sau đó làm bài mà không có AI.',
+        ],
+      },
+      {
+        heading: 'Thứ khiến phụ huynh móc ví không phải là AI, mà là bạn của con',
+        paragraphs: [
+          'Điều đáng nói nằm ở chỗ mức sẵn sàng chi trả gần như không đổi dù phụ huynh có biết mặt hại hay không. Nhóm nhận cảnh báo tin rằng AI có thể gây hại nhận thức nhiều hơn, thậm chí ủng hộ việc cấm AI ở trường mạnh hơn, nhưng vẫn không bớt hào hứng với việc mua AI cho con.',
+          'Cái làm họ thay đổi quyết định là một biến số khác: bao nhiêu thanh thiếu niên xung quanh đang dùng AI. Khi phụ huynh xét các kịch bản mà 20%, 40%, 60% rồi 80% bạn bè của con dùng AI, số tiền họ chấp nhận trả tăng đều, thêm 1,83 USD cho mỗi 10 điểm phần trăm. Ở kịch bản 80%, mức này cao hơn hơn 60% so với kịch bản 20%.',
+          'Vì sao? Theo kết quả khảo sát, hơn 70% phụ huynh cho rằng AI giúp con trong ngắn hạn dù có thể có hại về lâu dài, và 20% số người vừa ủng hộ lệnh cấm vừa vẫn cho con dùng nói rằng họ sợ con bị tụt lại. Nhóm nghiên cứu nhận xét phụ huynh không coi AI là tốt cho con, mà coi đó là điều bắt buộc về mặt xã hội.',
+        ],
+      },
+      {
+        heading: 'Khi cảnh báo không đủ',
+        paragraphs: [
+          'Các tác giả gọi đây là "rat-race dynamics", hiện tượng ai cũng bị cuốn vào một cuộc đua dù không ai chắc rằng cuộc đua ấy tốt cho tất cả. Hệ quả là các chiến dịch truyền thông chỉ nhắc rủi ro của AI có thể không đủ để thay đổi hành vi. Theo họ, giải pháp nằm ở những quyết định mang tính tập thể, chẳng hạn trường học đưa vào những công cụ AI có cấu trúc, hoặc các bên cùng thống nhất cách tiếp cận.',
+          'Điểm này có thể gợi ý một hướng nhìn cho bối cảnh Việt Nam, dù cần nói rõ nghiên cứu không khảo sát phụ huynh Việt Nam. Từ năm học 2026–2027, Bộ GD&ĐT đưa giáo dục AI vào trường phổ thông với nội dung cốt lõi 12 tiết mỗi lớp mỗi năm, nghĩa là một phần "cuộc chơi chung" đã được nhà trường tổ chức. Nhưng cuộc đua bên ngoài lớp học, từ các cuộc thi đến những khóa học thêm, vẫn phụ thuộc vào quyết định của từng gia đình.',
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'nha-trang-to-chuc-cuoc-thi-ai-presidential-challenge',
+    title: 'Nhà Trắng tổ chức cuộc thi AI: Từ ứng dụng làm bài tập đến công cụ cho người khiếm thị',
+    excerpt:
+      'Hơn 20.000 học sinh Mỹ tham gia Presidential AI Challenge — cuộc thi yêu cầu dùng AI giải quyết vấn đề cộng đồng, đồng thời đặt câu hỏi về nền tảng đạo đức và tư duy phản biện.',
+    date: '2026-10-05',
+    category: 'Giáo dục',
+    coverImage: '/images/news/39.png',
+    sections: [
+      {
+        paragraphs: [
+          'Hơn 20.000 học sinh Mỹ tham gia Presidential AI Challenge, cuộc thi yêu cầu các em dùng AI giải quyết vấn đề của chính cộng đồng mình. Cuộc thi được đánh giá là kéo học sinh vào việc "làm", nhưng cũng bị đặt câu hỏi về việc các em đã hiểu nền tảng đến đâu.',
+          'Không có đề bài để giải trong một phòng thi. Đề bài của Presidential AI Challenge là một câu hỏi mở: trong trường học hay khu phố của em, vấn đề nào có thể được giải quyết tốt hơn nhờ AI?',
+          'Theo EdWeek, đây là mùa đầu tiên của cuộc thi do Nhà Trắng phát động, dành cho học sinh và giáo viên từ mẫu giáo đến lớp 12. Lễ trao giải quốc gia diễn ra ngày 9/6/2026 tại Nhà Trắng, do đệ nhất phu nhân Melania Trump chủ trì. Theo Nhà Trắng, hơn 20.000 học sinh ở cả 50 bang, thủ đô Washington, Puerto Rico và 49 trường của Bộ Quốc phòng Mỹ tại 10 quốc gia đã tham gia.',
+        ],
+      },
+      {
+        heading: 'Một cuộc thi của người làm ra sản phẩm',
+        paragraphs: [
+          'Học sinh có thể chọn hai hướng: đề xuất cách ứng dụng AI cho một vấn đề cộng đồng, hoặc trực tiếp xây dựng giải pháp. Giáo viên thì được yêu cầu đề xuất cách dạy một khái niệm AI mới mẻ, hoặc tạo công cụ AI để quản lý một phần công việc lớp học mà nếu không có công nghệ này sẽ khó làm được.',
+          'Danh sách quán quân quốc gia cho thấy cuộc thi rộng đến mức nào. Tiểu học: nhóm học sinh ở Alcoa, bang Tennessee, làm ứng dụng "Homework Helper" hướng dẫn học sinh làm bài tập; một nhóm cộng đồng ở Aldie, bang Virginia, làm chatbot "Friendzone" giúp trẻ mô tả tình huống, hiểu cảm xúc và nhận lời khuyên để phòng chống bắt nạt. Trung học cơ sở: ứng dụng SkillUp khuyến khích sửa chữa thay vì vứt bỏ, và một công cụ dùng ảnh đường phố để giúp thành phố phát hiện khu vực xuống cấp sớm hơn. Trung học phổ thông: công cụ thị giác máy tính giúp điều tra viên xác định khách sạn từ hình ảnh chứng cứ, và IRIS, khung AI chi phí thấp hỗ trợ người khiếm thị di chuyển trong đô thị phức tạp. Giáo viên: một lớp học sinh lớp 2 học machine learning bằng cách huấn luyện AI nhận diện côn trùng địa phương trên Teachable Machine của Google, và một mô-đun Sinh học AP cho học sinh dùng công cụ AI dự đoán cấu trúc protein, mô phỏng sự gắn kết phân tử.',
+          'Theo trang chính thức, các đội quán quân trình bày dự án tại Washington D.C. ngày 8/6. Trước đó, ở cấp bang, theo các trường và báo địa phương, hơn 2.500 hồ sơ đã được gửi đi và 328 dự án được chọn vào vòng khu vực.',
+        ],
+      },
+      {
+        heading: 'Lời khen: học sinh là người xây dựng',
+        paragraphs: [
+          'Karim Meghji, chủ tịch kiêm giám đốc điều hành CodeAI (tên trước đây là Code.org), nói với EdWeek rằng điều ông thích nhất là cuộc thi khiến học sinh bắt đầu làm gì đó thật sự. Theo ông, một phần quan trọng của việc học về AI là được tự tay thử nghiệm với công nghệ. Lisa O\'Masta, giám đốc điều hành Learning.com, đánh giá cao việc cuộc thi xem tất cả người thắng cuộc là người xây dựng và giải quyết vấn đề, chứ không chỉ là người dùng công cụ.',
+        ],
+      },
+      {
+        heading: 'Câu hỏi còn lại: các em đã hiểu nền tảng chưa?',
+        paragraphs: [
+          'Cũng chính hai chuyên gia này nêu băn khoăn. O\'Masta chỉ ra nhiều dự án chạm đến các chủ đề nhạy cảm, những chủ đề đòi hỏi học sinh phải hiểu về quyền riêng tư, thiên kiến, độ chính xác và sự giám sát của con người. Bà đặt câu hỏi liệu các em đã thật sự xem xét rủi ro và hậu quả ngoài ý muốn hay chưa. Meghji dùng hình ảnh quen thuộc của môn Vật lý: người ta thường đọc sách trước rồi mới tung đá lên không trung để kiểm chứng. Ông nhận xét cuộc thi mới chỉ "tung đá", còn chuyện kết nối với kiến thức nền tảng thì chưa rõ.',
+          'Nhà Trắng từ chối bình luận về những lo ngại rộng hơn này. Tuy vậy, theo EdWeek, sổ tay hướng dẫn của cuộc thi có những câu hỏi yêu cầu học sinh nghĩ về việc dùng AI như thế nào là phù hợp và có trách nhiệm.',
+        ],
+      },
+      {
+        heading: 'Bối cảnh: đẩy mạnh AI trong lớp học giữa làn sóng thận trọng',
+        paragraphs: [
+          'Cuộc thi nằm trong nỗ lực rộng hơn của chính quyền Mỹ sau sắc lệnh hành pháp năm 2025 yêu cầu các cơ quan liên bang hỗ trợ dạy học sinh về AI. Nhưng đi cùng với đó là phản ứng ngược. EdWeek ghi nhận văn phòng Tổng y sĩ Mỹ đã đưa ra cảnh báo hồi tháng 5 về việc giới trẻ dùng màn hình quá nhiều, bang Utah thông qua luật cấm dùng AI để chấm điểm, và hai thượng nghị sĩ đã đề nghị cơ quan giám sát của Quốc hội điều tra việc dùng AI trong trường học. Theo ABC News, hệ thống trường công lớn nhất nước Mỹ, thành phố New York, còn áp dụng lệnh tạm hoãn AI tạo sinh với học sinh từ mầm non đến hết lớp 8 trong năm học 2026–2027.',
+        ],
+      },
+      {
+        heading: 'Bài học cho các nước đang đưa AI vào trường học',
+        paragraphs: [
+          'Presidential AI Challenge cho thấy một cách tiếp cận khác với Olympic: thay vì xếp hạng thí sinh theo điểm số, cuộc thi đánh giá khả năng nhìn ra vấn đề, thiết kế giải pháp và trình bày. Nhưng chính cuộc tranh luận quanh cuộc thi cũng gợi ý rằng trải nghiệm thực hành cần đi cùng nền tảng về đạo đức, quyền riêng tư và tư duy phản biện. Câu hỏi này cũng có thể đặt ra với Việt Nam, nơi từ năm học 2026–2027, giáo dục AI được triển khai đại trà với nội dung cốt lõi 12 tiết mỗi lớp mỗi năm.',
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'ai-vao-truong-hoc-xu-huong-toan-cau',
+    title: 'AI vào trường học: Xu hướng giáo dục đang lan rộng trên toàn cầu',
+    excerpt:
+      'Từ châu Á, châu Âu đến Trung Đông và Bắc Mỹ, ngày càng nhiều quốc gia đưa AI vào giáo dục phổ thông — tập trung vào AI literacy, tư duy phản biện, dữ liệu và đạo đức.',
+    date: '2026-10-04',
+    category: 'Giáo dục',
+    coverImage: '/images/news/40.png',
+    sections: [
+      {
+        paragraphs: [
+          'Từ châu Á, châu Âu đến Trung Đông và Bắc Mỹ, ngày càng nhiều quốc gia đưa trí tuệ nhân tạo (AI) vào giáo dục phổ thông. Không chỉ dạy học sinh cách sử dụng công cụ AI, các chương trình mới tập trung vào AI literacy, tư duy phản biện, dữ liệu, đạo đức và khả năng sáng tạo cùng công nghệ.',
+          'Trí tuệ nhân tạo đang nhanh chóng trở thành một phần của giáo dục phổ thông trên thế giới. Theo UNESCO, đến năm 2025, 11 quốc gia đã xây dựng và phê duyệt chương trình AI dành cho giáo dục K-12, trong khi nhiều nước khác đang phát triển hoặc thử nghiệm chương trình tương tự.',
+          'Xu hướng này cho thấy AI đang chuyển từ một công cụ hỗ trợ học tập thành một năng lực mà học sinh cần được trang bị từ sớm.',
+        ],
+      },
+      {
+        heading: 'AI được đưa vào giáo dục từ những năm học đầu tiên',
+        paragraphs: [
+          'Nhiều quốc gia đang hạ độ tuổi tiếp cận AI, xây dựng nội dung phù hợp với từng cấp học.',
+          'UAE là một trong những nước có bước đi mạnh mẽ nhất khi đưa AI thành môn học bắt buộc từ mầm non đến lớp 12. Học sinh được tiếp cận từ khái niệm cơ bản, dữ liệu và thuật toán đến ứng dụng, thiết kế hệ thống và đạo đức AI.',
+          'Trung Quốc cũng phát triển chương trình AI literacy theo từng cấp học, trong khi Ấn Độ đưa Computational Thinking và Artificial Intelligence vào chương trình dành cho học sinh từ lớp 3 đến lớp 8. Tại Singapore, học sinh trung học được tìm hiểu về dữ liệu, mô hình ngôn ngữ lớn, AI tạo sinh, chatbot, prompt và những vấn đề như thiên kiến, đạo đức và tác động xã hội.',
+          'Những cách tiếp cận này cho thấy giáo dục AI đang được triển khai theo hướng từ làm quen đến hiểu, ứng dụng và đánh giá công nghệ.',
+        ],
+      },
+      {
+        heading: 'Không chỉ học về AI, học sinh còn học cùng AI',
+        paragraphs: [
+          'Một xu hướng khác là AI được tích hợp trực tiếp vào quá trình dạy và học.',
+          'Hàn Quốc triển khai AI Digital Textbook nhằm cá nhân hóa việc học. Singapore tích hợp các công cụ AI vào nền tảng học tập quốc gia. Estonia triển khai chương trình AI Leap, cung cấp công cụ AI cho học sinh và giáo viên đồng thời đào tạo giáo viên sử dụng công nghệ. Tại Anh, nhiều trường học cũng đang thử nghiệm AI tạo sinh trong xây dựng giáo án, tài liệu và hỗ trợ công việc của giáo viên.',
+          'Theo OECD, khoảng một phần ba giáo viên tại các hệ thống giáo dục OECD đã sử dụng AI trong công việc. Tại Singapore và UAE, tỷ lệ này lên tới khoảng 75%. Điều đó cho thấy AI đang đi vào trường học theo hai hướng: học sinh học về AI, trong khi giáo viên và nhà trường sử dụng AI để thay đổi cách dạy và học.',
+        ],
+      },
+      {
+        heading: 'Từ kỹ năng sử dụng công cụ đến năng lực làm chủ AI',
+        paragraphs: [
+          'Điểm chung trong các chính sách giáo dục AI hiện nay là sự chuyển dịch từ "dạy cách dùng AI" sang "dạy cách hiểu và đánh giá AI". Các chương trình ngày càng chú trọng dữ liệu, tư duy thuật toán, giải quyết vấn đề, kiểm chứng thông tin, nhận diện thiên kiến, đạo đức và an toàn khi sử dụng AI.',
+          'OECD và Ủy ban châu Âu cũng đang xây dựng khung AI literacy dành cho học sinh tiểu học và trung học, nhấn mạnh khả năng hiểu cách AI hoạt động, đánh giá đầu ra và sử dụng công nghệ có trách nhiệm.',
+          'Trong bối cảnh AI ngày càng tác động đến thị trường lao động, việc trang bị năng lực này từ giáo dục phổ thông đang trở thành một phần trong chiến lược chuẩn bị nguồn nhân lực của nhiều quốc gia. AI đang bước vào trường học không chỉ để thay đổi cách học sinh tiếp cận kiến thức, mà còn để chuẩn bị cho một thế hệ có khả năng hiểu, sử dụng và sáng tạo cùng công nghệ.',
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'ai-phat-trien-nhu-vu-bao-thi-truong-viec-lam',
+    title: 'AI phát triển như vũ bão: Thị trường việc làm chao đảo',
+    excerpt:
+      'WEF dự báo đến 2030 thị trường lao động có thể tạo 170 triệu việc mới và thay thế 92 triệu việc; tại Mỹ, hơn 120.000 lượt cắt giảm liên quan AI đã được công bố trong 9 tháng đầu 2026.',
+    date: '2026-10-04',
+    category: 'Thị trường',
+    coverImage: '/images/news/41.png',
+    sections: [
+      {
+        paragraphs: [
+          'Sự phát triển nhanh của trí tuệ nhân tạo đang làm thay đổi cách doanh nghiệp tuyển dụng, phân bổ nhân sự và tổ chức công việc. Một mặt, hàng trăm nghìn vị trí đã được gắn với các kế hoạch cắt giảm nhân sự do AI; mặt khác, hàng triệu việc làm mới liên quan đến AI đang xuất hiện, kéo theo yêu cầu ngày càng cao về kỹ năng.',
+        ],
+      },
+      {
+        heading: 'AI không còn là câu chuyện của tương lai',
+        paragraphs: [
+          'Chỉ trong vài năm, AI đã chuyển từ một công nghệ thử nghiệm thành công cụ được đưa vào ngày càng nhiều hoạt động kinh doanh, từ phát triển phần mềm, chăm sóc khách hàng, marketing đến phân tích dữ liệu và vận hành doanh nghiệp.',
+          'Theo World Economic Forum (WEF), đến năm 2030, quá trình chuyển đổi của thị trường lao động có thể tác động tới khoảng 22% số việc làm hiện nay. Các doanh nghiệp được khảo sát dự kiến tạo ra khoảng 170 triệu việc làm mới, đồng thời khiến 92 triệu việc làm hiện tại bị thay thế, tương ứng mức tăng ròng 78 triệu việc làm.',
+          'Trong đó, AI và các công nghệ xử lý thông tin được dự báo vừa tạo ra khoảng 11 triệu việc làm, vừa thay thế khoảng 9 triệu việc làm vào năm 2030. Những vị trí liên quan đến AI, dữ liệu lớn và phát triển phần mềm nằm trong nhóm nghề được dự báo tăng trưởng nhanh nhất. Điều này cho thấy tác động của AI không đơn giản là "thêm việc" hay "mất việc", mà đang làm thay đổi cơ cấu của thị trường lao động.',
+        ],
+      },
+      {
+        heading: 'Hàng trăm nghìn việc làm đã được gắn với AI',
+        paragraphs: [
+          'Tại Mỹ, dữ liệu về kế hoạch cắt giảm nhân sự đang cho thấy AI đã trở thành một trong những nguyên nhân được doanh nghiệp nhắc đến ngày càng nhiều. Theo Challenger, Gray & Christmas, tính đến hết tháng 9/2026, doanh nghiệp Mỹ đã công bố 120.136 lượt cắt giảm việc làm có liên quan đến AI, chiếm khoảng 21% tổng số kế hoạch cắt giảm trong năm. Riêng tháng 9, AI được viện dẫn trong 3.961 trường hợp cắt giảm.',
+          'Tuy nhiên, dữ liệu cũng cho thấy cần thận trọng khi đồng nhất mọi đợt sa thải với AI. Trong 9 tháng đầu năm 2026, tổng số kế hoạch cắt giảm nhân sự tại Mỹ đạt 573.195, trong khi các nguyên nhân khác như tái cấu trúc, điều kiện kinh tế và đóng cửa doanh nghiệp cũng chiếm tỷ trọng lớn.',
+          'Đáng chú ý, các đợt cắt giảm liên quan đến AI thường tập trung ở một số doanh nghiệp lớn thay vì diễn ra đồng đều trên toàn thị trường. Challenger ghi nhận khoảng 60 kế hoạch sa thải lớn được gắn trực tiếp với AI trong 2026; chỉ 21 kế hoạch có quy mô từ 1.000 người trở lên nhưng đã chiếm khoảng 93.000 trường hợp cắt giảm.',
+        ],
+      },
+      {
+        heading: 'Một phần việc làm bị thay thế, nhưng phần lớn đang được biến đổi',
+        paragraphs: [
+          'Nếu chỉ nhìn vào số người mất việc, bức tranh về AI sẽ dễ trở nên cực đoan. Các nghiên cứu quốc tế cho thấy tác động phổ biến hơn có thể là AI thay đổi nhiệm vụ bên trong một công việc, thay vì xóa bỏ hoàn toàn nghề nghiệp đó.',
+          'Nghiên cứu của Tổ chức Lao động Quốc tế (ILO) năm 2025 cho thấy khoảng 1/4 lao động trên toàn cầu đang làm việc trong những nghề có mức độ tiếp xúc nhất định với GenAI. Tuy nhiên, ILO nhận định khả năng phổ biến hơn là công việc bị biến đổi, bởi phần lớn nghề nghiệp vẫn bao gồm những nhiệm vụ cần con người thực hiện.',
+          'Nhóm lao động văn phòng, hành chính và những công việc có nhiều nhiệm vụ số hóa tiếp tục có mức độ tiếp xúc cao nhất với GenAI. Đồng thời, khả năng tạo văn bản, hình ảnh, âm thanh và video ngày càng tốt của các mô hình AI cũng mở rộng phạm vi tác động sang nhiều nghề chuyên môn khác. Nói cách khác, một nhân viên có thể không bị thay thế hoàn toàn bởi AI, nhưng những nhiệm vụ trước đây chiếm phần lớn thời gian làm việc có thể được AI thực hiện trong vài phút.',
+        ],
+      },
+      {
+        heading: 'Thị trường lao động đồng thời tạo ra một lớp việc làm mới',
+        paragraphs: [
+          'Theo dữ liệu LinkedIn được WEF dẫn lại, nền kinh tế toàn cầu đã xuất hiện khoảng 1,3 triệu việc làm mới liên quan đến AI trong hai năm, bao gồm AI Engineer, Forward-Deployed Engineer và Data Annotator. AI Engineer cũng nằm trong nhóm nghề phát triển nhanh trên LinkedIn trong ba năm gần đây.',
+          'IMF cũng nhận định AI đang tạo ra những kỹ năng, nhiệm vụ và nghề nghiệp mới song song với quá trình tự động hóa. Phân tích hàng triệu tin tuyển dụng trực tuyến cho thấy khoảng 1/10 tin tuyển dụng tại các nền kinh tế phát triển và 1/20 tin tuyển dụng tại các nền kinh tế mới nổi hiện yêu cầu ít nhất một kỹ năng mới.',
+          'Điều này tạo ra một nghịch lý: doanh nghiệp có thể giảm nhu cầu đối với một số vị trí nhưng đồng thời lại thiếu người có năng lực AI, dữ liệu, tự động hóa và khả năng triển khai công nghệ vào thực tế.',
+        ],
+      },
+      {
+        heading: 'Cuộc cạnh tranh mới nằm ở kỹ năng',
+        paragraphs: [
+          'Khi AI ngày càng có khả năng xử lý những nhiệm vụ trước đây do con người đảm nhiệm, lợi thế trên thị trường lao động đang chuyển từ "biết làm một công việc" sang "biết sử dụng công nghệ để làm công việc đó tốt hơn".',
+          'WEF dự báo gần 40% kỹ năng cần thiết trong công việc sẽ thay đổi vào năm 2030. Khoảng 63% doanh nghiệp được khảo sát coi thiếu hụt kỹ năng là rào cản lớn đối với quá trình chuyển đổi. Đáng chú ý, 77% doanh nghiệp dự kiến ưu tiên đào tạo và nâng cấp kỹ năng cho nhân viên, trong khi 41% cho biết có thể giảm nhân sự khi AI tự động hóa một số nhiệm vụ.',
+          'Những kỹ năng công nghệ như AI, dữ liệu lớn và an ninh mạng được dự báo tăng nhanh về nhu cầu. Song song với đó, các kỹ năng con người như tư duy phân tích, sáng tạo, khả năng thích nghi, lãnh đạo và hợp tác vẫn giữ vai trò quan trọng.',
+        ],
+      },
+      {
+        heading: 'Thị trường lao động đang chuyển từ "AI thay người" sang "người làm việc cùng AI"',
+        paragraphs: [
+          'Những dữ liệu hiện nay cho thấy chưa có cơ sở để kết luận AI sẽ khiến thị trường lao động toàn cầu mất việc làm trên diện rộng trong thời gian ngắn. Thực tế đang diễn ra phức tạp hơn: một số công việc bị thu hẹp, nhiều công việc thay đổi nhiệm vụ, trong khi những nghề mới liên quan đến AI tiếp tục xuất hiện.',
+          'WEF dự báo đến năm 2030, tỷ lệ công việc được thực hiện chủ yếu bởi con người, công nghệ và sự kết hợp giữa người - máy sẽ tiến tới trạng thái gần cân bằng hơn.',
+          'Vì vậy, thách thức lớn nhất của thị trường lao động không chỉ là AI có thay thế con người hay không, mà là người lao động có kịp thích nghi với tốc độ thay đổi của công nghệ hay không. Trong cuộc chuyển dịch này, AI literacy, dữ liệu, tư duy công nghệ và khả năng làm việc cùng AI đang dần trở thành những năng lực nền tảng.',
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'hoc-ai-khong-dung-o-viec-dung-cong-cu',
+    title: 'Học AI: Không dừng ở việc dùng công cụ',
+    excerpt:
+      'Thành thạo chatbot và viết prompt mới chỉ là bước đầu. Học sinh cần kiến thức nền tảng để hiểu AI hoạt động thế nào, đánh giá kết quả và tạo ứng dụng với công nghệ này.',
+    date: '2026-10-03',
+    category: 'Giáo dục',
+    coverImage: '/images/news/42.png',
+    sections: [
+      {
+        paragraphs: [
+          'Khi AI ngày càng xuất hiện trong lớp học, một câu hỏi mới được đặt ra: liệu hướng dẫn học sinh sử dụng chatbot và viết prompt có thực sự là giáo dục AI? Một số chuyên gia cho rằng, việc thành thạo công cụ chỉ là bước đầu; học sinh cần được trang bị kiến thức nền tảng để hiểu AI hoạt động như thế nào, đánh giá kết quả và chủ động tạo ra các ứng dụng với công nghệ này.',
+        ],
+      },
+      {
+        heading: 'Không phải cứ biết dùng ChatGPT là biết AI',
+        paragraphs: [
+          'Trong khi ngày càng nhiều trường học đưa các công cụ AI tạo sinh vào hoạt động học tập, cách tiếp cận AI trong giáo dục đang đứng trước một bài toán mới: dạy học sinh sử dụng AI hay dạy các em hiểu AI?',
+          'Một bài viết trên The Washington Post với tiêu đề "Schools are teaching AI — and making a massive mistake" chỉ ra khoảng cách giữa hai khái niệm này. Theo các tác giả Jenny Anderson và Rebecca Winthrop, nhiều chương trình giáo dục đang đi theo hướng "tools-first", tập trung vào việc hướng dẫn học sinh viết prompt, sử dụng chatbot hoặc kiểm tra thông tin do AI tạo ra.',
+          'Những kỹ năng này có giá trị thực tiễn, nhưng theo lập luận của bài viết, chưa đủ để hình thành AI literacy – năng lực hiểu và sử dụng AI một cách toàn diện. Một học sinh có thể biết cách đặt câu hỏi cho chatbot để tạo ra một bài viết, hình ảnh hay đoạn mã. Tuy nhiên, điều đó không đồng nghĩa với việc em hiểu dữ liệu được sử dụng như thế nào, mô hình AI học ra sao, vì sao AI có thể tạo ra thông tin sai hoặc bias có thể xuất hiện ở đâu trong quá trình xử lý.',
+        ],
+      },
+      {
+        heading: 'Từ sử dụng công cụ đến hiểu công nghệ',
+        paragraphs: [
+          'Giáo dục AI vì vậy đang dần được mở rộng khỏi phạm vi hướng dẫn sử dụng các sản phẩm AI. Theo cách tiếp cận được đề cập trong bài viết, học sinh cần được tiếp cận những kiến thức nền tảng như dữ liệu, thuật toán, machine learning, bias, giới hạn của mô hình và tác động xã hội của AI.',
+          'Đây cũng là hướng tiếp cận được nhiều tổ chức giáo dục quốc tế thúc đẩy. Khung AI literacy dành cho giáo dục phổ thông của OECD và Ủy ban châu Âu nhấn mạnh rằng người học không chỉ cần khả năng sử dụng AI, mà còn phải có khả năng hiểu, đánh giá và sử dụng AI một cách có trách nhiệm.',
+          'Sự khác biệt nằm ở chỗ: nếu chỉ học cách sử dụng một công cụ, kiến thức của học sinh có thể nhanh chóng trở nên lỗi thời khi công nghệ thay đổi. Ngược lại, hiểu những nguyên lý phía sau AI giúp người học thích nghi với nhiều công cụ và mô hình khác nhau.',
+        ],
+      },
+      {
+        heading: 'Một mô hình trường học không bắt đầu từ chatbot',
+        paragraphs: [
+          'The Washington Post dẫn trường Seckinger High School tại Georgia, Mỹ, như một ví dụ về cách tiếp cận khác. Thay vì dành trọng tâm cho việc hướng dẫn học sinh sử dụng chatbot, trường đưa các kiến thức về dữ liệu, thuật toán và machine learning vào quá trình học tập. Những kiến thức này sau đó được kết nối với các môn học khác như Toán, Khoa học xã hội và Tiếng Anh.',
+          'Cách tiếp cận này cho thấy giáo dục AI có thể được xây dựng theo hướng từ nền tảng đến ứng dụng: học sinh trước hết hiểu công nghệ, sau đó sử dụng công nghệ để giải quyết vấn đề và tạo ra sản phẩm. Khi đó, AI không còn chỉ là một công cụ hỗ trợ làm bài, mà trở thành một lĩnh vực kiến thức có thể được khám phá, phân tích và sáng tạo.',
+        ],
+      },
+      {
+        heading: '"AI literacy" trở thành năng lực mới',
+        paragraphs: [
+          'Sự khác biệt giữa sử dụng AI và học AI ngày càng trở nên quan trọng khi AI bắt đầu tác động trực tiếp đến thị trường lao động. Những công việc mới liên quan đến AI, dữ liệu và tự động hóa đang xuất hiện, trong khi nhiều công việc hiện hữu cũng thay đổi nhiệm vụ do AI đảm nhận một phần công việc.',
+          'Với giáo dục phổ thông, điều đó đặt ra một yêu cầu mới: AI literacy không nên được hiểu đơn giản là khả năng sử dụng ChatGPT hay viết một prompt tốt. Đó là năng lực giúp học sinh hiểu AI, đặt câu hỏi với AI, đánh giá đầu ra của AI và từng bước sử dụng công nghệ để giải quyết những vấn đề thực tế.',
+          'Trong bối cảnh AI tiếp tục phát triển với tốc độ nhanh, khoảng cách giữa một người "biết dùng AI" và một người "hiểu AI" có thể trở thành một trong những khác biệt quan trọng về năng lực trong tương lai.',
+        ],
+      },
+    ],
+  },
 ]
 
 export function getNewsBySlug(slug: string): NewsItem | undefined {

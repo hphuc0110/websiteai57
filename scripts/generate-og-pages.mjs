@@ -68,6 +68,11 @@ function injectOg(html, { title, description, url, image, type = 'article' }) {
 const newsRoot = path.join(root, 'dist/tin-tuc')
 fs.mkdirSync(newsRoot, { recursive: true })
 
+function absoluteImage(coverImage) {
+  if (String(coverImage).startsWith('http')) return coverImage
+  return `${SITE_URL}${coverImage.startsWith('/') ? coverImage : `/${coverImage}`}`
+}
+
 const listHtml = injectOg(baseHtml, {
   title: 'Tin tức AI — AI57',
   description:
@@ -78,7 +83,21 @@ const listHtml = injectOg(baseHtml, {
 })
 fs.writeFileSync(path.join(newsRoot, 'index.html'), listHtml)
 
-// Per-article OG HTML is served dynamically by /api/news-og for social crawlers
-// (see vercel.json bot rewrite). Avoid static files here so bots always hit the API
-// and pick up both static + Supabase posts with correct og:image.
-console.log(`Generated OG HTML for /tin-tuc list (${articles.length} articles in news-meta for API)`)
+// Static per-article OG HTML so Facebook/Zalo can scrape without relying only on
+// the serverless function (filesystem is served before rewrites on Vercel).
+for (const article of articles) {
+  const url = `${SITE_URL}/tin-tuc/${article.slug}`
+  const image = absoluteImage(article.coverImage)
+  const html = injectOg(baseHtml, {
+    title: `${article.title} — AI57`,
+    description: article.excerpt,
+    url,
+    image,
+    type: 'article',
+  })
+  const dir = path.join(newsRoot, article.slug)
+  fs.mkdirSync(dir, { recursive: true })
+  fs.writeFileSync(path.join(dir, 'index.html'), html)
+}
+
+console.log(`Generated OG HTML for ${articles.length} articles + /tin-tuc list`)
