@@ -1625,6 +1625,193 @@ export const newsItems: NewsItem[] = [
       },
     ],
   },
+  {
+    slug: 'giao-duc-ai-pho-thong-dung-bien-12-tiet-thanh-hoc-prompt',
+    title: 'Giáo dục AI phổ thông: Đừng biến 12 tiết thành "học cách viết prompt"',
+    excerpt:
+      'Từ năm học 2026–2027, mỗi học sinh phổ thông có 12 tiết AI mỗi năm. Theo ThS Trần Triệu Quân, những tiết này cần dẫn từ nền tảng đến chuyên sâu, không phải giờ học viết prompt.',
+    date: '2026-10-14',
+    category: 'Giáo dục',
+    coverImage: '/images/news/43.webp',
+    sections: [
+      {
+        paragraphs: [
+          'Từ năm học 2026–2027, mỗi học sinh phổ thông sẽ có 12 tiết học trí tuệ nhân tạo (AI) mỗi năm. Theo ThS Trần Triệu Quân, những tiết học này không nên trở thành giờ học viết prompt (câu lệnh), mà cần dẫn dắt học sinh đi từ hiểu biết nền tảng đến nội dung chuyên sâu.',
+        ],
+      },
+      {
+        heading: 'Khung nội dung mới và vấn đề cách dạy',
+        paragraphs: [
+          'Ngày 18/8/2026, Bộ GD&ĐT ban hành Quyết định số 2422/QĐ-BGDĐT về Khung nội dung giáo dục trí tuệ nhân tạo cho học sinh phổ thông. Theo đó, phần cốt lõi được tổ chức thành chuyên đề bắt buộc với thời lượng 12 tiết mỗi lớp mỗi năm học. Nhà trường được chủ động bổ sung nội dung mở rộng, còn nội dung AI không có bài kiểm tra hay đầu điểm riêng.',
+          'Trong bối cảnh đó, ông Quân lưu ý cần tránh biến môn học thành giờ hướng dẫn sử dụng phần mềm. Thay vì dành 12 tiết để dạy cách viết prompt, chương trình nên giúp học sinh hiểu nền tảng của AI trước, rồi mới đi dần đến những nội dung chuyên sâu.',
+        ],
+      },
+      {
+        heading: 'Lộ trình theo từng cấp học',
+        paragraphs: [
+          'Ông Quân đề xuất triển khai theo từng cấp. Bậc tiểu học ưu tiên trải nghiệm. Lên THCS, học sinh chuyển sang tìm hiểu nguyên lý và sử dụng công cụ. Đến THPT, các em hướng tới thiết kế và cải tiến giải pháp. Cách phân chia này khá tương đồng với yêu cầu theo cấp học trong khung nội dung của Bộ.',
+        ],
+      },
+      {
+        heading: 'Giáo viên là khâu then chốt',
+        paragraphs: [
+          'Theo ông, thách thức lớn nhất nằm ở khâu tổ chức dạy học chứ không phải hạ tầng công nghệ. Do đó, đầu tư đào tạo giáo viên cần được xem trọng không kém đầu tư trang thiết bị.',
+          'Thực tế tại một số địa phương cho thấy áp lực này. Theo Giáo dục Việt Nam ngày 01/9, một trường vùng cao chỉ có một giáo viên Tin học phụ trách 12 lớp, khiến lãnh đạo nhà trường lo ngại khó bố trí đủ số tiết theo yêu cầu. Bài báo cũng ghi nhận trường chỉ có một phòng máy với 20 máy, cho thấy ở những nơi như vậy, hạ tầng vẫn là bài toán chưa dễ giải.',
+        ],
+      },
+      {
+        heading: 'Chuyên đề kết hợp liên môn',
+        paragraphs: [
+          'Bên cạnh 12 tiết chuyên đề bắt buộc, ông Quân cho rằng các môn Ngữ văn, Ngoại ngữ, Khoa học và Tin học có thể lồng ghép AI phù hợp với bối cảnh riêng của từng môn.',
+        ],
+      },
+      {
+        heading: 'Đạo đức xuyên suốt, đánh giá theo quá trình',
+        paragraphs: [
+          'Đạo đức AI, theo ông, cần được đưa vào xuyên suốt chương trình. Về đánh giá, thay vì ngăn cấm học sinh sử dụng AI, giáo viên nên theo dõi cả quá trình thực hiện bài làm, kết hợp nhật ký, thuyết trình hoặc vấn đáp.',
+          'Từ góc nhìn đó, giáo dục AI ở bậc phổ thông không chỉ nhằm giúp học sinh thành thạo một công cụ, mà để các em hiểu AI vận hành ra sao và biết sử dụng công nghệ này một cách có trách nhiệm.',
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'con-khat-nhan-luc-ai-toan-cau',
+    title: 'Cơn khát nhân lực AI toàn cầu: Doanh nghiệp vẫn đỏ mắt tìm người',
+    excerpt:
+      'Nhiều doanh nghiệp Việt sẵn sàng trả đãi ngộ cao cho người ứng dụng AI hiệu quả, nhưng tuyển nhân sự chuyên sâu vẫn kéo dài nhiều tháng. ManpowerGroup: 83% doanh nghiệp sẵn sàng chi trả cao.',
+    date: '2026-10-13',
+    category: 'Thị trường',
+    coverImage: '/images/news/44.webp',
+    sections: [
+      {
+        paragraphs: [
+          'Nhiều doanh nghiệp Việt sẵn sàng trả đãi ngộ cao cho người ứng dụng AI hiệu quả, nhưng việc tuyển được nhân sự chuyên sâu vẫn kéo dài nhiều tháng. Theo ManpowerGroup quý III/2026, 83% doanh nghiệp sẵn sàng chi trả cao cho nhóm lao động này.',
+        ],
+      },
+      {
+        heading: 'Hiệu quả kinh doanh kéo theo nhu cầu nhân lực',
+        paragraphs: [
+          'Theo khảo sát của AWS được bài báo dẫn lại, 64% doanh nghiệp ứng dụng AI ghi nhận doanh thu tăng, với mức tăng bình quân khoảng 15%. Có 72% doanh nghiệp thấy năng suất lao động cải thiện rõ rệt, và 78% tổ chức tin AI sẽ tiếp tục là động lực tăng trưởng chính. Tại Việt Nam, báo cáo của ManpowerGroup quý III/2026 cho thấy 70–75% doanh nghiệp cho rằng công cụ AI và việc đào tạo kỹ năng đã giúp tối ưu năng suất trong năm qua.',
+          'Về tuyển dụng, 63% doanh nghiệp Việt đánh giá cao ứng viên biết dùng AI khi tìm việc, song vẫn kết hợp đánh giá hồ sơ trực tiếp. Có 83% doanh nghiệp sẵn sàng trả đãi ngộ cao cho người ứng dụng AI hiệu quả và có trách nhiệm; riêng khu vực phía Nam, tỷ lệ này là 88%.',
+        ],
+      },
+      {
+        heading: 'Lương cao vẫn khó tìm người',
+        paragraphs: [
+          'Mức đãi ngộ hấp dẫn chưa đủ để rút ngắn thời gian tuyển dụng. Giám đốc nhân sự của một doanh nghiệp công nghệ quy mô vừa tại Hà Nội (bài không nêu tên) cho biết công ty đưa ra mức lương 45–50 triệu đồng mỗi tháng, trả đủ lương thử việc và cấp sẵn tài khoản dịch vụ AI trả phí để tuyển kỹ sư cho các dự án từ Mỹ và Nhật Bản. Tuy nhiên, yêu cầu trên 3 năm kinh nghiệm, tiếng Anh tốt và từng làm dự án thực tế khiến nhiều vị trí phải chờ nhiều tháng.',
+          'Tại Misa, ông Bùi Thanh Minh, Phó Tổng Giám đốc Thường trực kiêm Giám đốc Đổi mới sáng tạo, cho biết công ty có đội ngũ sản phẩm hơn 1.000 người và đang xây dựng mô hình ngôn ngữ lớn "Make in Vietnam". Dù vậy, do thiếu nhân lực chuyên sâu, doanh nghiệp vẫn phải sắp xếp lại thứ tự ưu tiên trong kế hoạch chuyển sang mô hình "AI First".',
+          'Bosch Việt Nam có hơn 4.000 kỹ sư tham gia các dự án toàn cầu, ứng dụng AI vào kiểm soát chất lượng và vận hành nhà máy tại Đồng Nai. Bà Trần Lê Ngọc Đoan, Giám đốc Nhân sự Bosch Global Software Technologies Việt Nam, cho biết doanh nghiệp cần người giỏi học máy hoặc khoa học dữ liệu và hiểu nghiệp vụ. Dù đã tuyển hàng trăm vị trí, Bosch vẫn thiếu người và phải tự đào tạo nội bộ.',
+          'Từ góc nhìn của đơn vị tuyển dụng, bà Võ Thị Bích Thủy, Giám đốc Vận hành Manpower Việt Nam, nhận định kỹ sư AI hiện là nhóm được săn đón nhiều nhất, với nhu cầu đang mở rộng sang AI tạo sinh, mô hình ngôn ngữ lớn và bảo mật.',
+        ],
+      },
+      {
+        heading: 'Mặt bằng lương nhảy vọt',
+        paragraphs: [
+          'Theo dữ liệu từ ITviec, TopCV và TopDev được bài báo dẫn, kỹ sư AI có 2–4 năm kinh nghiệm nhận 30–60 triệu đồng mỗi tháng, so với 20–35 triệu đồng của kỹ sư công nghệ thông thường. Quản lý mảng AI nhận từ 70–120 triệu đồng trở lên, tùy mức độ chuyên sâu. Nhìn chung, nhân sự AI được trả cao hơn khoảng 20–25% so với đồng nghiệp cùng cấp bậc ở các mảng công nghệ khác, và một số chuyên môn hiếm có thể cao gấp đôi.',
+          'Ở cấp cao hơn, theo JT1 và Vietnam IT Salary Guide 2026, kỹ sư AI và học máy có 7–10 năm kinh nghiệm tại TP.HCM nhận khoảng 4.500 USD mỗi tháng, tương đương khoảng 118 triệu đồng. Theo Manpower Việt Nam, giám đốc AI tại doanh nghiệp lớn có thu nhập 15.000–25.000 USD mỗi tháng, tương đương khoảng 390–650 triệu đồng, chưa tính thưởng, bảo hiểm và cổ tức. Ở đầu vào, một công ty giới thiệu việc làm (bài không nêu tên) cho biết sinh viên mới tốt nghiệp ngành AI và công nghệ nhận khoảng 20 triệu đồng mỗi tháng.',
+        ],
+      },
+      {
+        heading: 'Thiếu hụt còn kéo dài',
+        paragraphs: [
+          'Theo Bosch, tình trạng thiếu nhân lực AI sẽ tiếp tục gia tăng trong một đến hai năm tới. Theo số liệu khu vực châu Á – Thái Bình Dương và Trung Đông (APME) được bài báo dẫn lại, 95% tổ chức đang áp dụng đồng thời nhiều giải pháp: 30% đào tạo nội bộ, 22% tìm nhân tài mới, 22% tăng lương thưởng để giữ người, 21% linh hoạt về thời gian làm việc, 20% linh hoạt về địa điểm và 17% dùng tự động hóa hoặc AI để giảm thiếu hụt nhân sự.',
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'biet-dung-cong-cu-ai-chua-du',
+    title: 'Biết dùng công cụ AI chưa đủ: Nhà tuyển dụng cần thấy kết quả',
+    excerpt:
+      'Hơn 52% sinh viên tốt nghiệp Việt Nam tự tin sẵn sàng làm việc cùng AI, nhưng chỉ 15% được nhà tuyển dụng đánh giá xuất sắc — thấp nhất trong sáu thị trường theo báo cáo Pearson và AWS.',
+    date: '2026-10-12',
+    category: 'Thị trường',
+    coverImage: '/images/news/45.webp',
+    sections: [
+      {
+        paragraphs: [
+          'Hơn 52% sinh viên tốt nghiệp Việt Nam tham gia khảo sát tự tin sẵn sàng làm việc cùng AI, nhưng tỷ lệ được nhà tuyển dụng đánh giá xuất sắc chỉ ở mức 15%, thấp nhất trong sáu thị trường của báo cáo Pearson và AWS. Theo ông Eklavya Bhave, khoảng cách ấy bắt nguồn từ thước đo: doanh nghiệp quan tâm đến kết quả sinh viên tạo ra, chứ không phải mức độ thành thạo công cụ.',
+        ],
+      },
+      {
+        heading: 'Thước đo của nhà tuyển dụng',
+        paragraphs: [
+          'Theo ông Eklavya Bhave, Giám đốc mảng giáo dục đại học khu vực châu Á – Thái Bình Dương của Pearson, tình trạng sinh viên vững lý thuyết về AI nhưng lúng túng khi áp dụng vào công việc không phải đặc thù của Việt Nam mà là thực trạng chung trên toàn cầu. Ông cho rằng nhà tuyển dụng không xem trọng việc sinh viên hiểu lý thuyết sâu đến đâu, hay sử dụng công cụ AI thường xuyên thế nào. Điều họ cần là khả năng đưa công cụ vào xử lý vấn đề thực tế, được kiểm chứng bằng kết quả, năng suất và kỹ năng giải quyết vấn đề. Theo ông, đây chính là điểm hai bên hiểu khái niệm "năng lực" khác nhau.',
+          'Nhận định của đơn vị khảo sát đi cùng hướng. Nhà trường chủ yếu hướng dẫn sinh viên thao tác trên những công cụ AI sẵn có, trong khi nhà tuyển dụng kỳ vọng ở mức vận dụng nâng cao, nơi kỹ năng công nghệ phải gắn với tư duy sáng tạo, tư duy phản biện, phân tích dữ liệu, cùng khả năng giao tiếp và hợp tác để giải quyết bài toán kinh doanh thực tế.',
+        ],
+      },
+      {
+        heading: 'Hai bảng điểm trái chiều',
+        paragraphs: [
+          'Báo cáo được công bố ngày 6/10, khảo sát sáu thị trường gồm Việt Nam, Saudi Arabia, Malaysia, Brazil, Mỹ và Anh.',
+          'Ở bảng điểm của người học, sinh viên Việt Nam dẫn đầu: hơn 52% tự chấm mức sẵn sàng làm việc trong môi trường tích hợp AI từ 8 đến 10 trên thang 10. Saudi Arabia (43%), Malaysia (33%), Brazil (29%), Mỹ (20%) và Anh (14%) lần lượt theo sau.',
+          'Ở bảng điểm của nhà tuyển dụng, thứ hạng đảo ngược. Saudi Arabia đứng đầu với 44% sinh viên tốt nghiệp được đánh giá xuất sắc khi ứng dụng AI vào công việc. Brazil, Malaysia, Anh và Mỹ nằm trong khoảng 21–27%. Việt Nam xếp cuối với 15%, và mọi chỉ số đánh giá đều thấp hơn mức trung bình chung của các thị trường.',
+        ],
+      },
+      {
+        heading: 'Nhà trường đã vào cuộc',
+        paragraphs: [
+          'Những con số này xuất hiện trong bối cảnh nhiều trường đại học đang đầu tư vào AI. Trong 50 lãnh đạo và giảng viên đại học Việt Nam tham gia khảo sát, 96% cho biết đơn vị đã đầu tư, và 84% thường xuyên làm việc với doanh nghiệp để nắm bắt nhu cầu thị trường. Phía doanh nghiệp có hơn 50 đơn vị và nhà tuyển dụng tham gia.',
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'nebius-nvidia-global-ai-hackathon-2026',
+    title: 'Nebius và NVIDIA mở cuộc thi AI toàn cầu, tổng giải thưởng hơn 50.000 USD',
+    excerpt:
+      'Nebius x NVIDIA Global AI Hackathon 2026 mở cho lập trình viên và startup toàn cầu. Hạn nộp bài 30/10; dự án phải chạy trên hạ tầng Nebius và dùng mô hình mã nguồn mở của NVIDIA.',
+    date: '2026-10-11',
+    category: 'Công nghệ',
+    coverImage: '/images/news/46.webp',
+    sections: [
+      {
+        paragraphs: [
+          'Cuộc thi trực tuyến dành cho lập trình viên, nhóm khởi nghiệp và tổ chức trên thế giới. Hạn nộp bài là 30/10. Dự án phải chạy trên hạ tầng Nebius và dùng mô hình mã nguồn mở của NVIDIA.',
+          'Nebius, công ty hạ tầng điện toán đám mây AI có trụ sở tại Hà Lan, vừa phối hợp với NVIDIA tổ chức Nebius x NVIDIA Global AI Hackathon 2026. Cuộc thi dành cho những ai muốn biến ý tưởng AI thành sản phẩm chạy được. Thí sinh đăng ký và nộp bài miễn phí trên nền tảng Devpost đến hết ngày 30/10/2026.',
+        ],
+      },
+      {
+        heading: 'Bốn hạng mục, một điều kiện kỹ thuật chung',
+        paragraphs: [
+          'Mọi dự án dự thi phải được xây dựng và vận hành trên Nebius Token Factory hoặc Nebius AI Cloud. Bài dự thi cũng phải dùng ít nhất một mô hình mã nguồn mở của NVIDIA, chẳng hạn dòng Nemotron.',
+          'Thí sinh chọn một trong bốn hạng mục: Coding và Agentic Engineering (lập trình và kỹ thuật tác tử AI), Best Apps and Agents (ứng dụng và tác tử tốt nhất), Personal AI (AI cá nhân) và Physical AI (AI vật lý, gắn với robot và thiết bị).',
+        ],
+      },
+      {
+        heading: 'Hồ sơ nộp bài',
+        paragraphs: [
+          'Mỗi bài dự thi cần có dự án đang hoạt động, bản mô tả chi tiết và đường dẫn demo. Riêng hạng mục Physical AI không bắt buộc có demo trực tuyến. Thí sinh cũng phải nộp video giới thiệu công khai trên YouTube, dài dưới ba phút. Mã nguồn phải để công khai kèm giấy phép mã nguồn mở (Apache 2.0, MIT hoặc MPL 2.0) và tệp hướng dẫn README. Ngoài ra, thí sinh cần gửi phản hồi về các công cụ của Nebius và NVIDIA. Nếu dự án đã có từ trước, thí sinh phải giải trình những phần được cập nhật trong thời gian thi.',
+        ],
+      },
+      {
+        heading: 'Chấm điểm theo bốn tiêu chí',
+        paragraphs: [
+          'Ban giám khảo gồm kỹ sư của NVIDIA và Nebius, cùng đại diện Tavily. Các bài được sàng lọc theo yêu cầu hồ sơ trước. Sau đó mỗi bài được chấm theo bốn tiêu chí có trọng số ngang nhau: mức độ triển khai kỹ thuật, thiết kế, tác động tiềm năng và chất lượng ý tưởng.',
+          'Theo trang tổng hợp StartupGrantsIndia, vòng chấm diễn ra từ 1 đến 15/12/2026. Kết quả dự kiến được công bố vào khoảng 11/1/2027.',
+        ],
+      },
+      {
+        heading: 'Hơn 50.000 USD tiền thưởng',
+        paragraphs: [
+          'Cũng theo trang này, giải Nhất trị giá 20.000 USD, giải Nhì 10.000 USD và giải Ba 6.000 USD. Giải "Sử dụng Tavily hiệu quả nhất" có giá trị 3.000 USD. Giải "Phản hồi giá trị nhất" là 100 USD. Các giải thành phố mỗi giải 500 USD, không áp dụng tại Ấn Độ. Bốn dự án thắng ở bốn hạng mục còn nhận thêm thiết bị NVIDIA Jetson Orin Nano. Thí sinh cũng có thể tham gia chương trình Nebius Builder Program để nhận tín dụng sử dụng dịch vụ của Nebius, Tavily và Nebius Academy.',
+        ],
+      },
+      {
+        heading: 'Ai được dự thi?',
+        paragraphs: [
+          'Cuộc thi mở cho cá nhân đủ tuổi thành niên theo quy định tại nơi cư trú, cũng như các nhóm và tổ chức như doanh nghiệp, tổ chức phi lợi nhuận. Phần lớn quốc gia đều đủ điều kiện, trừ các vùng lãnh thổ bị cấm vận. Quy định về số thành viên mỗi nhóm chưa được nêu công khai.',
+        ],
+      },
+      {
+        heading: 'Sự kiện song hành tại Berlin',
+        paragraphs: [
+          'Bên cạnh vòng thi trực tuyến, Nebius tổ chức Nebius Build Week Hackathon cùng NVIDIA vào ngày 18/10/2026 tại Delta Campus và CODE University (Berlin, Đức). Sự kiện diễn ra ngay trước thềm GTC Berlin, quy mô khoảng 250 người và xét duyệt người tham dự.',
+          'Chương trình gồm tập huấn kỹ thuật, làm việc cùng cố vấn, nộp bài lúc 17h30 và phần trình diễn của các đội chung kết vào buổi tối. Trang của Nebius chưa nêu giá trị giải thưởng của sự kiện này.',
+        ],
+      },
+    ],
+  },
 ]
 
 export function getNewsBySlug(slug: string): NewsItem | undefined {

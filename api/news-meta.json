@@ -334,5 +334,37 @@
     "date": "2026-10-03",
     "category": "Giáo dục",
     "coverImage": "/images/news/42.png"
+  },
+  {
+    "slug": "giao-duc-ai-pho-thong-dung-bien-12-tiet-thanh-hoc-prompt",
+    "title": "Giáo dục AI phổ thông: Đừng biến 12 tiết thành \"học cách viết prompt\"",
+    "excerpt": "Từ năm học 2026–2027, mỗi học sinh phổ thông có 12 tiết AI mỗi năm. Theo ThS Trần Triệu Quân, những tiết này cần dẫn từ nền tảng đến chuyên sâu, không phải giờ học viết prompt.",
+    "date": "2026-10-14",
+    "category": "Giáo dục",
+    "coverImage": "/images/news/43.webp"
+  },
+  {
+    "slug": "con-khat-nhan-luc-ai-toan-cau",
+    "title": "Cơn khát nhân lực AI toàn cầu: Doanh nghiệp vẫn đỏ mắt tìm người",
+    "excerpt": "Nhiều doanh nghiệp Việt sẵn sàng trả đãi ngộ cao cho người ứng dụng AI hiệu quả, nhưng tuyển nhân sự chuyên sâu vẫn kéo dài nhiều tháng. ManpowerGroup: 83% doanh nghiệp sẵn sàng chi trả cao.",
+    "date": "2026-10-13",
+    "category": "Thị trường",
+    "coverImage": "/images/news/44.webp"
+  },
+  {
+    "slug": "biet-dung-cong-cu-ai-chua-du",
+    "title": "Biết dùng công cụ AI chưa đủ: Nhà tuyển dụng cần thấy kết quả",
+    "excerpt": "Hơn 52% sinh viên tốt nghiệp Việt Nam tự tin sẵn sàng làm việc cùng AI, nhưng chỉ 15% được nhà tuyển dụng đánh giá xuất sắc — thấp nhất trong sáu thị trường theo báo cáo Pearson và AWS.",
+    "date": "2026-10-12",
+    "category": "Thị trường",
+    "coverImage": "/images/news/45.webp"
+  },
+  {
+    "slug": "nebius-nvidia-global-ai-hackathon-2026",
+    "title": "Nebius và NVIDIA mở cuộc thi AI toàn cầu, tổng giải thưởng hơn 50.000 USD",
+    "excerpt": "Nebius x NVIDIA Global AI Hackathon 2026 mở cho lập trình viên và startup toàn cầu. Hạn nộp bài 30/10; dự án phải chạy trên hạ tầng Nebius và dùng mô hình mã nguồn mở của NVIDIA.",
+    "date": "2026-10-11",
+    "category": "Công nghệ",
+    "coverImage": "/images/news/46.webp"
   }
 ]
