@@ -1812,6 +1812,217 @@ export const newsItems: NewsItem[] = [
       },
     ],
   },
+  {
+    slug: 'tu-bac-kinh-den-ha-noi-ai-thanh-mon-hoc',
+    title: 'Từ Bắc Kinh đến Hà Nội: AI thành môn học',
+    excerpt:
+      'Từ Trung Quốc, UAE đến Ấn Độ, nhiều quốc gia đã đưa AI vào trường học như nội dung bắt buộc. Khoảng cách giữa chính sách và thực tế lớp học mới quyết định thành bại — Việt Nam bắt đầu triển khai từ năm học 2026–2027.',
+    date: '2026-10-19',
+    category: 'Giáo dục',
+    coverImage: '/images/news/48.webp',
+    sections: [
+      {
+        paragraphs: [
+          'Từ Trung Quốc, UAE đến Ấn Độ, nhiều quốc gia đã đưa AI vào trường học như một nội dung bắt buộc. Tuy nhiên, các phân tích gần đây cho thấy khoảng cách giữa chính sách trên giấy và thực tế lớp học mới là yếu tố quyết định thành bại. Việt Nam cũng bước vào giai đoạn triển khai từ năm học 2026-2027.',
+        ],
+      },
+      {
+        heading: 'Nhiều quốc gia đã đi trước',
+        paragraphs: [
+          'Theo hãng tin nhà nước WAM của UAE, nước này đưa AI trở thành môn học chính thức tại tất cả trường công lập, từ mầm non đến lớp 12, bắt đầu từ năm học 2025-2026. Analytics Insight (11/7/2026) mô tả đây là chương trình bắt buộc toàn quốc đầu tiên trên thế giới ở bậc K-12.',
+          'Tại Trung Quốc, các báo cáo cho biết trường tiểu học và trung học phải dành tối thiểu 8 giờ mỗi năm cho giáo dục AI, có thể dạy riêng hoặc lồng ghép vào môn như khoa học, tin học.',
+          'Ấn Độ dự kiến đưa AI và tư duy tính toán thành nội dung bắt buộc từ lớp 3 trong năm 2026-27. Theo Analytics Insight, thách thức lớn nhất là đào tạo khoảng 10 triệu giáo viên.',
+        ],
+      },
+      {
+        heading: 'Bài học từ Hàn Quốc',
+        paragraphs: [
+          'Theo bài phân tích, Hàn Quốc từng lên kế hoạch dùng sách giáo khoa AI bắt buộc từ năm 2025, nhưng mức áp dụng thấp và công đoàn giáo viên cho rằng tiến độ vượt quá khả năng chuẩn bị. Quốc hội sau đó bãi bỏ tư cách chính thức của loại sách này. Seoul sau đó công bố kế hoạch 960 triệu USD để xây dựng các trung tâm nhân tài AI đến năm 2030.',
+          'Bài học được rút ra là một chính sách mạnh mẽ vẫn có thể thất bại nếu thiếu đội ngũ giáo viên được đào tạo tương xứng.',
+        ],
+      },
+      {
+        heading: 'Giáo dục AI không đồng nghĩa với cho trẻ dùng chatbot thoải mái',
+        paragraphs: [
+          'Song song với việc đưa AI vào lớp học, giới chuyên gia và tổ chức bảo vệ trẻ em ngày càng lên tiếng về chatbot. Theo khảo sát công bố nhân Ngày Internet An toàn 2026 tại Anh, 81% trẻ từ 11 đến 16 tuổi dùng chatbot AI, và gần một phần ba coi chúng như bạn bè. Common Sense Media khuyến nghị trẻ không nên dùng chatbot AI để hỗ trợ cảm xúc hay làm bạn đồng hành.',
+          'Tại Việt Nam, GS.TS Lê Anh Vinh, Viện trưởng Viện Chiến lược và Chính sách giáo dục, cho rằng câu hỏi hiện nay không còn là có nên cấm AI hay không, mà là sử dụng AI như thế nào. Ông khuyến cáo trẻ em không nên tiếp cận rộng rãi với chatbot đa năng không thiết kế riêng cho giáo dục.',
+        ],
+      },
+      {
+        heading: 'Việt Nam đã bước vào giai đoạn triển khai',
+        paragraphs: [
+          'Ngày 18/8/2026, Bộ GD&ĐT ban hành Quyết định 2422/QĐ-BGDĐT về khung nội dung giáo dục AI cho học sinh phổ thông, kèm Công văn 5588 hướng dẫn triển khai. Từ năm học 2026-2027, nội dung này được triển khai đại trà với 12 tiết mỗi lớp mỗi năm, thông qua chuyên đề, lồng ghép vào môn học hoặc hoạt động ngoại khóa.',
+          'Khung nội dung gồm bốn mạch: tư duy lấy con người làm trung tâm, đạo đức AI, kỹ thuật và ứng dụng AI, thiết kế hệ thống AI. Bộ cũng lưu ý các trường không được yêu cầu học sinh dùng tài khoản cá nhân hoặc công cụ AI chưa được rà soát. Hà Nội cho biết 100% học sinh phổ thông trên địa bàn sẽ được tiếp cận nội dung cốt lõi về AI từ năm học này.',
+        ],
+      },
+      {
+        heading: 'Điều gì quyết định thành công?',
+        paragraphs: [
+          'Kinh nghiệm quốc tế cho thấy yếu tố then chốt không nằm ở quy mô của thông báo, mà ở việc đào tạo giáo viên, chọn công cụ phù hợp lứa tuổi và có hướng dẫn rõ ràng cho học sinh, phụ huynh. Với Việt Nam, 12 tiết mỗi năm là mức nền tảng chung; việc học sâu hơn sẽ phụ thuộc vào điều kiện của từng trường và từng gia đình.',
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'ai-co-dang-khep-cua-viec-lam-dau-vao',
+    title: 'AI có đang khép cửa việc làm đầu vào trên toàn cầu?',
+    excerpt:
+      'Dữ liệu 2026 cho thấy kỹ năng AI được trả giá cao hơn, trong khi tác động lên người mới ra trường vẫn còn nhiều tranh luận — chưa thể kết luận AI đã lấy mất việc đầu vào.',
+    date: '2026-10-18',
+    category: 'Thị trường',
+    coverImage: '/images/news/47.webp',
+    sections: [
+      {
+        paragraphs: [
+          'Trí tuệ nhân tạo đang thay đổi thị trường lao động toàn cầu, nhưng không theo cách đơn giản là "mất việc" hay "nhiều việc hơn". Dữ liệu cho thấy kỹ năng AI được trả giá cao hơn, trong khi tác động lên người mới ra trường vẫn còn nhiều tranh luận.',
+          'Câu hỏi "AI có lấy mất việc làm không?" nghe quen, nhưng câu trả lời ngày càng khó gói trong một chữ "có" hay "không". Các nghiên cứu lớn trong năm 2026 cho thấy thị trường lao động đang dịch chuyển theo nhiều hướng cùng lúc.',
+        ],
+      },
+      {
+        heading: 'Một thế giới nhiều việc mới, nhiều việc cũ biến mất',
+        paragraphs: [
+          'Theo báo cáo Future of Jobs của Diễn đàn Kinh tế Thế giới (WEF), đến năm 2030 khoảng 22% số việc làm sẽ chịu biến động. Báo cáo dự báo khoảng 170 triệu việc làm mới được tạo ra, trong khi 92 triệu việc làm bị thay thế, tức tăng ròng khoảng 78 triệu. Các nhà tuyển dụng được WEF khảo sát cũng kỳ vọng 39% kỹ năng cốt lõi của người lao động sẽ thay đổi trong giai đoạn này.',
+          'Nói cách khác, bức tranh chung không phải là thiếu việc, mà là việc đang thay đổi nhanh hơn kỹ năng của người làm.',
+        ],
+      },
+      {
+        heading: 'Kỹ năng AI được trả giá cao hơn',
+        paragraphs: [
+          'Báo cáo AI Jobs Barometer 2026 của PwC, phân tích hơn một tỷ tin tuyển dụng tại 27 quốc gia và vùng lãnh thổ, cho thấy những việc làm đòi hỏi kỹ năng AI cụ thể, như kỹ thuật prompt hay học máy, đang tăng nhanh gấp khoảng tám lần thị trường chung (69% so với 9%). Mức chênh lương trung bình dành cho người có kỹ năng AI đạt 62%, tăng từ 57% năm trước. Con số này khác nhau đáng kể giữa các ngành, nên đây là mức trung bình chứ không phải mức áp dụng cho mọi công việc.',
+          'WEF cũng ghi nhận lương của các vị trí liên quan đến AI đã tăng khoảng 27% kể từ năm 2019.',
+        ],
+      },
+      {
+        heading: 'Người mới ra trường: bức tranh chưa thống nhất',
+        paragraphs: [
+          'Mối lo lớn nhất hiện nay là việc làm đầu vào. Tại Mỹ, theo Fed New York, tỷ lệ thất nghiệp của nhóm cử nhân 22–27 tuổi mới tốt nghiệp là 5,7% vào tháng 6, cao hơn mức 4,1% của toàn bộ người lao động. Một khảo sát của ZipRecruiter cho thấy 47% sinh viên mới tốt nghiệp tin rằng AI đã ảnh hưởng đến tuyển dụng trong ngành của họ.',
+          'Dữ liệu nghiên cứu thì chưa đồng nhất. Nhóm nghiên cứu của Đại học Stanford, dựa trên dữ liệu bảng lương của hãng nhân sự ADP, thấy việc làm của nhóm 22–25 tuổi ở các nghề chịu tác động AI mạnh nhất thấp hơn 19% so với nhóm nghề ít chịu tác động. Khoảng cách này mở rộng từ 13% một năm trước. Theo các tác giả, nguyên nhân chủ yếu là tuyển dụng yếu đi chứ không phải sa thải hàng loạt.',
+          'Trái lại, hai nhà nghiên cứu Robert Fairlie và Jane Wu thuộc viện CESifo phân tích dữ liệu khảo sát dân số của Mỹ và thấy tỷ lệ thất nghiệp của cử nhân 22–25 tuổi mùa hè 2026 là 7,3%, nằm trong khoảng của bốn năm trước. Họ không tìm thấy khác biệt đáng kể giữa nhóm nghề chịu tác động AI nhiều và ít, dù cũng cảnh báo còn quá sớm để kết luận. Hai nghiên cứu đo hai thứ khác nhau, một bên là mức việc làm theo nghề, một bên là tỷ lệ thất nghiệp, nên kết quả không nhất thiết mâu thuẫn.',
+          'Một số nhà kinh tế còn đưa ra cách giải thích khác. Giáo sư David Deming của Đại học Harvard chỉ ra rằng việc tuyển người mới giảm bắt đầu từ khoảng sáu tháng trước khi ChatGPT ra mắt, và cho rằng làm việc từ xa mới là yếu tố chính, vì doanh nghiệp khó đào tạo nhân viên mới từ xa. Một phân tích của Fed New York cũng không thấy AI giải thích được mức tăng thất nghiệp ở nhóm trẻ. Thêm vào đó, nghiên cứu của Ramp và Revelio Labs trên hơn 21.000 doanh nghiệp Mỹ cho thấy ở các công ty đầu tư nhiều nhất cho AI, số nhân viên cấp đầu vào lại tăng 12% sau hai năm áp dụng.',
+        ],
+      },
+      {
+        heading: 'Chuẩn đầu vào đang nâng lên',
+        paragraphs: [
+          'Dù bức tranh việc làm chưa rõ, có một xu hướng khá nhất quán: yêu cầu đối với người mới đang cao hơn. Theo PwC, các vị trí đầu vào chịu tác động AI mạnh nay có khả năng đòi hỏi những kỹ năng thường gắn với cấp cao, như phán đoán, đạo đức và lãnh đạo, cao gấp bảy lần so với vị trí ít chịu tác động. Số vị trí đầu vào kiểu này tăng khoảng 35% từ năm 2019, trong khi vị trí tương đương không thích nghi giảm 10%. AI đang nhận phần việc lặp lại vốn là nơi người mới học nghề, nên kỳ vọng đặt lên họ đến sớm hơn.',
+        ],
+      },
+      {
+        heading: 'Điều này có ý nghĩa gì với học sinh và phụ huynh?',
+        paragraphs: [
+          'Dữ liệu chưa cho phép kết luận rằng AI đã lấy mất việc của người mới ra trường, nhưng cũng không cho phép yên tâm hoàn toàn. Điều tương đối rõ là kỹ năng AI đang được định giá cao, và kỹ năng của con người như phán đoán, sáng tạo, trách nhiệm vẫn là phần AI khó thay thế. Với học sinh hôm nay, câu hỏi hữu ích không phải là "nghề nào sẽ biến mất", mà là "mình hiểu công cụ này đến đâu và đủ vững để làm chủ nó hay chưa".',
+          'Các nhà kinh tế được hỏi đều đồng ý một điều: thay đổi đang diễn ra, và sẽ không êm. Điều đó càng khiến việc hiểu AI từ sớm trở nên đáng giá, cả khi bạn không trở thành kỹ sư AI.',
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'tu-nguoi-dung-den-nguoi-hieu-ai',
+    title: 'Từ người dùng đến người hiểu AI: Khoảng cách ở đâu?',
+    excerpt:
+      'Biết thao tác chatbot không đồng nghĩa với hiểu AI. Ranh giới giữa "dùng AI" và "học AI" quyết định học sinh có làm chủ được công nghệ hay không.',
+    date: '2026-10-17',
+    category: 'Giáo dục',
+    coverImage: '/images/news/50.webp',
+    sections: [
+      {
+        paragraphs: [
+          'Ai cũng có thể mở một chatbot và đặt câu hỏi, nhưng biết thao tác không đồng nghĩa với hiểu. Với giáo dục, ranh giới giữa "dùng AI" và "học AI" chính là điều quyết định học sinh có làm chủ được công nghệ hay không.',
+          'Công cụ AI ngày càng dễ dùng. Một học sinh lớp 6 cũng có thể nhờ chatbot viết bài văn trong vài giây. Chính vì rào cản thao tác thấp như vậy, câu hỏi quan trọng không còn là "con có biết dùng AI không", mà là "con có hiểu mình đang dùng cái gì không".',
+        ],
+      },
+      {
+        heading: 'Dùng AI và học AI: hai việc khác nhau',
+        paragraphs: [
+          'Dùng AI là vận hành công cụ: gõ câu lệnh, nhận kết quả, chỉnh sửa. Học AI là tìm hiểu cách AI hoạt động, nó sai ở đâu, và ai chịu trách nhiệm khi nó sai.',
+          'Chuyên gia về môi trường làm việc số Sharon O\'Dea mô tả sự khác biệt này ở nơi công sở. Theo bà, nhiều tổ chức đang dạy kỹ năng vận hành công cụ rồi gọi đó là AI literacy. Điều khó thực sự không nằm ở thao tác, vì công cụ vốn được thiết kế dễ dùng, mà ở phán đoán: biết khi nào nên tin AI, khi nào cần phản biện, và khi nào nên tự làm. Bà cũng cảnh báo rằng chấp nhận kết quả mà không kiểm chứng sẽ làm kỹ năng đặt câu hỏi mòn dần.',
+          'Lập luận này được viết cho người đi làm, nhưng nó đúng với cả học sinh, thậm chí còn đúng hơn, vì các em đang hình thành những kỹ năng nền tảng mà AI có thể làm thay.',
+        ],
+      },
+      {
+        heading: 'Học AI là học những gì?',
+        paragraphs: [
+          'Khung nội dung giáo dục AI của Bộ Giáo dục và Đào tạo không dừng ở việc dạy dùng công cụ. Khung này xây dựng trên bốn mạch kiến thức: tư duy lấy con người làm trung tâm, đạo đức AI, kỹ thuật và ứng dụng AI, thiết kế hệ thống AI. Theo Bộ, các nội dung như đạo đức AI, bảo vệ dữ liệu cá nhân và nhận diện rủi ro được dạy qua thảo luận, tranh biện và nghiên cứu tình huống. Mục tiêu được nêu là giúp học sinh biết dùng AI nhưng cũng biết kiểm soát AI.',
+          'Khung của Việt Nam tham chiếu khung năng lực AI cho học sinh của UNESCO, gồm 12 năng lực chia thành ba mức: hiểu, áp dụng và sáng tạo. Nói cách khác, "dùng" mới chỉ là một phần của mức "áp dụng"; phía trên còn có phần hiểu bản chất và phần tự tạo ra.',
+          'Quá trình này cũng được định hình theo cấp học. Ở trung học cơ sở, học sinh học dùng công cụ AI để tạo sản phẩm số và giải quyết vấn đề học tập. Ở trung học phổ thông, các em được khuyến khích khám phá, thiết kế và cải tiến những công cụ AI đơn giản qua dự án khoa học, tức là chuyển từ người dùng sang người làm.',
+          'Ở Mỹ, sáng kiến AI4K12 do hai tổ chức AAAI và CSTA bảo trợ cũng tổ chức hướng dẫn giảng dạy AI quanh năm ý tưởng lớn: nhận thức, biểu diễn và suy luận, học từ dữ liệu, tương tác tự nhiên, và tác động xã hội. Danh sách này cho thấy cách nhìn chung của các nhà giáo dục: AI là một lĩnh vực kiến thức, không chỉ là một bộ công cụ.',
+        ],
+      },
+      {
+        heading: 'Cái giá của việc chỉ biết dùng',
+        paragraphs: [
+          'Một vấn đề khó thấy là AI trình bày câu trả lời rất tự tin, khiến việc kiểm tra có vẻ thừa. Theo O\'Dea, các nghiên cứu về "thiên kiến tự động hóa" cho thấy con người có xu hướng tin lời khuyên của thuật toán hơn, dù họ nói mình hoài nghi AI.',
+          'Với học sinh, rủi ro nằm ở chỗ khác: một bài văn trôi chảy hay lời giải trông hợp lý chưa chắc là bài học sinh hiểu. Khi chưa nắm bản chất vấn đề, các em khó nhận ra một đáp án sai nhưng nghe có vẻ đúng. Vì thế nhiều giáo viên và nhà nghiên cứu nhấn mạnh việc để học sinh tự suy nghĩ trước khi hỏi AI.',
+          'Giáo sư Hồ Tú Bảo, theo một bài phỏng vấn, tự đặt cho mình nguyên tắc luôn tự nghĩ lời giải trước khi nhờ tới AI. Ông cũng cho rằng AI tạo sinh không hiểu bản chất của toán theo cách con người hiểu, mà hoạt động dựa trên xác suất.',
+        ],
+      },
+      {
+        heading: 'Trong lớp học, học AI trông như thế nào?',
+        paragraphs: [
+          'Một số trường ở Mỹ đã thử cách tiếp cận khác với việc chỉ cho học sinh dùng công cụ. Tại Trường Kinkaid ở bang Texas, giáo viên lớp 6 bắt đầu bài học về AI bằng việc yêu cầu học sinh viết ra suy nghĩ và cảm nhận của mình trước khi tiếp xúc với công cụ. Sau đó mới giới thiệu các khái niệm cơ bản như dữ liệu, học máy và thiên lệch thuật toán, rồi hướng dẫn dùng AI có trách nhiệm.',
+          'Điểm chung của những cách làm này là thứ tự: hiểu trước, dùng sau, và luôn có người lớn hướng dẫn.',
+        ],
+      },
+      {
+        heading: 'Phụ huynh có thể bắt đầu từ đâu?',
+        paragraphs: [
+          'Phụ huynh không cần là chuyên gia công nghệ để giúp con phân biệt "dùng AI" và "học AI". Theo hướng dẫn của Common Sense Media, cha mẹ có thể hỏi con những câu đơn giản như: Con đã tự tìm ra điều gì trước khi hỏi AI? Con không đồng ý với AI ở điểm nào? Nếu không có AI, con sẽ làm khác đi thế nào? Và có thể thêm một câu: Con đã kiểm tra kết quả này bằng cách nào? Những câu hỏi này không nhằm cấm đoán AI, mà đưa phán đoán trở lại tay học sinh. Cách tiếp cận này cũng phù hợp với mục tiêu Bộ Giáo dục và Đào tạo đặt ra cho khung thí điểm giáo dục AI: giúp học sinh biết dùng AI nhưng cũng biết kiểm soát AI, sử dụng công nghệ vì lợi ích chung, an toàn và nhân văn.',
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'san-choi-ai-cho-hoc-sinh-thi-lap-trinh-hay-lam-du-an',
+    title: 'Sân chơi AI cho học sinh: Thi lập trình hay làm dự án?',
+    excerpt:
+      'Từ olympic quốc tế đến cuộc thi làm sản phẩm giải quyết vấn đề thật, học sinh Việt Nam đang có nhiều sân chơi AI hơn bao giờ hết — mỗi loại rèn một năng lực khác nhau.',
+    date: '2026-10-16',
+    category: 'Giáo dục',
+    coverImage: '/images/news/49.webp',
+    sections: [
+      {
+        paragraphs: [
+          'Từ các kỳ olympic quốc tế đến những cuộc thi làm sản phẩm giải quyết vấn đề thật, học sinh Việt Nam đang có nhiều sân chơi AI hơn bao giờ hết. Mỗi loại cuộc thi rèn một năng lực khác nhau, và không em nào bắt buộc phải thi.',
+          'Chỉ vài năm trước, học sinh muốn thử sức với AI gần như không có đấu trường chuyên biệt. Năm 2026, tình hình đã khác: Việt Nam có đội tuyển tham dự olympic AI quốc tế, các cuộc thi toàn quốc cho học sinh phổ thông, và sắp tới sẽ là nước đầu tiên ở Đông Nam Á đăng cai một kỳ olympic AI quốc tế.',
+        ],
+      },
+      {
+        heading: 'Olympic AI: nơi thử sức bằng bài toán thật',
+        paragraphs: [
+          'Kỳ thi lớn nhất là Olympic Trí tuệ nhân tạo quốc tế (IOAI). Năm 2026, kỳ thi thứ ba diễn ra tại Astana, Kazakhstan từ 2 đến 8/8 với khoảng 470 thí sinh từ 108 quốc gia và vùng lãnh thổ. Đề thi yêu cầu thí sinh đi qua toàn bộ quy trình giải quyết một bài toán AI, từ phân tích dữ liệu, chọn phương pháp, lập trình, huấn luyện, tối ưu mô hình đến kiểm thử và hoàn thiện sản phẩm.',
+          'Bảy trong tám học sinh của đội tuyển Việt Nam giành huy chương, gồm 2 vàng, 1 bạc và 4 đồng. Hai huy chương vàng thuộc về Nguyễn Viết Trung Nhân (lớp 11) và Nguyễn Hữu Tuấn (lớp 12), cùng học Trường THPT Chuyên Khoa học Tự nhiên, ĐHQGHN. Năm nay cũng là lần đầu Bộ Giáo dục và Đào tạo tổ chức tuyển chọn đội tuyển quốc gia theo hai vòng. Từ 1.188 học sinh của 34 tỉnh, thành phố ở vòng online, 246 em vào vòng thi trực tiếp và 8 em xuất sắc nhất được chọn.',
+          'Trước đó, tại kỳ thi Olympic AI mùa đông (IAIO) ở Ljubljana, Slovenia, với 95 thí sinh từ 24 quốc gia, đoàn Việt Nam lần đầu tham dự đã giành 3 huy chương từ 4 học sinh. Trong đó có em lớp 8, mới 14 tuổi, giành huy chương đồng. Kỳ thi khu vực châu Á – Thái Bình Dương (APOAI) lần đầu tổ chức cũng ghi nhận huy chương vàng của một học sinh Đà Nẵng.',
+        ],
+      },
+      {
+        heading: 'Sắp tới: Việt Nam đăng cai',
+        paragraphs: [
+          'Tháng 7/2026, Trung tâm Đổi mới sáng tạo Quốc gia (NIC) phối hợp cùng UNESCO phát động Olympic Trí tuệ nhân tạo Việt Nam 2027 (VAIO 2027) để chọn đội tuyển. Vòng sơ khảo quốc gia dự kiến ngày 18/10/2026, chung kết quốc gia ngày 10/1/2027 tại Hà Nội. Kỳ thi quốc tế IAIO 2027 dự kiến diễn ra tại Đà Nẵng từ 25/2 đến 2/3/2027, lần đầu tiên Việt Nam và cũng là lần đầu một nước Đông Nam Á đăng cai.',
+        ],
+      },
+      {
+        heading: 'Không chỉ thi lập trình: cuộc thi dựa trên dự án',
+        paragraphs: [
+          'Không phải cuộc thi AI nào cũng là bài thi giải thuật. AI Young Guru, do Trường Đại học FPT tổ chức cho học sinh THPT và trung cấp nghề, đi theo hướng khác. Thí sinh phải học ít nhất ba khóa AI trước khi thi, nộp bài nêu vấn đề, giải pháp, hiệu quả, câu lệnh đã dùng và đường dẫn sản phẩm, rồi tham gia hackathon 24 giờ. Tám đội cuối cùng tranh biện, thuyết trình và demo sản phẩm trước hội đồng. Theo số liệu được công bố, cuộc thi thu hút hơn 26.000 thí sinh và 15.000 đội từ 1.800 trường. Giải Nhất thuộc về đội Neural Ninjas của Trường Dewey (Hà Nội) với Heritage Guessr, một nền tảng AI kết hợp trò chơi để lan tỏa văn hóa Việt Nam.',
+          'Cũng theo hướng làm sản phẩm, Cuộc thi Sáng tạo trẻ quốc gia về AI 2026 của Trung ương Đoàn dành cho độ tuổi 12–22, chia ba bảng cho học sinh THCS, THPT và sinh viên. Các vòng thi diễn ra trong tháng 10/2026.',
+        ],
+      },
+      {
+        heading: 'Khi AI giúp giải quyết vấn đề của cộng đồng',
+        paragraphs: [
+          'Ở tầm quốc tế, Intel AI Global Impact Festival lần thứ năm, công bố tháng 10/2025, vinh danh dự án AI của học sinh, sinh viên từ 32 quốc gia, đánh giá theo ba tiêu chí: sáng tạo, trách nhiệm khi dùng AI và tác động xã hội. Các dự án đoạt giải còn được chuyên gia của Intel kiểm tra về đạo đức AI.',
+          'Việt Nam có hai dự án được vinh danh. Hai học sinh Hà Ngô (THPT Chuyên Lam Sơn, Thanh Hóa) và Phúc Phan (THPT Chuyên Lê Hồng Phong, TP.HCM) nhận Giải thưởng Khu vực ở nhóm 13–17 tuổi với Hap, một thiết bị gồm kính thông minh và hệ thống rung đeo cổ, dùng AI nhận diện vật thể để báo hướng đi cho người khiếm thị. Thiết kế hướng tới chi phí thấp và hoạt động ngoại tuyến. Ở nhóm trên 18 tuổi, ba sinh viên Trường Đại học Lạc Hồng (Đồng Nai) nhận Giải thưởng Toàn cầu với Your Voice, ứng dụng dịch hai chiều giữa Ngôn ngữ Ký hiệu Việt Nam và văn bản hoặc giọng nói.',
+        ],
+      },
+      {
+        heading: 'Cuộc thi nói lên điều gì, và không nói lên điều gì?',
+        paragraphs: [
+          'Mỗi loại cuộc thi rèn một năng lực khác nhau. Olympic đòi hỏi nền tảng toán, lập trình và khả năng xử lý bài toán dữ liệu bài bản. Cuộc thi dựa trên dự án đòi hỏi xác định vấn đề thật, làm việc nhóm, thuyết trình và cân nhắc đạo đức. Hai hướng này bổ trợ chứ không thay thế nhau.',
+          'Với phụ huynh, có ba điều đáng lưu ý. Thứ nhất, các kỳ olympic chọn một nhóm rất nhỏ, nên huy chương không phải thước đo cho mọi học sinh. Thứ hai, nhiều giá trị của cuộc thi nằm ở quá trình học: thí sinh AI Young Guru phải học khóa nền tảng trước khi thi, còn học sinh dự IOAI phải tự học sâu về dữ liệu và mô hình trong thời gian dài. Thứ ba, một cuộc thi tốt không khuyến khích để AI làm thay, mà yêu cầu thí sinh giải thích mình đã làm gì và vì sao.',
+        ],
+      },
+    ],
+  },
 ]
 
 export function getNewsBySlug(slug: string): NewsItem | undefined {

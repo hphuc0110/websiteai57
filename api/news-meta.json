@@ -366,5 +366,37 @@
     "date": "2026-10-11",
     "category": "Công nghệ",
     "coverImage": "/images/news/46.webp"
+  },
+  {
+    "slug": "tu-bac-kinh-den-ha-noi-ai-thanh-mon-hoc",
+    "title": "Từ Bắc Kinh đến Hà Nội: AI thành môn học",
+    "excerpt": "Từ Trung Quốc, UAE đến Ấn Độ, nhiều quốc gia đã đưa AI vào trường học như nội dung bắt buộc. Khoảng cách giữa chính sách và thực tế lớp học mới quyết định thành bại — Việt Nam bắt đầu triển khai từ năm học 2026–2027.",
+    "date": "2026-10-19",
+    "category": "Giáo dục",
+    "coverImage": "/images/news/48.webp"
+  },
+  {
+    "slug": "ai-co-dang-khep-cua-viec-lam-dau-vao",
+    "title": "AI có đang khép cửa việc làm đầu vào trên toàn cầu?",
+    "excerpt": "Dữ liệu 2026 cho thấy kỹ năng AI được trả giá cao hơn, trong khi tác động lên người mới ra trường vẫn còn nhiều tranh luận — chưa thể kết luận AI đã lấy mất việc đầu vào.",
+    "date": "2026-10-18",
+    "category": "Thị trường",
+    "coverImage": "/images/news/47.webp"
+  },
+  {
+    "slug": "tu-nguoi-dung-den-nguoi-hieu-ai",
+    "title": "Từ người dùng đến người hiểu AI: Khoảng cách ở đâu?",
+    "excerpt": "Biết thao tác chatbot không đồng nghĩa với hiểu AI. Ranh giới giữa \"dùng AI\" và \"học AI\" quyết định học sinh có làm chủ được công nghệ hay không.",
+    "date": "2026-10-17",
+    "category": "Giáo dục",
+    "coverImage": "/images/news/50.webp"
+  },
+  {
+    "slug": "san-choi-ai-cho-hoc-sinh-thi-lap-trinh-hay-lam-du-an",
+    "title": "Sân chơi AI cho học sinh: Thi lập trình hay làm dự án?",
+    "excerpt": "Từ olympic quốc tế đến cuộc thi làm sản phẩm giải quyết vấn đề thật, học sinh Việt Nam đang có nhiều sân chơi AI hơn bao giờ hết — mỗi loại rèn một năng lực khác nhau.",
+    "date": "2026-10-16",
+    "category": "Giáo dục",
+    "coverImage": "/images/news/49.webp"
   }
 ]
