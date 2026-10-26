@@ -2023,6 +2023,237 @@ export const newsItems: NewsItem[] = [
       },
     ],
   },
+  {
+    slug: 'hong-linh-education-dao-tao-ai-mien-phi-cho-hoc-sinh-thpt',
+    title: 'Hồng Lĩnh Education đào tạo AI miễn phí cho học sinh THPT',
+    excerpt:
+      'Trong tháng 10 và 11/2026, Hồng Lĩnh Education khởi động chuỗi tập huấn và đào tạo AI miễn phí cho 1.000 giáo viên và 10.000 học sinh tại Hà Nội, điểm trường đầu tiên là THPT Nhân Chính.',
+    date: '2026-10-26',
+    category: 'Giáo dục',
+    coverImage: '/images/news/55.webp',
+    sections: [
+      {
+        paragraphs: [
+          'Trong tháng 10 và tháng 11 năm 2026, Công ty Cổ phần Đầu tư và Phát triển Giáo dục Hồng Lĩnh (Hồng Lĩnh Education) khởi động chuỗi chương trình tập huấn và đào tạo AI hoàn toàn miễn phí cho 1.000 giáo viên và 10.000 học sinh tại Hà Nội, với điểm trường đầu tiên là THPT Nhân Chính. Chương trình diễn ra đúng vào học kỳ đầu tiên các trường phổ thông áp dụng Khung nội dung giáo dục AI của Bộ Giáo dục và Đào tạo.',
+        ],
+      },
+      {
+        heading: 'Tập huấn ứng dụng AI cho giáo viên',
+        paragraphs: [
+          'Trước định hướng đưa AI vào trường phổ thông theo Quyết định số 2422/QĐ-BGDĐT của Bộ Giáo dục và Đào tạo, việc trang bị năng lực số cho nhà trường và học sinh đang trở thành một nhu cầu cấp thiết. Tuy nhiên, thách thức thực tế lớn nhất đối với nhiều đơn vị không nằm ở chủ trương, mà ở bài toán triển khai: chuẩn bị tâm thế, kỹ năng cho giáo viên như thế nào và tiếp cận ra sao cho phù hợp, hiệu quả.',
+          'Hưởng ứng định hướng trên, Hồng Lĩnh Education đã phát triển chuỗi chương trình đồng hành cùng các nhà trường nhằm tháo gỡ trực tiếp những băn khoăn này với ba cấu phần: tập huấn ứng dụng AI cho giáo viên trong soạn giáo án số, thiết kế học liệu và đổi mới kiểm tra, đánh giá; diễn đàn định hướng nghề nghiệp và an toàn số dành cho phụ huynh, học sinh; và lớp Nền tảng AI miễn phí 10 buổi dành cho học sinh THPT.',
+          'Tại Trường THPT Nhân Chính (Hà Nội) — điểm trường đầu tiên của chương trình — buổi tập huấn "Ứng dụng AI trong giảng dạy" đã diễn ra trong tháng 10 với sự tham gia của đội ngũ cán bộ, giáo viên nhà trường, ưu tiên giáo viên chủ nhiệm và giáo viên các môn Tin, Toán, Lý, Hóa, Sinh. Trong 120 phút, các thầy cô trực tiếp thực hành dùng AI soạn giáo án, xây dựng ma trận đề và bộ câu hỏi kiểm tra có đáp án; mỗi thầy cô hoàn thiện ngay một sản phẩm cho chính môn học của mình dưới sự hướng dẫn của đội ngũ chuyên gia.',
+        ],
+      },
+      {
+        heading: 'Tài trợ khóa học nền tảng AI Foundation 10 buổi cho học sinh',
+        paragraphs: [
+          'Tiếp nối tập huấn giáo viên là hội thảo định hướng dành cho phụ huynh, học sinh và lớp Nền tảng AI Foundation miễn phí 10 buổi tổ chức ngay tại trường. Điểm khác biệt của lớp học này là cách thiết kế "mỗi buổi một sản phẩm": kết thúc từng buổi, học sinh tự tay làm ra một sản phẩm cụ thể — từ bản đồ AI cá nhân, bộ câu lệnh (prompt) cho môn học tự chọn, đến trợ lý học tập của riêng mình.',
+          'Dự kiến tháng 11/2026, học sinh sẽ kết thúc chương trình và nhận chứng nhận hoàn thành khóa học. Mô hình đang tiếp tục được mở rộng tới mạng lưới các trường THPT tại Hà Nội và các tỉnh, thành lân cận trong năm học 2026 – 2027.',
+        ],
+      },
+      {
+        heading: 'Định hướng học tập sau khóa nền tảng',
+        paragraphs: [
+          'Chương trình được đặt trong bối cảnh Nghị quyết số 57-NQ/TW của Bộ Chính trị xác định phát triển khoa học, công nghệ, đổi mới sáng tạo và chuyển đổi số là đột phá quan trọng hàng đầu, trong đó nguồn nhân lực là yếu tố quyết định. Học sinh hoàn thành lớp nền tảng được định hướng học tiếp lộ trình AI57 — chương trình đào tạo kỹ sư AI gồm 6 module, 4 cấp độ, nơi các em làm dự án thật, tham gia các cuộc thi khoa học kỹ thuật và kết nối với hệ sinh thái nghiên cứu, khởi nghiệp, doanh nghiệp công nghệ.',
+          'Ông Nguyễn Đức Long, Chủ tịch Hội đồng Cố vấn chuyên môn chương trình AI57, nhận định: “Nghị quyết 57 đặt ra một bài toán rất rõ: muốn làm chủ công nghệ, phải có người làm ra công nghệ — và những con người đó không thể đợi đến giảng đường đại học mới bắt đầu chuẩn bị. Với mục tiêu tập huấn cho 1.000 giáo viên và trang bị nền tảng AI cho 10.000 học sinh, chúng tôi không đo thành công bằng số lượt người tham dự, mà bằng việc mỗi thầy cô đều biết cách ứng dụng AI hiệu quả vào giảng dạy, mỗi học sinh đều tự tay làm ra được sản phẩm công nghệ cụ thể từ chính những gì đã học. Hội đồng Cố vấn chuyên môn tồn tại để bảo chứng cho đúng điều đó: mọi nội dung đưa vào nhà trường đều phải thực chất, an toàn và đi được đường dài cùng các em.”',
+          'Các trường THPT quan tâm chương trình tập huấn – đào tạo miễn phí hoặc học sinh có nhu cầu tham gia lớp Nền tảng AI Foundation miễn phí có thể liên hệ Hồng Lĩnh Education tại hotline 0996 963 399 hoặc ai57foundation.honglinheducation.vn.',
+        ],
+      },
+      {
+        paragraphs: [
+          'Hồng Lĩnh Education là đơn vị đào tạo AI và STEM cho học sinh, sinh viên Việt Nam, vận hành hệ sinh thái gồm chương trình AI57 (bậc THPT), Học viện AI Việt Nam (bậc đại học) và STEM57 (lớp 1 – 12).',
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'ha-noi-chia-giao-duc-ai-thanh-3-cap-do',
+    title: 'Hà Nội chia giáo dục AI thành 3 cấp độ cho mọi học sinh',
+    excerpt:
+      'Từ năm học 2026–2027, giáo dục AI tại Hà Nội chuyển từ thí điểm sang triển khai chính thức ở mọi cơ sở giáo dục. Mỗi lớp học 12 tiết AI cốt lõi mỗi năm, các trường đủ điều kiện được đi xa hơn.',
+    date: '2026-10-26',
+    category: 'Giáo dục',
+    coverImage: '/images/news/51.webp',
+    sections: [
+      {
+        paragraphs: [
+          'Từ năm học 2026–2027, giáo dục trí tuệ nhân tạo (AI) tại Hà Nội chuyển từ thí điểm sang triển khai chính thức ở tất cả cơ sở giáo dục. Mọi lớp học 12 tiết AI cốt lõi mỗi năm, trong khi các trường đủ điều kiện được đi xa hơn qua lộ trình mở rộng và nâng cao.',
+          'Sở Giáo dục và Đào tạo Hà Nội vừa ban hành kế hoạch thực hiện giáo dục AI cho học sinh phổ thông và học viên giáo dục thường xuyên trên địa bàn thành phố. Theo Cổng thông tin điện tử Chính phủ, đây là bước chuyển quan trọng của ngành giáo dục Thủ đô: giáo dục AI không còn dừng ở giai đoạn thí điểm mà được triển khai chính thức, toàn diện tại mọi cơ sở giáo dục từ năm học 2026–2027.',
+        ],
+      },
+      {
+        heading: 'Một mặt bằng chung cho toàn thành phố',
+        paragraphs: [
+          'Theo kế hoạch, toàn bộ học sinh phổ thông và học viên giáo dục thường xuyên ở cấp THCS, THPT đều được tiếp cận nội dung AI cốt lõi. Thời lượng được thống nhất ở mức 12 tiết mỗi lớp trong một năm học. Nội dung được tổ chức thành các chuyên đề, lồng vào kế hoạch dạy học hai buổi/ngày và áp dụng đồng đều cho mọi loại hình trường, mọi địa phương, bất kể điều kiện kinh tế – xã hội.',
+          'Kế hoạch của Hà Nội được xây dựng trên cơ sở chủ trương chung của ngành. Trước đó, Bộ Giáo dục và Đào tạo ban hành Quyết định số 2422/QĐ-BGDĐT ngày 18/8/2026 về khung nội dung giáo dục AI cho học sinh phổ thông, cùng Công văn số 5588/BGDĐT-GDPT ngày 19/8/2026 hướng dẫn triển khai từ năm học 2026–2027. Theo báo Lao Động, việc triển khai phải bảo đảm tính khoa học, sư phạm và khả thi, không làm thay đổi mục tiêu hay gây quá tải cho chương trình giáo dục phổ thông hiện hành.',
+        ],
+      },
+      {
+        heading: 'Vì sao phải chia thành ba cấp độ?',
+        paragraphs: [
+          'Điều kiện đội ngũ giáo viên và cơ sở vật chất giữa các địa phương không giống nhau. Để bảo đảm tính khả thi, Hà Nội áp dụng mô hình triển khai ba cấp độ: có mức tối thiểu bắt buộc cho tất cả, đồng thời mở đường cho những đơn vị sẵn sàng đi xa hơn.',
+          'Cấp độ 1 – Nền tảng. Đây là cấp độ bắt buộc với toàn bộ cơ sở giáo dục, bảo đảm đủ 12 tiết AI cốt lõi cho mỗi lớp. Đây là mức tối thiểu để mọi học sinh trên địa bàn, dù học ở trường nào, đều được tiếp cận những kiến thức AI căn bản.',
+          'Cấp độ 2 – Mở rộng. Cấp độ này dành cho các trường chất lượng cao và những trường tự nguyện đăng ký sau khi đáp ứng các điều kiện đặt ra. Trong năm học 2026–2027, thành phố đặt mục tiêu có ít nhất 50 trường tham gia. Khác với Cấp độ 1, việc tham gia ở cấp độ này mang tính tự nguyện và gắn với điều kiện của từng trường.',
+          'Cấp độ 3 – Nâng cao và định hướng nghề nghiệp. Đây là cấp độ cao nhất, được triển khai tại 4 trường THPT chuyên và ít nhất 10 trường trọng điểm. Điểm nhấn của cấp độ này là sự phối hợp chặt chẽ giữa nhà trường với các viện nghiên cứu, trường đại học và doanh nghiệp công nghệ, qua đó gắn giáo dục AI với định hướng nghề nghiệp của học sinh.',
+        ],
+      },
+      {
+        heading: 'Bốn nhóm năng lực xuyên suốt',
+        paragraphs: [
+          'Về nội dung, chương trình giáo dục AI được thiết kế xoay quanh bốn nhóm năng lực: tư duy lấy con người làm trung tâm; đạo đức AI; kỹ thuật và ứng dụng AI; thiết kế hệ thống AI. Cách tiếp cận này cho thấy chương trình không chỉ hướng tới việc biết dùng công cụ, mà còn chú trọng tư duy và trách nhiệm khi sử dụng AI.',
+        ],
+      },
+      {
+        heading: 'Ba hình thức tổ chức dạy và học',
+        paragraphs: [
+          'Việc triển khai được thực hiện linh hoạt qua ba hình thức: chuyên đề giáo dục AI bắt buộc; tích hợp, củng cố kiến thức liên quan đến AI trong các môn học hiện có; và câu lạc bộ, dự án học tập AI theo nhu cầu của học sinh. Theo hướng dẫn của Bộ được báo Lao Động đưa tin, các cơ sở giáo dục cũng cần bảo đảm học sinh ở vùng khó khăn, thiếu thiết bị hoặc kết nối vẫn có cơ hội tiếp cận, đồng thời không yêu cầu học sinh phải dùng tài khoản cá nhân hay các công cụ chưa được thẩm định.',
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'co-phieu-ai-bien-dong-manh',
+    title: 'Cổ phiếu AI biến động mạnh, lợi nhuận ngành chip vẫn tăng trưởng',
+    excerpt:
+      'Chứng khoán Mỹ vừa lập đỉnh nhờ làn sóng AI rồi nhanh chóng điều chỉnh. Lợi nhuận ngành chip trong 12 tháng qua tăng nhanh hơn giá cổ phiếu, nhưng lãi suất và độ tập trung của thị trường vẫn là ẩn số.',
+    date: '2026-10-26',
+    category: 'Thị trường',
+    coverImage: '/images/news/52.webp',
+    sections: [
+      {
+        paragraphs: [
+          'Chứng khoán Mỹ vừa lập đỉnh nhờ làn sóng AI rồi nhanh chóng điều chỉnh. Số liệu cho thấy lợi nhuận ngành chip trong 12 tháng qua tăng nhanh hơn giá cổ phiếu, nhưng lãi suất và mức độ tập trung của thị trường vẫn là những ẩn số.',
+          'Chỉ trong hai tuần, thị trường chứng khoán Mỹ đi từ kỷ lục sang điều chỉnh mạnh ở nhóm cổ phiếu liên quan đến trí tuệ nhân tạo (AI). Dù vậy, các phân tích gần đây cho rằng đợt giảm này chưa phải dấu hiệu lợi nhuận suy yếu.',
+        ],
+      },
+      {
+        heading: 'Phố Wall lập đỉnh nhờ công nghệ',
+        paragraphs: [
+          'Theo báo Al Jazeera, ngày 6/10 chỉ số S&P 500 đóng cửa tăng 0,58%, vượt đỉnh cũ hồi giữa tháng 8. Nasdaq Composite, chỉ số nghiêng nhiều về công nghệ, cũng lập kỷ lục. Tính từ đầu năm, S&P 500 tăng 14% còn Nasdaq tăng 18,78%.',
+          'Mức tăng này diễn ra trong bối cảnh giá năng lượng cao do chiến sự liên quan Iran và đợt bán trái phiếu chính phủ Mỹ. Ông Keith Lerner, Giám đốc đầu tư kiêm chiến lược gia thị trường của Truist Advisory Services, cho biết trong tháng 9 chỉ có nhóm công nghệ và truyền thông tăng điểm, trong khi chín nhóm ngành còn lại giảm. Theo ông, công nghệ và AI đang là chủ đề chi phối thị trường.',
+          'Ông Lochlan Halloway, chiến lược gia cổ phiếu cấp cao của Morningstar Australia, nhận định nhà đầu tư đang đặt cược rằng khoản tiền đổ vào các trung tâm dữ liệu sẽ sinh lời. Niềm tin này, theo ông, đang lấn át những lo ngại về lãi suất, giá dầu và lợi suất trái phiếu 10 năm trên 5%.',
+        ],
+      },
+      {
+        heading: 'Nhóm chip giảm sâu giữa tháng',
+        paragraphs: [
+          'Tuy nhiên, theo một bài phân tích đăng trên Benzinga ngày 21/10, chỉ số bán dẫn Philadelphia mất khoảng 10% trong sáu phiên đến 14/10, khi số liệu lạm phát nóng hơn dự kiến làm dấy lên lo ngại lãi suất cao hơn. Đến ngày 20/10, quỹ SMH, đại diện cho ngành chip, thấp hơn đỉnh ngày 5/10 khoảng 14%.',
+          'Nhóm chip nhớ giảm mạnh nhất. Trong năm phiên đến 15/10, SK Hynix mất 26%, Samsung Electronics mất 22% và Micron mất khoảng 11%. Nguyên nhân là hai lo ngại xuất hiện cùng lúc: nhà sản xuất chip nhớ hàng đầu Trung Quốc CXMT giới thiệu thiết kế chip mật độ cao hơn, và một bài báo Hàn Quốc cảnh báo nguy cơ dư thừa công suất vào năm 2029.',
+        ],
+      },
+      {
+        heading: 'Lợi nhuận đi nhanh hơn giá',
+        paragraphs: [
+          'Điểm then chốt của bài phân tích nằm ở mối quan hệ giữa giá và lợi nhuận. Trong 12 tháng đến 20/10, quỹ SMH mang lại mức sinh lời 58% trong khi lợi nhuận của các công ty trong quỹ tăng 104%. Với quỹ SOXX, các con số tương ứng là 71% và 106%. Do lợi nhuận tăng nhanh hơn giá, chỉ số P/E của SMH giảm từ 39 lần xuống 30 lần.',
+          'Tác giả cho rằng bong bóng chỉ hình thành khi giá chạy trước lợi nhuận, còn trong một năm qua ngành chip diễn ra theo chiều ngược lại.',
+          'Các doanh nghiệp đầu ngành cũng đưa ra triển vọng tích cực. TSMC, báo cáo ngày 15/10, dự kiến doanh thu quý IV đạt 52,3–54,3 tỷ USD, so với 46,7 tỷ USD của quý III. Giám đốc điều hành ASML Christophe Fouquet cho biết khách hàng đang nâng dự báo nhu cầu, chủ yếu dựa trên đánh giá về quy mô và thời gian của các khoản đầu tư vào AI. Còn Giám đốc điều hành Micron Sanjay Mehrotra nhận định nhu cầu sẽ tiếp tục vượt cung trong năm 2027 và 2028. Bộ phận quản lý tài sản của UBS mô tả đợt giảm vừa qua là sự điều chỉnh kỳ vọng, trong khi câu chuyện đầu tư vào AI vẫn nguyên vẹn.',
+        ],
+      },
+      {
+        heading: 'Những ẩn số chưa được giải',
+        paragraphs: [
+          'Cả hai nguồn đều không loại trừ rủi ro. Ông Lerner cho rằng lãi suất tăng là nguy cơ lớn nhất đối với đà đi lên. Ông Halloway lưu ý thị trường đang tập trung vào một nhóm nhỏ doanh nghiệp, nên triển vọng chứng khoán Mỹ và toàn cầu phụ thuộc vào việc câu chuyện AI có tiếp tục mang lại kết quả hay không.',
+          'Tác giả bài trên Benzinga nêu rõ điều kiện khiến lo ngại bong bóng thành hiện thực: lợi nhuận ngừng xuất hiện. Ông dẫn lại giai đoạn đến tháng 10/2022, khi cả SMH và SOXX từng mất khoảng một phần ba giá trị. Mùa công bố kết quả kinh doanh sắp tới được xem là phép thử cho các dự báo hiện tại.',
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'doanh-nghiep-uu-tien-dau-tu-ai',
+    title: 'Doanh nghiệp ưu tiên đầu tư AI, giáo dục AI trở nên cần thiết hơn bao giờ',
+    excerpt:
+      'Gần một nửa nhà quản lý tuyển dụng tại Mỹ muốn đầu tư công cụ AI hơn là tuyển và đào tạo sinh viên mới ra trường. Trong nước, giáo dục AI vào trường phổ thông từ năm học 2026–2027.',
+    date: '2026-10-26',
+    category: 'Thị trường',
+    coverImage: '/images/news/53.webp',
+    sections: [
+      {
+        paragraphs: [
+          'Khảo sát 1.000 nhà quản lý tuyển dụng tại Mỹ cho thấy gần một nửa muốn đầu tư công cụ AI hơn là tuyển và đào tạo sinh viên mới ra trường. Trong nước, giáo dục AI được đưa vào trường phổ thông từ năm học 2026–2027, với mục tiêu phổ cập kỹ năng AI đến năm 2030.',
+          'Khi doanh nghiệp bắt đầu tính toán lại bài toán nhân sự với sự xuất hiện của trí tuệ nhân tạo (AI), người mới vào nghề là nhóm cảm nhận rõ nhất sự thay đổi. Ở Việt Nam, ngành giáo dục cũng đang có những bước đi đầu tiên để chuẩn bị cho thế hệ học sinh bước vào thị trường lao động đó.',
+        ],
+      },
+      {
+        heading: 'Doanh nghiệp tính lại ngân sách tuyển dụng',
+        paragraphs: [
+          'Theo báo cáo của ResumeTemplates.com, khảo sát 1.000 nhà quản lý tuyển dụng tại các doanh nghiệp từ 101 nhân viên trở lên ở Mỹ và được báo HR Dive đưa tin ngày 22/7/2026, 48% cho biết họ muốn đầu tư công cụ AI hơn là tuyển và đào tạo sinh viên mới tốt nghiệp. Hơn một nửa số công ty (55%) đã chuyển ít nhất một phần ngân sách tuyển dụng đầu vào sang AI, còn 30% nói AI làm giảm nhu cầu tuyển sinh viên mới.',
+          'Hệ quả là khối lượng công việc được phân bổ lại. Gần một nửa tổ chức (45%) hiện giao cho một nhân sự cấp cao cùng AI làm phần việc của nhiều người mới vào nghề. Ở 20% số công ty này, nhân sự cấp cao phải đảm nhận từ ba vị trí trở lên.',
+          'Yêu cầu với ứng viên cũng khắt khe hơn. Hơn ba phần năm nhà quản lý (61%) cho biết với một số vị trí, họ chỉ cân nhắc ứng viên đã có kinh nghiệm thực tập hoặc không tuyển ứng viên chưa thực tập. Gần 70% nêu ít nhất một mối lo về thái độ làm việc của sinh viên mới ra trường, và 76% nói họ cần được hỗ trợ để hiểu các tài liệu cơ bản như bản ghi nhớ, hợp đồng hay ngân sách.',
+        ],
+      },
+      {
+        heading: 'Thị trường chưa đóng cửa',
+        paragraphs: [
+          'Dù vậy, báo cáo không cho thấy thị trường thu hẹp hoàn toàn. Có 65% nhà quản lý dự kiến tuyển số sinh viên mới tốt nghiệp bằng hoặc nhiều hơn năm trước. Một nghiên cứu khác của Cognizant và Pearson, được HR Dive dẫn lại, cho thấy 94% lãnh đạo nhân sự tin AI sẽ tạo ra việc làm đầu vào mới trong 5 năm tới, và 96% cho rằng các vị trí này sẽ dần chuyển sang quản lý hoặc giám sát AI.',
+          'Hai kết quả này cùng chỉ về một hướng: việc làm đầu vào đang đổi tính chất, và người trẻ sẽ phải làm việc cùng AI ngay từ những ngày đầu đi làm.',
+        ],
+      },
+      {
+        heading: 'Giáo dục AI vào trường học từ năm học này',
+        paragraphs: [
+          'Tại Việt Nam, Bộ Giáo dục và Đào tạo ban hành Quyết định số 2422/QĐ-BGDĐT ngày 18/8/2026 về khung nội dung giáo dục AI cho học sinh phổ thông. Theo báo Lao Động, từ năm học 2026–2027, nội dung này được triển khai đại trà trên toàn quốc với thời lượng 12 tiết mỗi lớp mỗi năm học.',
+          'Hà Nội công bố kế hoạch cụ thể theo ba cấp độ, theo Cổng thông tin điện tử Chính phủ: nền tảng bắt buộc với mọi cơ sở giáo dục; mở rộng cho các trường đủ điều kiện và tự nguyện đăng ký, với mục tiêu ít nhất 50 trường trong năm học này; và nâng cao, gắn với định hướng nghề nghiệp, tại 4 trường THPT chuyên và ít nhất 10 trường trọng điểm. Ở cấp độ cao nhất, nhà trường phối hợp chặt chẽ với viện nghiên cứu, trường đại học và doanh nghiệp công nghệ.',
+        ],
+      },
+      {
+        heading: 'Mục tiêu quốc gia đến năm 2030',
+        paragraphs: [
+          'Các kế hoạch của ngành giáo dục nằm trong một chương trình ở tầm quốc gia. Ngày 11/8/2026, Phó Thủ tướng Lê Tiến Châu ký Quyết định số 1528/QĐ-TTg phê duyệt Chương trình quốc gia phát triển nhân lực AI đến năm 2030, định hướng đến năm 2035, theo Tạp chí Kinh tế – Tài chính.',
+          'Đến năm 2030, chương trình đặt mục tiêu ít nhất 80% học sinh phổ thông và học sinh dự bị đại học được phổ cập kiến thức, kỹ năng cơ bản về AI phù hợp với lứa tuổi; 100% người học đại học được trang bị kiến thức, kỹ năng cơ bản về AI; và ít nhất 80% người học giáo dục nghề nghiệp. Chương trình cũng đặt chỉ tiêu bồi dưỡng chuyên sâu cho tối thiểu 100.000 giáo viên, giảng viên và cán bộ quản lý giáo dục; đào tạo hoặc cập nhật kỹ năng AI cơ bản cho ít nhất 10 triệu lao động; và đào tạo ít nhất 50.000 nhân lực trình độ đại học trở lên có năng lực ứng dụng AI, cùng 10.000 nhân lực AI trình độ cao.',
+        ],
+      },
+      {
+        heading: 'Học AI không chỉ là biết dùng công cụ',
+        paragraphs: [
+          'Khung giáo dục AI tại Hà Nội xoay quanh bốn nhóm năng lực: tư duy lấy con người làm trung tâm, đạo đức AI, kỹ thuật và ứng dụng AI, và thiết kế hệ thống AI. Chương trình quốc gia cũng gắn việc phổ cập AI với tư duy số, tư duy tính toán và việc sử dụng công nghệ an toàn, có trách nhiệm.',
+          'Với phụ huynh, mức nền tảng hiện nay là 12 tiết mỗi năm học, áp dụng đồng đều cho mọi trường, còn các cấp độ cao hơn phụ thuộc vào điều kiện từng trường. Tìm hiểu trường của con đang ở cấp độ nào, cùng những chương trình bổ trợ có thể tiếp cận, là bước đầu tiên để chuẩn bị cho một thị trường lao động mà AI ngày càng hiện diện.',
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'hackathon-ai-toan-cau-hack-nation',
+    title: 'Hackathon AI toàn cầu: 24 giờ xây sản phẩm, quỹ thưởng từ 35.000 USD',
+    excerpt:
+      'Global AI Hackathon lần thứ 7 của Hack-Nation diễn ra ngày 3–4/10, thi trực tuyến kết hợp các điểm hub. Người tham gia có 24 giờ để biến ý tưởng AI thành sản phẩm chạy được.',
+    date: '2026-10-26',
+    category: 'Công nghệ',
+    coverImage: '/images/news/54.webp',
+    sections: [
+      {
+        paragraphs: [
+          'Global AI Hackathon lần thứ 7 do Hack-Nation tổ chức diễn ra ngày 3–4/10, kết hợp thi trực tuyến và tại các điểm hub ở nhiều thành phố. Cuộc thi dành cho những người muốn biến ý tưởng AI thành sản phẩm chạy được chỉ trong một ngày.',
+          'Hơn hai tuần sau cuối tuần đầu tháng 10, Global AI Hackathon lần thứ 7 của Hack-Nation vẫn là một trong những hackathon AI đáng chú ý của tháng. Cuộc thi diễn ra trong hai ngày 3–4/10/2026, với hình thức kết hợp: người tham gia có thể thi hoàn toàn trực tuyến hoặc đến một trong số các điểm hub tại những thành phố được chọn.',
+        ],
+      },
+      {
+        heading: '24 giờ từ ý tưởng đến sản phẩm',
+        paragraphs: [
+          'Theo thông tin đăng tải trên các nền tảng sự kiện, đây là cuộc thi kéo dài 24 giờ, nơi người tham gia cùng xây dựng và hoàn thiện giải pháp AI cho các thử thách thực tế. Thí sinh có thể đăng ký thi cá nhân hoặc theo nhóm tối đa 4 người. Việc tham gia phải đăng ký trước và được ban tổ chức xét duyệt, không nhận người đến trực tiếp mà chưa đăng ký.',
+          'Hack-Nation tổ chức cuộc thi cùng MIT Club of Northern California và MIT Club of Germany. Tại điểm hub Mexico City đặt ở Tec de Monterrey, Campus Toluca, ban tổ chức còn phối hợp với MIT Sloan AI Club. Trang sự kiện của hub Vienna (Áo) cũng nằm trong mạng lưới này.',
+        ],
+      },
+      {
+        heading: 'Giải thưởng và Venture Track',
+        paragraphs: [
+          'Quỹ giải thưởng được công bố từ 35.000 USD trở lên, gồm tiền mặt và tín dụng. Bên cạnh đó, cuộc thi có một Venture Track, hướng tới hỗ trợ những dự án có tiềm năng phát triển thành startup. Cách tổ chức này phản ánh xu hướng ngày càng rõ của các hackathon AI: không chỉ dừng ở sản phẩm mẫu trong một cuối tuần mà còn mở đường cho các nhóm tiếp tục gọi vốn và phát triển.',
+        ],
+      },
+      {
+        heading: 'Lịch chấm giải',
+        paragraphs: [
+          'Theo lịch công bố của hub Vienna, các đội nộp bài lúc 15:00 ngày 4/10. Ban tổ chức thông báo danh sách đội vào chung kết ngày 8/10, và vòng thuyết trình chung kết cùng lễ trao giải được tổ chức trực tuyến vào ngày 10/10, từ 18:00 đến 19:00.',
+        ],
+      },
+      {
+        heading: 'Một sân chơi cho nhiều đối tượng',
+        paragraphs: [
+          'Cuộc thi mở cho người tham gia từ nhiều nền tảng khác nhau, miễn là đủ độ tuổi theo quy định tại nơi cư trú. Hình thức kết hợp giúp những người ở xa các trung tâm công nghệ vẫn có thể tham gia trực tuyến. Với người trẻ và những ai làm nội dung, giáo dục về AI, các cuộc thi dạng này cho thấy kỹ năng biến ý tưởng thành sản phẩm đang được đề cao không kém kiến thức lý thuyết.',
+        ],
+      },
+    ],
+  },
 ]
 
 export function getNewsBySlug(slug: string): NewsItem | undefined {
